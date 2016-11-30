@@ -8597,7 +8597,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="SV4" gate="1" x="58.42" y="149.86" rot="R180"/>
 <instance part="SV6" gate="1" x="53.34" y="93.98" rot="R180"/>
 <instance part="GND13" gate="1" x="236.22" y="33.02" rot="MR0"/>
-<instance part="P+1" gate="1" x="271.78" y="307.34" rot="R90"/>
+<instance part="P+1" gate="1" x="276.86" y="314.96" rot="R90"/>
 <instance part="P+2" gate="1" x="363.22" y="104.14" rot="R90"/>
 <instance part="P+3" gate="1" x="121.92" y="170.18" rot="R90"/>
 <instance part="C2" gate="G$1" x="396.24" y="101.6"/>
@@ -9569,14 +9569,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 <segment>
+<pinref part="SV5" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="307.34" x2="302.26" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="SV5" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="314.96" x2="287.02" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="314.96" x2="287.02" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="314.96" x2="279.4" y2="314.96" width="0.1524" layer="91"/>
+<junction x="287.02" y="314.96"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<pinref part="SV5" gate="G$1" pin="4"/>
-<wire x1="274.32" y1="307.34" x2="281.94" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="307.34" x2="281.94" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="304.8" x2="287.02" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="307.34" x2="281.94" y2="307.34" width="0.1524" layer="91"/>
-<junction x="281.94" y="307.34"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="AVDD_4"/>
