@@ -361,10 +361,10 @@ UsedLibrary="/home/arne/workspaces/eagle/libraries/WE-DD.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/WE-PD.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/displaytech_(chr).lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/encoder.lbr"
+UsedLibrary="/home/arne/workspaces/eagle/libraries/kc2520b_c1.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/rotary-encoder.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/s3x_10.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/Cube v2/libraries/cube-v2.lbr"
-UsedLibrary="/home/arne/workspaces/eagle/libraries/kc2520b_c1.lbr"
 
 [Win_1]
 Type="Control Panel"
