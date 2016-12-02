@@ -5850,12 +5850,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="254" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="U1_AIN1_N" class="0">
-<segment>
-<wire x1="152.4" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
-<label x="132.08" y="182.88" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="U1_AIN1_P" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="AIN1(+)"/>
@@ -5875,6 +5869,13 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U1" gate="A" pin="AIN2(-)D0"/>
 <wire x1="149.86" y1="175.26" x2="139.7" y2="175.26" width="0.1524" layer="91"/>
 <label x="132.08" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U1_AIN1_N" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="AIN1(-)"/>
+<wire x1="149.86" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
+<label x="132.08" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
