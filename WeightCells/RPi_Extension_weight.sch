@@ -6057,25 +6057,25 @@ Source: AVX .. aphvc.pdf</description>
 <label x="254" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="U4_AIN2_-" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="1"/>
 <wire x1="63.5" y1="193.04" x2="58.42" y2="193.04" width="0.1524" layer="91"/>
-<label x="50.8" y="193.04" size="1.778" layer="95"/>
+<label x="45.72" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="U4_AIN1_+" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="4"/>
 <wire x1="78.74" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
 <label x="83.82" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="U4_AIN1_-" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="3"/>
 <wire x1="63.5" y1="190.5" x2="58.42" y2="190.5" width="0.1524" layer="91"/>
-<label x="50.8" y="190.5" size="1.778" layer="95"/>
+<label x="45.72" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="U1_AIN1_+" class="0">
@@ -6170,6 +6170,165 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U5" gate="A" pin="MCLK_IN"/>
 <wire x1="551.18" y1="83.82" x2="546.1" y2="83.82" width="0.1524" layer="91"/>
 <label x="528.32" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U4_AIN2_+" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="2"/>
+<wire x1="78.74" y1="193.04" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
+<label x="83.82" y="193.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U3_AIN2_+" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="6"/>
+<wire x1="78.74" y1="187.96" x2="83.82" y2="187.96" width="0.1524" layer="91"/>
+<label x="83.82" y="187.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U3_AIN1_+" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="8"/>
+<wire x1="78.74" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
+<label x="83.82" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U2_AIN2_+" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="10"/>
+<wire x1="78.74" y1="182.88" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
+<label x="83.82" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U3_AIN2_-" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="5"/>
+<wire x1="63.5" y1="187.96" x2="58.42" y2="187.96" width="0.1524" layer="91"/>
+<label x="45.72" y="187.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U3_AIN1_-" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="7"/>
+<wire x1="63.5" y1="185.42" x2="58.42" y2="185.42" width="0.1524" layer="91"/>
+<label x="45.72" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U2_AIN2_-" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="9"/>
+<wire x1="63.5" y1="182.88" x2="58.42" y2="182.88" width="0.1524" layer="91"/>
+<label x="45.72" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U2_AIN1_-" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="11"/>
+<wire x1="63.5" y1="180.34" x2="58.42" y2="180.34" width="0.1524" layer="91"/>
+<label x="45.72" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="U2_AIN1_+" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="12"/>
+<wire x1="78.74" y1="180.34" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
+<label x="83.82" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="AIN1(-)"/>
+<wire x1="149.86" y1="182.88" x2="144.78" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="AIN1(+)"/>
+<wire x1="149.86" y1="180.34" x2="144.78" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="AIN2(+)D1"/>
+<wire x1="149.86" y1="177.8" x2="144.78" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="AIN2(-)D0"/>
+<wire x1="149.86" y1="175.26" x2="144.78" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="AIN1(-)"/>
+<wire x1="276.86" y1="182.88" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="AIN1(+)"/>
+<wire x1="276.86" y1="180.34" x2="271.78" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="AIN2(+)D1"/>
+<wire x1="276.86" y1="177.8" x2="271.78" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="AIN2(-)D0"/>
+<wire x1="276.86" y1="175.26" x2="271.78" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="AIN1(-)"/>
+<wire x1="414.02" y1="182.88" x2="408.94" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="AIN1(+)"/>
+<wire x1="414.02" y1="180.34" x2="408.94" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="AIN2(+)D1"/>
+<wire x1="414.02" y1="177.8" x2="408.94" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="AIN2(-)D0"/>
+<wire x1="414.02" y1="175.26" x2="408.94" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="AIN1(-)"/>
+<wire x1="551.18" y1="185.42" x2="546.1" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="AIN1(+)"/>
+<wire x1="551.18" y1="182.88" x2="546.1" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="AIN2(+)D1"/>
+<wire x1="551.18" y1="180.34" x2="546.1" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="AIN2(-)D0"/>
+<wire x1="551.18" y1="177.8" x2="546.1" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
