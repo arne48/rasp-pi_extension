@@ -6654,34 +6654,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="45.72" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="5"/>
-<wire x1="63.5" y1="157.48" x2="58.42" y2="157.48" width="0.1524" layer="91"/>
-<label x="45.72" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="7"/>
-<wire x1="58.42" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
-<label x="45.72" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="9"/>
-<wire x1="63.5" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
-<label x="45.72" y="152.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="11"/>
-<wire x1="63.5" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
-<label x="45.72" y="149.86" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="U8_AIN1_-" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="13"/>
@@ -6704,34 +6676,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U8" gate="A" pin="AIN2(-)D0"/>
 <wire x1="149.86" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <label x="132.08" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="6"/>
-<wire x1="78.74" y1="157.48" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
-<label x="83.82" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="8"/>
-<wire x1="78.74" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
-<label x="83.82" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="10"/>
-<wire x1="78.74" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
-<label x="83.82" y="152.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="12"/>
-<wire x1="78.74" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
-<label x="83.82" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="U8_AIN1_+" class="0">
@@ -6764,12 +6708,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="276.86" y1="106.68" x2="271.78" y2="106.68" width="0.1524" layer="91"/>
 <label x="259.08" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="9"/>
+<wire x1="63.5" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
+<label x="45.72" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="U7_AIN1_+" class="0">
 <segment>
 <pinref part="U7" gate="A" pin="AIN1(+)"/>
 <wire x1="276.86" y1="104.14" x2="271.78" y2="104.14" width="0.1524" layer="91"/>
 <label x="259.08" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="10"/>
+<wire x1="78.74" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
+<label x="83.82" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="U7_AIN2_+" class="0">
@@ -6778,12 +6732,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="276.86" y1="101.6" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
 <label x="259.08" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="12"/>
+<wire x1="78.74" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
+<label x="83.82" y="149.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="U7_AIN2_-" class="0">
 <segment>
 <pinref part="U7" gate="A" pin="AIN2(-)D0"/>
 <wire x1="276.86" y1="99.06" x2="271.78" y2="99.06" width="0.1524" layer="91"/>
 <label x="259.08" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="11"/>
+<wire x1="63.5" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
+<label x="45.72" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="U6_AIN1_-" class="0">
@@ -6792,12 +6756,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="414.02" y1="104.14" x2="408.94" y2="104.14" width="0.1524" layer="91"/>
 <label x="396.24" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="5"/>
+<wire x1="63.5" y1="157.48" x2="58.42" y2="157.48" width="0.1524" layer="91"/>
+<label x="45.72" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="U6_AIN1_+" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="AIN1(+)"/>
 <wire x1="414.02" y1="101.6" x2="408.94" y2="101.6" width="0.1524" layer="91"/>
 <label x="396.24" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="6"/>
+<wire x1="78.74" y1="157.48" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
+<label x="83.82" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="U6_AIN2_+" class="0">
@@ -6806,12 +6780,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="414.02" y1="99.06" x2="408.94" y2="99.06" width="0.1524" layer="91"/>
 <label x="396.24" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="8"/>
+<wire x1="78.74" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
+<label x="83.82" y="154.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="U6_AIN2_-" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="AIN2(-)D0"/>
 <wire x1="414.02" y1="96.52" x2="408.94" y2="96.52" width="0.1524" layer="91"/>
 <label x="396.24" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="7"/>
+<wire x1="58.42" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
+<label x="45.72" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
