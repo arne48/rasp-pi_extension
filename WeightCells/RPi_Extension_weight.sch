@@ -6017,14 +6017,14 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<wire x1="58.42" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
-<label x="45.72" y="15.24" size="1.778" layer="95"/>
-<pinref part="SV4" gate="1" pin="4"/>
-</segment>
-<segment>
 <pinref part="U9" gate="A" pin="PA13"/>
 <wire x1="152.4" y1="-35.56" x2="144.78" y2="-35.56" width="0.1524" layer="91"/>
 <label x="134.62" y="-35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV4" gate="1" pin="6"/>
+<wire x1="58.42" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
+<label x="48.26" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDCLK" class="0">
@@ -6041,14 +6041,14 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="NRST" class="0">
 <segment>
-<wire x1="58.42" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
-<label x="45.72" y="17.78" size="1.778" layer="95"/>
-<pinref part="SV4" gate="1" pin="6"/>
-</segment>
-<segment>
 <pinref part="U9" gate="A" pin="NRST"/>
 <wire x1="213.36" y1="20.32" x2="220.98" y2="20.32" width="0.1524" layer="91"/>
 <label x="220.98" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV4" gate="1" pin="4"/>
+<wire x1="58.42" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
+<label x="48.26" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SS1" class="0">

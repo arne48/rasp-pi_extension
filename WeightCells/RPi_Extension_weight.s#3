@@ -6099,34 +6099,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="218.44" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SS5" class="0">
-<segment>
-<pinref part="U9" gate="A" pin="PA8"/>
-<wire x1="152.4" y1="-22.86" x2="144.78" y2="-22.86" width="0.1524" layer="91"/>
-<label x="139.7" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SS6" class="0">
-<segment>
-<pinref part="U9" gate="A" pin="PA9"/>
-<wire x1="152.4" y1="-25.4" x2="144.78" y2="-25.4" width="0.1524" layer="91"/>
-<label x="139.7" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SS7" class="0">
-<segment>
-<pinref part="U9" gate="A" pin="PA10"/>
-<wire x1="152.4" y1="-27.94" x2="144.78" y2="-27.94" width="0.1524" layer="91"/>
-<label x="139.7" y="-27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SS8" class="0">
-<segment>
-<pinref part="U9" gate="A" pin="PA11"/>
-<wire x1="152.4" y1="-30.48" x2="144.78" y2="-30.48" width="0.1524" layer="91"/>
-<label x="139.7" y="-30.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SPI1_SCK" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="PA5"/>
@@ -6588,6 +6560,34 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U8" gate="A" pin="MCLK_IN"/>
 <wire x1="149.86" y1="86.36" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
 <label x="127" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SS5" class="0">
+<segment>
+<pinref part="U9" gate="A" pin="PC0"/>
+<wire x1="213.36" y1="5.08" x2="218.44" y2="5.08" width="0.1524" layer="91"/>
+<label x="218.44" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SS6" class="0">
+<segment>
+<pinref part="U9" gate="A" pin="PC1"/>
+<wire x1="213.36" y1="2.54" x2="218.44" y2="2.54" width="0.1524" layer="91"/>
+<label x="218.44" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SS7" class="0">
+<segment>
+<pinref part="U9" gate="A" pin="PC2"/>
+<wire x1="213.36" y1="0" x2="218.44" y2="0" width="0.1524" layer="91"/>
+<label x="218.44" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SS8" class="0">
+<segment>
+<pinref part="U9" gate="A" pin="PC3"/>
+<wire x1="213.36" y1="-2.54" x2="218.44" y2="-2.54" width="0.1524" layer="91"/>
+<label x="218.44" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

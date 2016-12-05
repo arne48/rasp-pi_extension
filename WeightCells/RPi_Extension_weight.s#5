@@ -6044,10 +6044,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="152.4" y1="-22.86" x2="144.78" y2="-22.86" width="0.1524" layer="91"/>
 <label x="139.7" y="-22.86" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U5" gate="A" pin="*CS"/>
-<wire x1="632.46" y1="71.12" x2="640.08" y2="71.12" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="SS6" class="0">
 <segment>
@@ -6055,20 +6051,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="152.4" y1="-25.4" x2="144.78" y2="-25.4" width="0.1524" layer="91"/>
 <label x="139.7" y="-25.4" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U6" gate="A" pin="*CS"/>
-<wire x1="495.3" y1="71.12" x2="502.92" y2="71.12" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="SS7" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="PA10"/>
 <wire x1="152.4" y1="-27.94" x2="144.78" y2="-27.94" width="0.1524" layer="91"/>
 <label x="139.7" y="-27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U7" gate="A" pin="*CS"/>
-<wire x1="358.14" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SS8" class="0">
