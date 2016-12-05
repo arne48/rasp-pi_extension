@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -3428,12 +3428,16 @@ design rules under a new name.</description>
 <signal name="U8_AIN1_-">
 <contactref element="SV2" pad="13"/>
 <contactref element="U8" pad="11"/>
-<wire x1="41.8194" y1="10.075003125" x2="45" y2="5.82" width="0" layer="19" extent="16-16"/>
+<wire x1="41.8194" y1="10.075003125" x2="42.574996875" y2="10.075003125" width="0.254" layer="16"/>
+<wire x1="42.574996875" y1="10.075003125" x2="45" y2="7.65" width="0.254" layer="16"/>
+<wire x1="45" y1="5.82" x2="45" y2="7.65" width="0.254" layer="16"/>
 </signal>
 <signal name="U8_AIN2_-">
 <contactref element="SV2" pad="15"/>
 <contactref element="U8" pad="13"/>
-<wire x1="36.1806" y1="9.425" x2="42.46" y2="5.82" width="0" layer="19" extent="16-16"/>
+<wire x1="36.1806" y1="9.425" x2="37.375" y2="9.425" width="0.254" layer="16"/>
+<wire x1="37.375" y1="9.425" x2="40.98" y2="5.82" width="0.254" layer="16"/>
+<wire x1="42.46" y1="5.82" x2="40.98" y2="5.82" width="0.254" layer="16"/>
 </signal>
 <signal name="N$35">
 <contactref element="SV2" pad="6"/>
@@ -3450,12 +3454,42 @@ design rules under a new name.</description>
 <signal name="U8_AIN1_+">
 <contactref element="SV2" pad="14"/>
 <contactref element="U8" pad="10"/>
-<wire x1="45" y1="3.28" x2="41.8194" y2="10.725" width="0" layer="19" extent="16-16"/>
+<wire x1="41.8194" y1="10.725" x2="42.975" y2="10.725" width="0.254" layer="16"/>
+<wire x1="42.975" y1="10.725" x2="46.25" y2="7.45" width="0.254" layer="16"/>
+<wire x1="46.25" y1="7.45" x2="46.25" y2="4.53" width="0.254" layer="16"/>
+<wire x1="46.25" y1="4.53" x2="45" y2="3.28" width="0.254" layer="16"/>
 </signal>
 <signal name="U8_AIN2_+">
 <contactref element="SV2" pad="16"/>
 <contactref element="U8" pad="12"/>
-<wire x1="42.46" y1="3.28" x2="41.8194" y2="9.425" width="0" layer="19" extent="16-16"/>
+<wire x1="41.8194" y1="9.425" x2="41.8194" y2="8.4806" width="0.254" layer="16"/>
+<wire x1="41.8194" y1="8.4806" x2="43.7" y2="6.6" width="0.254" layer="16"/>
+<wire x1="43.7" y1="6.6" x2="43.7" y2="4.52" width="0.254" layer="16"/>
+<wire x1="43.7" y1="4.52" x2="42.46" y2="3.28" width="0.254" layer="16"/>
+</signal>
+<signal name="U7_AIN1_-">
+<contactref element="U7" pad="11"/>
+</signal>
+<signal name="U7_AIN1_+">
+<contactref element="U7" pad="10"/>
+</signal>
+<signal name="U7_AIN2_+">
+<contactref element="U7" pad="12"/>
+</signal>
+<signal name="U7_AIN2_-">
+<contactref element="U7" pad="13"/>
+</signal>
+<signal name="U6_AIN1_-">
+<contactref element="U6" pad="11"/>
+</signal>
+<signal name="U6_AIN1_+">
+<contactref element="U6" pad="10"/>
+</signal>
+<signal name="U6_AIN2_+">
+<contactref element="U6" pad="12"/>
+</signal>
+<signal name="U6_AIN2_-">
+<contactref element="U6" pad="13"/>
 </signal>
 </signals>
 </board>

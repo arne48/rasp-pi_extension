@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -3528,8 +3528,8 @@ design rules under a new name.</description>
 <wire x1="51.35" y1="4.55" x2="51.35" y2="6.564346875" width="0.254" layer="16"/>
 <wire x1="51.35" y1="6.564346875" x2="53.085653125" y2="8.3" width="0.254" layer="16"/>
 <wire x1="53.085653125" y1="8.3" x2="54.2723125" y2="8.3" width="0.254" layer="16"/>
-<wire x1="51.35" y1="4.55" x2="50.08" y2="3.28" width="0.254" layer="16"/>
 <wire x1="54.2723125" y1="8.3" x2="54.7876" y2="8.8152875" width="0.254" layer="16"/>
+<wire x1="51.35" y1="4.55" x2="50.08" y2="3.28" width="0.254" layer="16"/>
 </signal>
 <signal name="U7_AIN2_+">
 <contactref element="U7" pad="12"/>
