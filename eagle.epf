@@ -349,6 +349,7 @@ UsedLibrary="/home/arne/applications/eagle/lbr/zilog.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/1sma59xx_10.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/1smb59xx_10.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/74AHC1G04GW.lbr"
+UsedLibrary="/home/arne/workspaces/eagle/libraries/ABM3B.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/AD5360BSTZ.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/ADP2303ARDZ.lbr"
 UsedLibrary="/home/arne/workspaces/eagle/libraries/ADR423ARZ.lbr"
@@ -368,7 +369,7 @@ UsedLibrary="/home/arne/workspaces/eagle/Cube v2/libraries/cube-v2.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="707 24 1306 451"
+Loc="707 24 1306 479"
 State=1
 Number=0
 
