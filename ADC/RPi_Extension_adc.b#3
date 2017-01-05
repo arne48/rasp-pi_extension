@@ -3380,11 +3380,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ADR423ARZ" x="12.35" y="5.05" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Vendor" x="12.35" y="5.05" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C13" library="rcl" package="C0603" value="0.1u" x="6.7" y="4.85" rot="R270"/>
-<element name="C14" library="rcl" package="C1206" value="10u" x="3.9" y="4.3" rot="R270"/>
-<element name="C15" library="rcl" package="C0603" value="0.1u" x="17.55" y="3.6" rot="R270"/>
-<element name="C16" library="rcl" package="C0603" value="0.1u" x="16.7" y="11.45" rot="R180"/>
-<element name="C17" library="rcl" package="C1206" value="10u" x="16.15" y="9" rot="R180"/>
+<element name="C13" library="rcl" package="C0603" value="" x="6.7" y="4.85" rot="R270"/>
+<element name="C14" library="rcl" package="C1206" value="" x="3.9" y="4.3" rot="R270"/>
+<element name="C15" library="rcl" package="C0603" value="" x="17.55" y="3.6" rot="R270"/>
+<element name="C16" library="rcl" package="C0603" value="" x="16.7" y="11.45" rot="R180"/>
+<element name="C17" library="rcl" package="C1206" value="" x="16.15" y="9" rot="R180"/>
 <element name="SV5" library="con-lsta" package="FE20-2" value="" x="28.6" y="41.6" rot="MR180">
 <attribute name="MF" value="" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
