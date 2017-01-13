@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -2465,11 +2465,15 @@ design rules under a new name.</description>
 <via x="33.15" y="24.05" extent="1-16" drill="0.7"/>
 <via x="44.2" y="24.05" extent="1-16" drill="0.7"/>
 <via x="55.25" y="24.05" extent="1-16" drill="0.7"/>
-<via x="60.75" y="9.75" extent="1-16" drill="0.7"/>
 <via x="12.35" y="31.85" extent="1-16" drill="0.7"/>
 <via x="12.35" y="29.9" extent="1-16" drill="0.7"/>
 <via x="40.3" y="4.55" extent="1-16" drill="0.7"/>
 <via x="40.3" y="2.6" extent="1-16" drill="0.7"/>
+<wire x1="70.2" y1="37.05" x2="70.8512" y2="36.915" width="0" layer="19" extent="1-16"/>
+<wire x1="61.885" y1="34.4512" x2="61.1" y2="34.55" width="0" layer="19" extent="1-16"/>
+<wire x1="70.8512" y1="25.485" x2="72.8" y2="25.75" width="0" layer="19" extent="16-16"/>
+<wire x1="73.315" y1="29.4474" x2="72.8" y2="25.75" width="0" layer="19" extent="16-16"/>
+<wire x1="64.3488" y1="25.485" x2="63.7" y2="29.9" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="DVCC">
 <contactref element="SV3" pad="1"/>
@@ -3598,21 +3602,14 @@ design rules under a new name.</description>
 <contactref element="U5" pad="12"/>
 <contactref element="SV2" pad="4"/>
 <wire x1="74.9694" y1="9.425" x2="74.9694" y2="7.3806" width="0.254" layer="16"/>
-<wire x1="74.9694" y1="7.3806" x2="75" y2="7.35" width="0.254" layer="16"/>
-<via x="74.9694" y="7.3806" extent="1-16" drill="0.7"/>
-<wire x1="74.9694" y1="7.3806" x2="74.9694" y2="7.3694" width="0.254" layer="1"/>
-<wire x1="74.9694" y1="7.3694" x2="72.15" y2="4.55" width="0.254" layer="1"/>
-<wire x1="72.15" y1="4.55" x2="58.97" y2="4.55" width="0.254" layer="1"/>
-<wire x1="58.97" y1="4.55" x2="57.7" y2="3.28" width="0.254" layer="1"/>
+<wire x1="57.7" y1="3.28" x2="74.9694" y2="7.3806" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="U5_AIN2_-">
 <contactref element="U5" pad="13"/>
 <contactref element="SV2" pad="3"/>
 <wire x1="69.3306" y1="9.425" x2="69.3306" y2="7.3694" width="0.254" layer="16"/>
 <wire x1="69.3306" y1="7.3694" x2="69.35" y2="7.35" width="0.254" layer="16"/>
-<via x="69.35" y="7.35" extent="1-16" drill="0.7"/>
-<wire x1="69.35" y1="7.35" x2="59.23" y2="7.35" width="0.254" layer="1"/>
-<wire x1="59.23" y1="7.35" x2="57.7" y2="5.82" width="0.254" layer="1"/>
+<wire x1="57.7" y1="5.82" x2="69.3306" y2="7.3694" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="U8_AIN1_-">
 <contactref element="SV2" pad="13"/>
@@ -3688,12 +3685,15 @@ design rules under a new name.</description>
 <signal name="U6_AIN1_-">
 <contactref element="U6" pad="11"/>
 <contactref element="SV2" pad="5"/>
-<wire x1="63.9194" y1="10.075003125" x2="64.923278125" y2="10.075003125" width="0.254" layer="16"/>
-<wire x1="64.923278125" y1="10.075003125" x2="65.3090625" y2="9.68921875" width="0.254" layer="16"/>
-<wire x1="65.3090625" y1="9.68921875" x2="65.3090625" y2="8.7993375" width="0.254" layer="16"/>
-<wire x1="65.3090625" y1="8.7993375" x2="64.309725" y2="7.8" width="0.254" layer="16"/>
-<wire x1="64.309725" y1="7.8" x2="57.14" y2="7.8" width="0.254" layer="16"/>
-<wire x1="57.14" y1="7.8" x2="55.16" y2="5.82" width="0.254" layer="16"/>
+<wire x1="65.10793125" y1="9.122303125" x2="65.10793125" y2="9.839275" width="0.254" layer="16"/>
+<wire x1="65.10793125" y1="9.839275" x2="64.872203125" y2="10.075003125" width="0.254" layer="16"/>
+<wire x1="64.872203125" y1="10.075003125" x2="63.9194" y2="10.075003125" width="0.254" layer="16"/>
+<wire x1="60.3" y1="8.85" x2="64.835628125" y2="8.85" width="0.254" layer="16"/>
+<wire x1="64.835628125" y1="8.85" x2="65.10793125" y2="9.122303125" width="0.254" layer="16"/>
+<wire x1="55.16" y1="5.82" x2="55.16" y2="7.06" width="0.254" layer="16"/>
+<wire x1="55.16" y1="7.06" x2="56.35" y2="8.25" width="0.254" layer="16"/>
+<wire x1="56.35" y1="8.25" x2="59.7" y2="8.25" width="0.254" layer="16"/>
+<wire x1="59.7" y1="8.25" x2="60.3" y2="8.85" width="0.254" layer="16"/>
 </signal>
 <signal name="U6_AIN1_+">
 <contactref element="U6" pad="10"/>
@@ -3711,12 +3711,12 @@ design rules under a new name.</description>
 <signal name="U6_AIN2_+">
 <contactref element="U6" pad="12"/>
 <contactref element="SV2" pad="8"/>
-<wire x1="55.9" y1="8.45" x2="53.95" y2="6.5" width="0.254" layer="16"/>
+<wire x1="56.25" y1="8.8" x2="53.95" y2="6.5" width="0.254" layer="16"/>
 <wire x1="53.95" y1="6.5" x2="53.95" y2="4.61" width="0.254" layer="16"/>
 <wire x1="53.95" y1="4.61" x2="52.62" y2="3.28" width="0.254" layer="16"/>
-<wire x1="55.9" y1="8.45" x2="61.1" y2="8.45" width="0.254" layer="16"/>
-<wire x1="61.1" y1="8.45" x2="62.075" y2="9.425" width="0.254" layer="16"/>
-<wire x1="63.9194" y1="9.425" x2="62.075" y2="9.425" width="0.254" layer="16"/>
+<wire x1="63.9194" y1="9.425" x2="60.075" y2="9.425" width="0.254" layer="16"/>
+<wire x1="60.075" y1="9.425" x2="59.45" y2="8.8" width="0.254" layer="16"/>
+<wire x1="56.25" y1="8.8" x2="59.45" y2="8.8" width="0.254" layer="16"/>
 </signal>
 <signal name="U6_AIN2_-">
 <contactref element="U6" pad="13"/>

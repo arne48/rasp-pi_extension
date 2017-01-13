@@ -2348,8 +2348,8 @@ design rules under a new name.</description>
 <polygon width="0.254" layer="16">
 <vertex x="0" y="0"/>
 <vertex x="0" y="50.05"/>
-<vertex x="80.6" y="50.05"/>
-<vertex x="80.6" y="0"/>
+<vertex x="79.95" y="50.05"/>
+<vertex x="79.95" y="0"/>
 </polygon>
 <contactref element="SV5" pad="25"/>
 <contactref element="SV5" pad="9"/>

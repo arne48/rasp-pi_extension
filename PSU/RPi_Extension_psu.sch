@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,15 +53,15 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -6505,7 +6505,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <connect gate="A" pin="BST" pad="1"/>
 <connect gate="A" pin="EN" pad="3"/>
 <connect gate="A" pin="FB" pad="5"/>
-<connect gate="A" pin="GND" pad="7"/>
+<connect gate="A" pin="GND" pad="7 9" route="any"/>
 <connect gate="A" pin="NC" pad="6"/>
 <connect gate="A" pin="PGOOD" pad="4"/>
 <connect gate="A" pin="SW" pad="8"/>
@@ -11604,268 +11604,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <attribute name="TOLERANCE" value="±20 %" constant="no"/>
 <attribute name="VALUE" value="330UF" constant="no"/>
 <attribute name="VOLTAGERATING" value="100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="1sma59xx_10">
-<description>&lt;b&gt;ON Semiconductor 1SMAxxBT3G Voltage Regulator Diodes&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;
-Version 1.0&lt;br&gt;
-&amp;copy; 2015 Samuel Lourenço</description>
-<packages>
-<package name="DO214AC">
-<description>&lt;b&gt;DO-214AC (SMA) Surface Mount Diode&lt;/b&gt;</description>
-<smd name="C" x="-2" y="0" dx="2.5" dy="1.7" layer="1"/>
-<smd name="A" x="2" y="0" dx="2.5" dy="1.7" layer="1"/>
-<rectangle x1="-0.5" y1="-1" x2="0.5" y2="1" layer="35"/>
-<wire x1="-2.15" y1="-1.03" x2="-2.15" y2="-1.3" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="-1.3" x2="2.15" y2="-1.3" width="0.1524" layer="21"/>
-<wire x1="2.15" y1="-1.3" x2="2.15" y2="-1.03" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="1.03" x2="-2.15" y2="1.3" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="1.3" x2="2.15" y2="1.3" width="0.1524" layer="21"/>
-<wire x1="2.15" y1="1.3" x2="2.15" y2="1.03" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="-1.03" x2="-2.15" y2="1.03" width="0.1524" layer="51"/>
-<wire x1="2.15" y1="-1.03" x2="2.15" y2="1.03" width="0.1524" layer="51"/>
-<rectangle x1="-1.65" y1="0.95" x2="-1.15" y2="1.3" layer="21"/>
-<rectangle x1="-1.65" y1="-1.3" x2="-1.15" y2="-0.95" layer="21"/>
-<rectangle x1="-1.65" y1="-0.95" x2="-1.15" y2="0.95" layer="51"/>
-<rectangle x1="-2.6" y1="-0.72" x2="-2.15" y2="0.72" layer="51"/>
-<rectangle x1="2.15" y1="-0.72" x2="2.6" y2="0.72" layer="51"/>
-<text x="-2.1" y="1.7" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.1" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="ZD">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1SMA59*BT3G" prefix="D">
-<description>&lt;b&gt;1SMA59xxBT3G Series&lt;/b&gt;&lt;br&gt;
-1.5 Watt Plastic Surface Mount Zener Voltage Regulators&lt;br&gt;
-&lt;br&gt;
-Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"&gt;http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ZD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO214AC">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="13">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5913BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431138" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5252" constant="no"/>
-</technology>
-<technology name="14">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5914BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1324195" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5253" constant="no"/>
-</technology>
-<technology name="15">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5915BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1459010" constant="no"/>
-<attribute name="OC_NEWARK" value="59M4308" constant="no"/>
-</technology>
-<technology name="16">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5916BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1703016" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9193" constant="no"/>
-</technology>
-<technology name="17">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5917BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431139" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5254" constant="no"/>
-</technology>
-<technology name="18">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5918BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431140" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9194" constant="no"/>
-</technology>
-<technology name="19">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5919BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431141" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9195" constant="no"/>
-</technology>
-<technology name="20">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5920BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431142" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2417" constant="no"/>
-</technology>
-<technology name="21">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5921BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431143" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5255" constant="no"/>
-</technology>
-<technology name="22">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5922BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431144" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9196" constant="no"/>
-</technology>
-<technology name="23">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5923BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431145" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9197" constant="no"/>
-</technology>
-<technology name="24">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5924BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1364652" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2418" constant="no"/>
-</technology>
-<technology name="25">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5925BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431147" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9198" constant="no"/>
-</technology>
-<technology name="26">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5926BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="27">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5927BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1611250" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2419" constant="no"/>
-</technology>
-<technology name="28">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5928BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="2101827" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5256" constant="no"/>
-</technology>
-<technology name="29">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5929BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1459011" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2420" constant="no"/>
-</technology>
-<technology name="30">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5930BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431149" constant="no"/>
-<attribute name="OC_NEWARK" value="59M4319" constant="no"/>
-</technology>
-<technology name="31">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5931BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431150" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5258" constant="no"/>
-</technology>
-<technology name="32">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5932BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5259" constant="no"/>
-</technology>
-<technology name="33">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5933BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="10N9736" constant="no"/>
-</technology>
-<technology name="34">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5934BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431151" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2421" constant="no"/>
-</technology>
-<technology name="35">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5935BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431152" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9199" constant="no"/>
-</technology>
-<technology name="36">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5936BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431153" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9200" constant="no"/>
-</technology>
-<technology name="37">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5937BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431154" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9201" constant="no"/>
-</technology>
-<technology name="38">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5938BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1651575" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5260" constant="no"/>
-</technology>
-<technology name="39">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5939BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1887114" constant="no"/>
-<attribute name="OC_NEWARK" value="83K8786" constant="no"/>
-</technology>
-<technology name="40">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5940BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1887114" constant="no"/>
-<attribute name="OC_NEWARK" value="09R9816" constant="no"/>
-</technology>
-<technology name="41">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5941BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="42K3075" constant="no"/>
-</technology>
-<technology name="42">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5942BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1705007" constant="no"/>
-<attribute name="OC_NEWARK" value="42K3076" constant="no"/>
-</technology>
-<technology name="43">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5943BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1147840" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2423" constant="no"/>
-</technology>
-<technology name="44">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5944BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="45">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5945BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1364098" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5261" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -17617,17 +17355,17 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="ADP2303ARDZ" deviceset="ADP2303ARDZ-5.0" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="47uF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="56k"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10.2k"/>
@@ -17643,15 +17381,14 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="U2" library="TPS54356" deviceset="TPS54356-EP_PWP_16" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="1.0uF"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="1500pF"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="4.7"/>
-<part name="C17" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-D8" technology="FK1V101XP" value="100UF"/>
-<part name="C18" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-G" technology="FK1V331P" value=" 330UF"/>
+<part name="C17" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-D8" technology="FK1V101XP" value="100uF"/>
+<part name="C18" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-G" technology="FK1V331P" value=" 330uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="1sma59xx_10" deviceset="1SMA59*BT3G" device="" technology="34"/>
 <part name="L2" library="WE-PD" deviceset="WE-PD" device="_1260/1245/1280/1210" technology="-744770122" value="22uH"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0603"/>
@@ -17662,8 +17399,8 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="resistor" deviceset="C-EU" device="C1206" value="220uF"/>
-<part name="C25" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680UF"/>
-<part name="C5" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680UF"/>
+<part name="C25" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680uF"/>
+<part name="C5" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680uF"/>
 <part name="MBRS340T3" library="s3x_10" deviceset="S3*" device="" technology="A"/>
 </parts>
 <sheets>
@@ -17717,7 +17454,6 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <instance part="C17" gate="A" x="58.42" y="116.84" rot="R270"/>
 <instance part="C18" gate="A" x="200.66" y="114.3" rot="R270"/>
 <instance part="GND14" gate="1" x="58.42" y="104.14"/>
-<instance part="D2" gate="G$1" x="162.56" y="111.76" rot="R90"/>
 <instance part="L2" gate="G$1" x="185.42" y="116.84"/>
 <instance part="GND13" gate="1" x="147.32" y="129.54" rot="R180"/>
 <instance part="C19" gate="G$1" x="261.62" y="86.36" rot="R180"/>
@@ -17730,7 +17466,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <instance part="C22" gate="G$1" x="172.72" y="35.56"/>
 <instance part="C25" gate="A" x="274.32" y="40.64" rot="R90"/>
 <instance part="C5" gate="A" x="274.32" y="22.86" rot="R90"/>
-<instance part="MBRS340T3" gate="G$1" x="172.72" y="124.46" rot="R90"/>
+<instance part="MBRS340T3" gate="G$1" x="162.56" y="109.22" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17840,9 +17576,6 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="99.06" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PGND"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="162.56" y1="109.22" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
-<junction x="162.56" y="101.6"/>
 <wire x1="162.56" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="104.14" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
@@ -17852,6 +17585,9 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <junction x="162.56" y="99.06"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <junction x="170.18" y="99.06"/>
+<pinref part="MBRS340T3" gate="G$1" pin="A"/>
+<wire x1="162.56" y1="106.68" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
+<junction x="162.56" y="101.6"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -18205,7 +17941,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <wire x1="149.86" y1="114.3" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="VOUT" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="PH"/>
 <wire x1="144.78" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
@@ -18214,18 +17950,18 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <wire x1="144.78" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
 <junction x="147.32" y="111.76"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="162.56" y1="116.84" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<junction x="162.56" y="116.84"/>
+<wire x1="157.48" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <junction x="170.18" y="116.84"/>
+<wire x1="162.56" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="111.76" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
 <junction x="157.48" y="116.84"/>
+<pinref part="MBRS340T3" gate="G$1" pin="C"/>
+<wire x1="162.56" y1="111.76" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
+<junction x="162.56" y="116.84"/>
 </segment>
 </net>
 </nets>
