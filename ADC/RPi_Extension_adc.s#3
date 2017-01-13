@@ -8513,12 +8513,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="SJ4" library="jumper" deviceset="SJ" device=""/>
 <part name="U2" library="ADR423ARZ" deviceset="ADR423ARZ" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
 <part name="SV5" library="con-lsta" deviceset="FE20-2" device=""/>
 <part name="SJ5" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ6" library="jumper" deviceset="SJ" device=""/>
@@ -8550,11 +8550,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R0603"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="R0603"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="R0603"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
