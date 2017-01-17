@@ -4329,14 +4329,14 @@ W = angled&lt;p&gt;
 <wire x1="2.6416" y1="-3.8862" x2="2.4638" y2="-4.0894" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-2.6416" y1="3.9116" x2="-2.4384" y2="4.1148" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-1.651" y1="3.6322" x2="-1.651" y2="2.4892" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.1684" y="1.905" size="1.27" layer="21" ratio="6" rot="SR270">.Designator</text>
+<text x="-1.1684" y="1.905" size="1.27" layer="21" ratio="6" rot="SR270"></text>
 <wire x1="-2.5908" y1="4.2418" x2="2.1082" y2="4.2418" width="0.2032" layer="51"/>
 <wire x1="-4.1148" y1="4.0386" x2="-2.5908" y2="4.0386" width="0.2032" layer="51"/>
 <wire x1="-2.5908" y1="4.0386" x2="-2.5908" y2="4.2418" width="0.2032" layer="51"/>
 <wire x1="-2.1082" y1="-4.2418" x2="2.1082" y2="-4.2418" width="0.2032" layer="51"/>
-<text x="-4.5466" y="4.9022" size="1.27" layer="51" ratio="6" rot="SR0">Designator9</text>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-4.5466" y="4.9022" size="1.27" layer="51" ratio="6" rot="SR0"></text>
+<text x="-2.8702" y="4.445" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="-5.715" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -4447,7 +4447,7 @@ W = angled&lt;p&gt;
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA06-2" device=""/>
-<part name="U1" library="CD74HC4067" deviceset="CD74HC4067SM96" device="" value=""/>
+<part name="U1" library="CD74HC4067" deviceset="CD74HC4067SM96" device="" value="Value"/>
 </parts>
 <sheets>
 <sheet>

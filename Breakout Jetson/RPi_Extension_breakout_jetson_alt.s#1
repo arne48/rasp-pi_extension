@@ -4447,7 +4447,7 @@ W = angled&lt;p&gt;
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA06-2" device=""/>
-<part name="U1" library="CD74HC4067" deviceset="CD74HC4067SM96" device="" value="Value"/>
+<part name="U1" library="CD74HC4067" deviceset="CD74HC4067SM96" device="" value=""/>
 </parts>
 <sheets>
 <sheet>
