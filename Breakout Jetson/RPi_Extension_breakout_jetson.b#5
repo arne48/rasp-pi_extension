@@ -1812,7 +1812,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="55.25" y="62.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="55.25" y="62.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U1" library="CD74HC137" package="PW16" value="CD74HC137_PW_16" x="14.3" y="51.35">
+<element name="U1" library="CD74HC137" package="PW16" value="CD74HC137" x="14.3" y="51.35">
 <attribute name="FAMILY_NAME" value="DECODER/DEMULTIPLEXER" x="14.3" y="51.35" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="14.3" y="51.35" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE_DESIGNATOR" value="PW" x="14.3" y="51.35" size="1.778" layer="27" display="off"/>
@@ -1822,7 +1822,7 @@ design rules under a new name.</description>
 <attribute name="INDUSTRY_STD_PKG_TYPE" value="TSSOP" x="14.3" y="51.35" size="1.778" layer="27" display="off"/>
 <attribute name="GENERIC_PART_NUMBER" value="CD74HC137" x="14.3" y="51.35" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="CD74HC137" package="PW16" value="CD74HC137_PW_16" x="39" y="51.35">
+<element name="U2" library="CD74HC137" package="PW16" value="CD74HC137" x="39" y="51.35">
 <attribute name="FAMILY_NAME" value="DECODER/DEMULTIPLEXER" x="39" y="51.35" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="39" y="51.35" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE_DESIGNATOR" value="PW" x="39" y="51.35" size="1.778" layer="27" display="off"/>
