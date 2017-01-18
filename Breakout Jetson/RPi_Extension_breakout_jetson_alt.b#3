@@ -46,17 +46,17 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -2102,7 +2102,7 @@ design rules under a new name.</description>
 <via x="28.6" y="52.65" extent="1-16" drill="0.6"/>
 <via x="28.6" y="54.6" extent="1-16" drill="0.6"/>
 <via x="28.6" y="56.55" extent="1-16" drill="0.6"/>
-<via x="31.2" y="50.05" extent="1-16" drill="0.6"/>
+<via x="31.2" y="50.7" extent="1-16" drill="0.6"/>
 <via x="6.5" y="55.9" extent="1-16" drill="0.6"/>
 <via x="52.65" y="55.9" extent="1-16" drill="0.6"/>
 <via x="16.25" y="57.85" extent="1-16" drill="0.6"/>
@@ -2110,6 +2110,70 @@ design rules under a new name.</description>
 <via x="42.25" y="57.85" extent="1-16" drill="0.6"/>
 <via x="11.05" y="57.85" extent="1-16" drill="0.6"/>
 <via x="48.1" y="57.85" extent="1-16" drill="0.6"/>
+<via x="31.2" y="56.55" extent="1-16" drill="0.6"/>
+<via x="31.2" y="54.6" extent="1-16" drill="0.6"/>
+<via x="31.2" y="52.65" extent="1-16" drill="0.6"/>
+<wire x1="60.33" y1="61.13" x2="60.33" y2="63.67" width="0" layer="19" extent="1-1"/>
+<wire x1="52.65" y1="55.9" x2="60.33" y2="61.13" width="0" layer="19" extent="1-1"/>
+<wire x1="48.1" y1="57.85" x2="52.65" y2="55.9" width="0" layer="19" extent="1-1"/>
+<wire x1="42.25" y1="57.85" x2="48.1" y2="57.85" width="0" layer="19" extent="1-1"/>
+<wire x1="36.4" y1="57.85" x2="42.25" y2="57.85" width="0" layer="19" extent="1-1"/>
+<wire x1="32.875" y1="57.525003125" x2="36.4" y2="57.85" width="0" layer="19" extent="1-1"/>
+<wire x1="31.2" y1="56.55" x2="32.875" y2="57.525003125" width="0" layer="19" extent="1-1"/>
+<wire x1="31.2" y1="54.6" x2="31.2" y2="56.55" width="0" layer="19" extent="1-1"/>
+<wire x1="31.2" y1="52.65" x2="31.2" y2="54.6" width="0" layer="19" extent="1-1"/>
+<wire x1="31.2" y1="50.7" x2="31.2" y2="52.65" width="0" layer="19" extent="1-1"/>
+<wire x1="28.6" y1="56.55" x2="31.2" y2="56.55" width="0" layer="19" extent="1-1"/>
+<wire x1="28.6" y1="54.6" x2="28.6" y2="56.55" width="0" layer="19" extent="1-1"/>
+<wire x1="28.6" y1="52.65" x2="28.6" y2="54.6" width="0" layer="19" extent="1-1"/>
+<wire x1="33.7896" y1="47.7652" x2="31.2" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="36.3896" y1="47.7652" x2="33.7896" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="35.75" y1="50.05" x2="36.3896" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="38.35" y1="50.05" x2="35.75" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="38.9896" y1="47.7652" x2="38.35" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="40.95" y1="50.05" x2="38.35" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5896" y1="47.7652" x2="40.95" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="43.55" y1="50.05" x2="40.95" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="44.1896" y1="47.7652" x2="43.55" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="46.15" y1="50.05" x2="43.55" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="46.7896" y1="47.7652" x2="46.15" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="48.75" y1="50.05" x2="46.15" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="49.3896" y1="47.7652" x2="48.75" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="51.35" y1="50.05" x2="48.75" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="51.9896" y1="47.7652" x2="51.35" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="45.11" y1="42.87" x2="44.1896" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="40.03" y1="42.87" x2="38.9896" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="34.95" y1="40.33" x2="40.03" y2="42.87" width="0" layer="19" extent="1-1"/>
+<wire x1="32.45" y1="36.2" x2="34.95" y2="40.33" width="0" layer="19" extent="1-1"/>
+<wire x1="29.85" y1="36.2" x2="32.45" y2="36.2" width="0" layer="19" extent="1-1"/>
+<wire x1="27.35" y1="36.2" x2="29.85" y2="36.2" width="0" layer="19" extent="1-1"/>
+<wire x1="23.4" y1="50.05" x2="28.6" y2="52.65" width="0" layer="19" extent="1-1"/>
+<wire x1="24.0396" y1="47.7652" x2="23.4" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="20.8" y1="50.05" x2="23.4" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4396" y1="47.7652" x2="20.8" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="18.2" y1="50.05" x2="20.8" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="18.8396" y1="47.7652" x2="18.2" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="15.6" y1="50.05" x2="18.2" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="16.2396" y1="47.7652" x2="15.6" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="50.05" x2="15.6" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="13.6396" y1="47.7652" x2="13" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="10.4" y1="50.05" x2="13" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="11.0396" y1="47.7652" x2="10.4" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="7.8" y1="50.05" x2="10.4" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="8.4396" y1="47.7652" x2="7.8" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="5.8396" y1="47.7652" x2="8.4396" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="19.71" y1="42.87" x2="18.8396" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="9.55" y1="42.87" x2="8.4396" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="14.63" y1="40.33" x2="19.71" y2="42.87" width="0" layer="19" extent="1-1"/>
+<wire x1="27.33" y1="42.87" x2="24.0396" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5" y1="55.9" x2="7.8" y2="50.05" width="0" layer="19" extent="1-1"/>
+<wire x1="11.05" y1="57.85" x2="6.5" y2="55.9" width="0" layer="19" extent="1-1"/>
+<wire x1="16.25" y1="57.85" x2="11.05" y2="57.85" width="0" layer="19" extent="1-1"/>
+<wire x1="52.73" y1="40.33" x2="51.9896" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="5.82" y1="11.2" x2="14.63" y2="40.33" width="0" layer="19" extent="1-1"/>
+<wire x1="3.28" y1="11.2" x2="5.82" y2="11.2" width="0" layer="19" extent="1-1"/>
+<wire x1="5.82" y1="8.66" x2="5.82" y2="11.2" width="0" layer="19" extent="1-1"/>
+<wire x1="3.28" y1="8.66" x2="3.28" y2="11.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DVCC">
 <contactref element="SV3" pad="1"/>
@@ -2310,70 +2374,55 @@ design rules under a new name.</description>
 <wire x1="4.47" y1="42.87" x2="7.01" y2="42.87" width="1.27" layer="16"/>
 </signal>
 <signal name="GPIO3">
-<contactref element="SV5" pad="36"/>
 <contactref element="U1" pad="8"/>
-<wire x1="32.875" y1="54.925003125" x2="47.124996875" y2="54.925003125" width="0.3048" layer="1"/>
-<wire x1="47.124996875" y1="54.925003125" x2="50.05" y2="52" width="0.3048" layer="1"/>
+<wire x1="50.05" y1="47.7652" x2="50.05" y2="52.8439875" width="0.3048" layer="1"/>
+<wire x1="50.05" y1="52.8439875" x2="47.968984375" y2="54.925003125" width="0.3048" layer="1"/>
+<wire x1="47.968984375" y1="54.925003125" x2="32.875" y2="54.925003125" width="0.3048" layer="1"/>
 <contactref element="U12" pad="2"/>
-<wire x1="50.05" y1="47.7652" x2="50.05" y2="52" width="0.3048" layer="1"/>
-<wire x1="50.05" y1="47.7652" x2="47.65" y2="42.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO2">
-<contactref element="SV5" pad="32"/>
 <contactref element="U1" pad="5"/>
 <wire x1="32.875" y1="52.975" x2="41.275" y2="52.975" width="0.3048" layer="1"/>
 <wire x1="41.275" y1="52.975" x2="42.25" y2="52" width="0.3048" layer="1"/>
 <contactref element="U3" pad="2"/>
 <wire x1="42.25" y1="47.7652" x2="42.25" y2="52" width="0.3048" layer="1"/>
-<wire x1="42.25" y1="47.7652" x2="42.57" y2="42.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO0">
-<contactref element="SV5" pad="24"/>
 <contactref element="U1" pad="2"/>
 <wire x1="34.45" y1="47.7652" x2="34.45" y2="50.732384375" width="0.3048" layer="1"/>
 <wire x1="34.45" y1="50.732384375" x2="34.15738125" y2="51.025003125" width="0.3048" layer="1"/>
 <wire x1="34.15738125" y1="51.025003125" x2="32.875" y2="51.025003125" width="0.3048" layer="1"/>
 <contactref element="U5" pad="2"/>
-<wire x1="32.41" y1="42.87" x2="34.45" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO1">
-<contactref element="SV5" pad="26"/>
 <contactref element="U1" pad="3"/>
 <wire x1="32.875" y1="51.675" x2="36.725" y2="51.675" width="0.3048" layer="1"/>
 <wire x1="36.725" y1="51.675" x2="37.05" y2="51.35" width="0.3048" layer="1"/>
 <contactref element="U4" pad="2"/>
 <wire x1="37.05" y1="47.7652" x2="37.05" y2="51.35" width="0.3048" layer="1"/>
-<wire x1="34.95" y1="42.87" x2="37.05" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO4">
-<contactref element="SV5" pad="7"/>
 <contactref element="U1" pad="18"/>
-<wire x1="25.624996875" y1="54.275" x2="12.675" y2="54.275" width="0.3048" layer="1"/>
-<wire x1="12.675" y1="54.275" x2="11.7" y2="53.3" width="0.3048" layer="1"/>
+<wire x1="11.7" y1="47.7652" x2="11.7" y2="52.65" width="0.3048" layer="1"/>
+<wire x1="11.7" y1="52.65" x2="13.325" y2="54.275" width="0.3048" layer="1"/>
+<wire x1="13.325" y1="54.275" x2="25.624996875" y2="54.275" width="0.3048" layer="1"/>
 <contactref element="U16" pad="2"/>
-<wire x1="11.7" y1="47.7652" x2="11.7" y2="53.3" width="0.3048" layer="1"/>
-<wire x1="12.09" y1="40.33" x2="11.7" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO5">
-<contactref element="SV5" pad="11"/>
 <contactref element="U1" pad="21"/>
 <wire x1="25.624996875" y1="52.325003125" x2="20.475003125" y2="52.325003125" width="0.3048" layer="1"/>
 <wire x1="20.475003125" y1="52.325003125" x2="19.5" y2="51.35" width="0.3048" layer="1"/>
 <contactref element="U7" pad="2"/>
 <wire x1="19.5" y1="47.7652" x2="19.5" y2="51.35" width="0.3048" layer="1"/>
-<wire x1="17.17" y1="40.33" x2="19.5" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO6">
-<contactref element="SV5" pad="13"/>
 <contactref element="U1" pad="22"/>
 <wire x1="25.624996875" y1="51.675" x2="22.425" y2="51.675" width="0.3048" layer="1"/>
 <wire x1="22.425" y1="51.675" x2="22.1" y2="51.35" width="0.3048" layer="1"/>
 <contactref element="U6" pad="2"/>
 <wire x1="22.1" y1="47.7652" x2="22.1" y2="51.35" width="0.3048" layer="1"/>
-<wire x1="19.71" y1="40.33" x2="22.1" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO7">
-<contactref element="SV5" pad="15"/>
 <contactref element="U1" pad="23"/>
 <wire x1="25.624996875" y1="51.025003125" x2="24.755778125" y2="51.025003125" width="0.3048" layer="1"/>
 <wire x1="24.7" y1="48.75" x2="24.4114375" y2="49.0385625" width="0.3048" layer="1"/>
@@ -2381,80 +2430,62 @@ design rules under a new name.</description>
 <wire x1="24.4114375" y1="50.6806625" x2="24.755778125" y2="51.025003125" width="0.3048" layer="1"/>
 <contactref element="U14" pad="2"/>
 <wire x1="24.7" y1="47.7652" x2="24.7" y2="48.75" width="0.3048" layer="1"/>
-<wire x1="22.25" y1="40.33" x2="24.7" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO13">
-<contactref element="SV5" pad="5"/>
 <contactref element="U1" pad="17"/>
-<wire x1="25.624996875" y1="54.925003125" x2="10.725003125" y2="54.925003125" width="0.3048" layer="1"/>
-<wire x1="10.725003125" y1="54.925003125" x2="9.425" y2="53.625" width="0.3048" layer="1"/>
+<wire x1="25.624996875" y1="54.925003125" x2="11.05" y2="54.925003125" width="0.3048" layer="1"/>
 <contactref element="U17" pad="2"/>
-<wire x1="9.1" y1="47.7652" x2="9.1" y2="53.3" width="0.3048" layer="1"/>
-<wire x1="9.1" y1="53.3" x2="9.425" y2="53.625" width="0.3048" layer="1"/>
-<wire x1="9.55" y1="40.33" x2="9.1" y2="47.7652" width="0" layer="19" extent="1-1"/>
+<wire x1="9.1" y1="47.7652" x2="9.1" y2="52.975003125" width="0.3048" layer="1"/>
+<wire x1="9.1" y1="52.975003125" x2="11.05" y2="54.925003125" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO15">
-<contactref element="SV5" pad="8"/>
 <contactref element="U1" pad="19"/>
-<wire x1="25.624996875" y1="53.625003125" x2="15.275003125" y2="53.625003125" width="0.3048" layer="1"/>
-<wire x1="15.275003125" y1="53.625003125" x2="14.3" y2="52.65" width="0.3048" layer="1"/>
+<wire x1="14.3" y1="47.7652" x2="14.3" y2="51.874821875" width="0.3048" layer="1"/>
+<wire x1="14.3" y1="51.874821875" x2="16.05018125" y2="53.625003125" width="0.3048" layer="1"/>
+<wire x1="16.05018125" y1="53.625003125" x2="25.624996875" y2="53.625003125" width="0.3048" layer="1"/>
 <contactref element="U15" pad="2"/>
-<wire x1="14.3" y1="47.7652" x2="14.3" y2="52.65" width="0.3048" layer="1"/>
-<wire x1="12.09" y1="42.87" x2="14.3" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO14">
-<contactref element="SV5" pad="10"/>
 <contactref element="U1" pad="20"/>
 <wire x1="25.624996875" y1="52.975" x2="18.525" y2="52.975" width="0.3048" layer="1"/>
 <wire x1="18.525" y1="52.975" x2="16.9" y2="51.35" width="0.3048" layer="1"/>
 <contactref element="U8" pad="2"/>
 <wire x1="16.9" y1="47.7652" x2="16.9" y2="51.35" width="0.3048" layer="1"/>
-<wire x1="14.63" y1="42.87" x2="16.9" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO12">
-<contactref element="SV5" pad="3"/>
 <contactref element="U1" pad="16"/>
-<wire x1="25.624996875" y1="55.575" x2="8.775" y2="55.575" width="0.3048" layer="1"/>
-<wire x1="8.775" y1="55.575" x2="6.5" y2="53.3" width="0.3048" layer="1"/>
+<wire x1="25.624996875" y1="55.575" x2="9.49635" y2="55.575" width="0.3048" layer="1"/>
+<wire x1="9.49635" y1="55.575" x2="6.5" y2="52.57865" width="0.3048" layer="1"/>
+<wire x1="6.5" y1="52.57865" x2="6.5" y2="47.7652" width="0.3048" layer="1"/>
 <contactref element="U9" pad="2"/>
-<wire x1="6.5" y1="53.3" x2="6.5" y2="47.7652" width="0.3048" layer="1"/>
-<wire x1="7.01" y1="40.33" x2="6.5" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO10">
-<contactref element="SV5" pad="33"/>
 <contactref element="U1" pad="6"/>
-<wire x1="32.875" y1="53.625003125" x2="43.874996875" y2="53.625003125" width="0.3048" layer="1"/>
-<wire x1="43.874996875" y1="53.625003125" x2="44.85" y2="52.65" width="0.3048" layer="1"/>
+<wire x1="44.85" y1="47.7652" x2="44.85" y2="52.453196875" width="0.3048" layer="1"/>
+<wire x1="44.85" y1="52.453196875" x2="43.67819375" y2="53.625003125" width="0.3048" layer="1"/>
+<wire x1="43.67819375" y1="53.625003125" x2="32.875" y2="53.625003125" width="0.3048" layer="1"/>
 <contactref element="U11" pad="2"/>
-<wire x1="44.85" y1="47.7652" x2="44.85" y2="52.65" width="0.3048" layer="1"/>
-<wire x1="45.11" y1="40.33" x2="44.85" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO9">
-<contactref element="SV5" pad="35"/>
 <contactref element="U1" pad="7"/>
 <wire x1="32.875" y1="54.275" x2="45.825" y2="54.275" width="0.3048" layer="1"/>
 <wire x1="45.825" y1="54.275" x2="47.45" y2="52.65" width="0.3048" layer="1"/>
 <contactref element="U10" pad="2"/>
 <wire x1="47.45" y1="47.7652" x2="47.45" y2="52.65" width="0.3048" layer="1"/>
-<wire x1="47.45" y1="47.7652" x2="47.65" y2="40.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO8">
-<contactref element="SV5" pad="37"/>
 <contactref element="U1" pad="9"/>
 <wire x1="32.875" y1="55.575" x2="49.725" y2="55.575" width="0.3048" layer="1"/>
 <wire x1="49.725" y1="55.575" x2="52.65" y2="52.65" width="0.3048" layer="1"/>
 <contactref element="U13" pad="2"/>
 <wire x1="52.65" y1="47.7652" x2="52.65" y2="52.65" width="0.3048" layer="1"/>
-<wire x1="52.65" y1="47.7652" x2="50.19" y2="40.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO11">
-<contactref element="SV5" pad="31"/>
 <contactref element="U1" pad="4"/>
 <wire x1="32.875" y1="52.325003125" x2="39.324996875" y2="52.325003125" width="0.3048" layer="1"/>
 <wire x1="39.324996875" y1="52.325003125" x2="39.65" y2="52" width="0.3048" layer="1"/>
 <contactref element="U2" pad="2"/>
 <wire x1="39.65" y1="47.7652" x2="39.65" y2="52" width="0.3048" layer="1"/>
-<wire x1="42.57" y1="40.33" x2="39.65" y2="47.7652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONVST">
 <contactref element="SV5" pad="16"/>
@@ -2527,51 +2558,121 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPIO0_NEG">
 <contactref element="U5" pad="4"/>
+<contactref element="SV5" pad="24"/>
+<wire x1="33.7896" y1="45.8348" x2="33.7896" y2="44.2496" width="0.3048" layer="1"/>
+<wire x1="33.7896" y1="44.2496" x2="32.41" y2="42.87" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO1_NEG">
 <contactref element="U4" pad="4"/>
+<contactref element="SV5" pad="26"/>
+<wire x1="36.3896" y1="45.8348" x2="36.3896" y2="44.3096" width="0.3048" layer="1"/>
+<wire x1="36.3896" y1="44.3096" x2="34.95" y2="42.87" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO2_NEG">
 <contactref element="U3" pad="4"/>
+<contactref element="SV5" pad="32"/>
+<wire x1="41.5896" y1="45.8348" x2="41.5896" y2="43.8504" width="0.3048" layer="1"/>
+<wire x1="41.5896" y1="43.8504" x2="42.57" y2="42.87" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO11_NEG">
 <contactref element="U2" pad="4"/>
+<contactref element="SV5" pad="31"/>
+<wire x1="38.9896" y1="45.8348" x2="38.9896" y2="44.2896" width="0.3048" layer="1"/>
+<wire x1="38.9896" y1="44.2896" x2="38.75" y2="44.05" width="0.3048" layer="1"/>
+<wire x1="38.75" y1="44.05" x2="38.75" y2="42.202078125" width="0.3048" layer="1"/>
+<wire x1="38.75" y1="42.202078125" x2="39.352078125" y2="41.6" width="0.3048" layer="1"/>
+<wire x1="39.352078125" y1="41.6" x2="41.3" y2="41.6" width="0.3048" layer="1"/>
+<wire x1="41.3" y1="41.6" x2="42.57" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO12_NEG">
 <contactref element="U9" pad="4"/>
+<contactref element="SV5" pad="3"/>
+<wire x1="5.8396" y1="45.8348" x2="5.8396" y2="43.9896" width="0.3048" layer="1"/>
+<wire x1="5.8396" y1="43.9896" x2="5.75" y2="43.9" width="0.3048" layer="1"/>
+<wire x1="5.75" y1="43.9" x2="5.75" y2="41.59" width="0.3048" layer="1"/>
+<wire x1="5.75" y1="41.59" x2="7.01" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO14_NEG">
 <contactref element="U8" pad="4"/>
+<contactref element="SV5" pad="10"/>
+<wire x1="16.2396" y1="45.8348" x2="16.2396" y2="44.4796" width="0.3048" layer="1"/>
+<wire x1="16.2396" y1="44.4796" x2="14.63" y2="42.87" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO5_NEG">
 <contactref element="U7" pad="4"/>
+<contactref element="SV5" pad="11"/>
+<wire x1="18.8396" y1="45.8348" x2="18.8396" y2="44.2896" width="0.3048" layer="1"/>
+<wire x1="18.8396" y1="44.2896" x2="18.45" y2="43.9" width="0.3048" layer="1"/>
+<wire x1="18.45" y1="43.9" x2="18.45" y2="41.61" width="0.3048" layer="1"/>
+<wire x1="18.45" y1="41.61" x2="17.17" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO6_NEG">
 <contactref element="U6" pad="4"/>
+<contactref element="SV5" pad="13"/>
+<wire x1="21.4396" y1="45.8348" x2="21.4396" y2="44.3396" width="0.3048" layer="1"/>
+<wire x1="21.4396" y1="44.3396" x2="21" y2="43.9" width="0.3048" layer="1"/>
+<wire x1="21" y1="43.9" x2="21" y2="41.62" width="0.3048" layer="1"/>
+<wire x1="21" y1="41.62" x2="19.71" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO9_NEG">
 <contactref element="U10" pad="4"/>
+<contactref element="SV5" pad="35"/>
+<wire x1="46.7896" y1="45.8348" x2="46.7896" y2="44.2896" width="0.3048" layer="1"/>
+<wire x1="46.7896" y1="44.2896" x2="46.4" y2="43.9" width="0.3048" layer="1"/>
+<wire x1="46.4" y1="43.9" x2="46.4" y2="41.58" width="0.3048" layer="1"/>
+<wire x1="46.4" y1="41.58" x2="47.65" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO10_NEG">
 <contactref element="U11" pad="4"/>
+<contactref element="SV5" pad="33"/>
+<wire x1="44.1896" y1="45.8348" x2="44.1896" y2="44.2896" width="0.3048" layer="1"/>
+<wire x1="44.1896" y1="44.2896" x2="43.85" y2="43.95" width="0.3048" layer="1"/>
+<wire x1="43.85" y1="43.95" x2="43.85" y2="41.59" width="0.3048" layer="1"/>
+<wire x1="43.85" y1="41.59" x2="45.11" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO3_NEG">
 <contactref element="U12" pad="4"/>
+<contactref element="SV5" pad="36"/>
+<wire x1="49.3896" y1="45.8348" x2="49.3896" y2="44.6096" width="0.3048" layer="1"/>
+<wire x1="49.3896" y1="44.6096" x2="47.65" y2="42.87" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO8_NEG">
 <contactref element="U13" pad="4"/>
+<contactref element="SV5" pad="37"/>
+<wire x1="51.9896" y1="45.8348" x2="51.9896" y2="44.3396" width="0.3048" layer="1"/>
+<wire x1="51.9896" y1="44.3396" x2="51.45" y2="43.8" width="0.3048" layer="1"/>
+<wire x1="51.45" y1="43.8" x2="51.45" y2="41.59" width="0.3048" layer="1"/>
+<wire x1="51.45" y1="41.59" x2="50.19" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO7_NEG">
 <contactref element="U14" pad="4"/>
+<contactref element="SV5" pad="15"/>
+<wire x1="24.0396" y1="45.8348" x2="24.0396" y2="44.2896" width="0.3048" layer="1"/>
+<wire x1="24.0396" y1="44.2896" x2="23.5" y2="43.75" width="0.3048" layer="1"/>
+<wire x1="23.5" y1="43.75" x2="23.5" y2="41.58" width="0.3048" layer="1"/>
+<wire x1="23.5" y1="41.58" x2="22.25" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO15_NEG">
 <contactref element="U15" pad="4"/>
+<contactref element="SV5" pad="8"/>
+<wire x1="13.6396" y1="45.8348" x2="13.6396" y2="44.4196" width="0.3048" layer="1"/>
+<wire x1="13.6396" y1="44.4196" x2="12.09" y2="42.87" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO4_NEG">
 <contactref element="U16" pad="4"/>
+<contactref element="SV5" pad="7"/>
+<wire x1="11.0396" y1="45.8348" x2="11.0396" y2="43.9396" width="0.3048" layer="1"/>
+<wire x1="11.0396" y1="43.9396" x2="10.85" y2="43.75" width="0.3048" layer="1"/>
+<wire x1="10.85" y1="43.75" x2="10.85" y2="41.57" width="0.3048" layer="1"/>
+<wire x1="10.85" y1="41.57" x2="12.09" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO13_NEG">
 <contactref element="U17" pad="4"/>
+<contactref element="SV5" pad="5"/>
+<wire x1="8.4396" y1="45.8348" x2="8.4396" y2="43.8396" width="0.3048" layer="1"/>
+<wire x1="8.4396" y1="43.8396" x2="8.3" y2="43.7" width="0.3048" layer="1"/>
+<wire x1="8.3" y1="43.7" x2="8.3" y2="41.58" width="0.3048" layer="1"/>
+<wire x1="8.3" y1="41.58" x2="9.55" y2="40.33" width="0.3048" layer="1"/>
 </signal>
 </signals>
 </board>

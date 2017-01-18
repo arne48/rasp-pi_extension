@@ -4187,30 +4187,30 @@ W = angled&lt;p&gt;
 <library name="CD74HC4067">
 <packages>
 <package name="DB0024A_N">
-<smd name="1" x="-3.625" y="3.575" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="2" x="-3.625" y="2.924996875" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="3" x="-3.625" y="2.275" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="4" x="-3.625" y="1.624996875" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="5" x="-3.625" y="0.975" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="6" x="-3.625" y="0.324996875" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="7" x="-3.625" y="-0.325" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="8" x="-3.625" y="-0.975003125" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="9" x="-3.625" y="-1.625" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="10" x="-3.625" y="-2.275003125" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="11" x="-3.625" y="-2.925" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="12" x="-3.625" y="-3.575003125" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="13" x="3.625003125" y="-3.575003125" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="14" x="3.625003125" y="-2.925" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="15" x="3.625003125" y="-2.275003125" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="16" x="3.625003125" y="-1.625" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="17" x="3.625003125" y="-0.975003125" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="18" x="3.625003125" y="-0.325" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="19" x="3.625003125" y="0.324996875" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="20" x="3.625003125" y="0.975" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="21" x="3.625003125" y="1.624996875" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="22" x="3.625003125" y="2.275" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="23" x="3.625003125" y="2.924996875" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
-<smd name="24" x="3.625003125" y="3.575" dx="1.2" dy="0.45" layer="1" roundness="100" rot="R180"/>
+<smd name="1" x="-3.625" y="3.575" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="2" x="-3.625" y="2.924996875" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="3" x="-3.625" y="2.275" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="4" x="-3.625" y="1.624996875" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="5" x="-3.625" y="0.975" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="6" x="-3.625" y="0.324996875" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="7" x="-3.625" y="-0.325" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="8" x="-3.625" y="-0.975003125" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="9" x="-3.625" y="-1.625" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="10" x="-3.625" y="-2.275003125" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="11" x="-3.625" y="-2.925" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="12" x="-3.625" y="-3.575003125" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="13" x="3.625003125" y="-3.575003125" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="14" x="3.625003125" y="-2.925" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="15" x="3.625003125" y="-2.275003125" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="16" x="3.625003125" y="-1.625" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="17" x="3.625003125" y="-0.975003125" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="18" x="3.625003125" y="-0.325" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="19" x="3.625003125" y="0.324996875" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="20" x="3.625003125" y="0.975" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="21" x="3.625003125" y="1.624996875" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="22" x="3.625003125" y="2.275" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="23" x="3.625003125" y="2.924996875" dx="1.2" dy="0.45" layer="1" rot="R180"/>
+<smd name="24" x="3.625003125" y="3.575" dx="1.2" dy="0.45" layer="1" rot="R180"/>
 <wire x1="2.6416" y1="-3.429" x2="3.9116" y2="-3.429" width="0.1524" layer="21"/>
 <wire x1="2.6416" y1="-3.7084" x2="2.6416" y2="-3.429" width="0.1524" layer="21"/>
 <wire x1="2.6416" y1="-3.7084" x2="3.9116" y2="-3.7084" width="0.1524" layer="21"/>
