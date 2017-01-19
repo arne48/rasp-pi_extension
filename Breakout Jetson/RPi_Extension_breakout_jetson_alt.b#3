@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -2107,7 +2107,6 @@ design rules under a new name.</description>
 <via x="48.1" y="57.85" extent="1-16" drill="0.7"/>
 <contactref element="U1" pad="12"/>
 <contactref element="SV1" pad="8"/>
-<wire x1="32.875" y1="57.525003125" x2="27.37" y2="63.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DVCC">
 <contactref element="SV3" pad="1"/>
@@ -2218,9 +2217,9 @@ design rules under a new name.</description>
 <wire x1="29.87" y1="40.33" x2="29.87" y2="40.98" width="0.3048" layer="16"/>
 <wire x1="29.87" y1="40.98" x2="28.6" y2="42.25" width="0.3048" layer="16"/>
 <wire x1="28.6" y1="42.25" x2="28.6" y2="43.55" width="0.3048" layer="16"/>
-<wire x1="28.6" y1="43.55" x2="29.9" y2="44.85" width="0.3048" layer="16"/>
 <contactref element="SV1" pad="7"/>
-<wire x1="29.9" y1="44.85" x2="27.37" y2="61.08" width="0" layer="19" extent="16-16"/>
+<wire x1="27.37" y1="61.08" x2="27.37" y2="44.78" width="0.3048" layer="16"/>
+<wire x1="27.37" y1="44.78" x2="28.6" y2="43.55" width="0.3048" layer="16"/>
 </signal>
 <signal name="SCLK">
 <contactref element="SV5" pad="23"/>
@@ -2230,9 +2229,13 @@ design rules under a new name.</description>
 <wire x1="32.41" y1="40.33" x2="32.41" y2="41.04" width="0.3048" layer="16"/>
 <wire x1="32.41" y1="41.04" x2="31.2" y2="42.25" width="0.3048" layer="16"/>
 <wire x1="31.2" y1="42.25" x2="31.2" y2="43.55" width="0.3048" layer="16"/>
-<wire x1="31.2" y1="43.55" x2="32.5" y2="44.85" width="0.3048" layer="16"/>
-<contactref element="SV1" pad="9"/>
-<wire x1="32.5" y1="44.85" x2="29.91" y2="61.08" width="0" layer="19" extent="16-16"/>
+<contactref element="SV1" pad="10"/>
+<wire x1="29.91" y1="63.62" x2="29.82" y2="63.62" width="0.3048" layer="16"/>
+<wire x1="29.82" y1="63.62" x2="28.6" y2="62.4" width="0.3048" layer="16"/>
+<wire x1="28.6" y1="62.4" x2="28.6" y2="45.5" width="0.3048" layer="16"/>
+<wire x1="28.6" y1="45.5" x2="29.25" y2="44.85" width="0.3048" layer="16"/>
+<wire x1="29.25" y1="44.85" x2="29.9" y2="44.85" width="0.3048" layer="16"/>
+<wire x1="29.9" y1="44.85" x2="31.2" y2="43.55" width="0.3048" layer="16"/>
 </signal>
 <signal name="VDD">
 <contactref element="SV3" pad="6"/>
@@ -2591,10 +2594,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="IO_SIGNAL">
 <contactref element="U1" pad="1"/>
-<contactref element="SV1" pad="10"/>
 <wire x1="32.875" y1="50.375" x2="31.525" y2="50.375" width="0.3048" layer="1"/>
 <wire x1="31.525" y1="50.375" x2="31.2" y2="50.7" width="0.3048" layer="1"/>
-<wire x1="31.2" y1="50.7" x2="29.91" y2="63.62" width="0" layer="19" extent="1-1"/>
+<contactref element="SV1" pad="9"/>
+<wire x1="31.2" y1="50.7" x2="29.91" y2="61.08" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
