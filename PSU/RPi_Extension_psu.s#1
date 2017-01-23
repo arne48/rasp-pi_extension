@@ -17437,7 +17437,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <instance part="R4" gate="G$1" x="160.02" y="35.56" rot="R270"/>
 <instance part="R5" gate="G$1" x="160.02" y="25.4" rot="R270"/>
 <instance part="GND8" gate="1" x="160.02" y="15.24"/>
-<instance part="GND9" gate="1" x="152.4" y="58.42" rot="R180"/>
+<instance part="GND9" gate="1" x="152.4" y="53.34" rot="R180"/>
 <instance part="D1" gate="G$1" x="121.92" y="35.56" rot="R90"/>
 <instance part="GND10" gate="1" x="121.92" y="27.94"/>
 <instance part="L1" gate="G$1" x="134.62" y="40.64"/>
@@ -17599,7 +17599,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="48.26" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="152.4" y1="48.26" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="48.26" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
 <junction x="152.4" y="48.26"/>
 </segment>
 <segment>

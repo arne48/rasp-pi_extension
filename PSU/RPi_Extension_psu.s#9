@@ -17487,6 +17487,116 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="s3x_10">
+<description>&lt;b&gt;Fairchild S3x Rectifier Diodes&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Version 1.0&lt;br&gt;
+&amp;copy; 2015 Samuel Lourenço</description>
+<packages>
+<package name="DO214AB">
+<description>&lt;b&gt;DO-214AB (SMC) Surface Mount Diode&lt;/b&gt;</description>
+<smd name="C" x="-3.4" y="0" dx="2.5" dy="3.3" layer="1"/>
+<smd name="A" x="3.4" y="0" dx="2.5" dy="3.3" layer="1"/>
+<rectangle x1="-1.5" y1="-1.5" x2="1.5" y2="1.5" layer="35"/>
+<wire x1="-3.45" y1="1.83" x2="-3.45" y2="2.95" width="0.1524" layer="21"/>
+<wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1524" layer="21"/>
+<wire x1="3.45" y1="2.95" x2="3.45" y2="1.83" width="0.1524" layer="21"/>
+<wire x1="-3.45" y1="-1.83" x2="-3.45" y2="-2.95" width="0.1524" layer="21"/>
+<wire x1="-3.45" y1="-2.95" x2="3.45" y2="-2.95" width="0.1524" layer="21"/>
+<wire x1="3.45" y1="-2.95" x2="3.45" y2="-1.83" width="0.1524" layer="21"/>
+<wire x1="-3.45" y1="-1.83" x2="-3.45" y2="1.83" width="0.1524" layer="51"/>
+<wire x1="3.45" y1="-1.83" x2="3.45" y2="1.83" width="0.1524" layer="51"/>
+<rectangle x1="-2.95" y1="1.75" x2="-2.45" y2="2.95" layer="21"/>
+<rectangle x1="-2.95" y1="-2.95" x2="-2.45" y2="-1.75" layer="21"/>
+<rectangle x1="-2.95" y1="-1.75" x2="-2.45" y2="1.75" layer="51"/>
+<rectangle x1="-3.95" y1="-1.48" x2="-3.45" y2="1.48" layer="51"/>
+<rectangle x1="3.45" y1="-1.48" x2="3.95" y2="1.48" layer="51"/>
+<text x="-3.4" y="3.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.4" y="-4.65" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="D">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="S3*" prefix="D">
+<description>&lt;b&gt;S3A - S3N&lt;/b&gt; General Purpose Rectifiers&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http://www.fairchildsemi.com/datasheets/S3/S3A.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO214AB">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="A">
+<attribute name="MF" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S3A" constant="no"/>
+<attribute name="OC_FARNELL" value="1017803" constant="no"/>
+<attribute name="OC_NEWARK" value="58K2395" constant="no"/>
+</technology>
+<technology name="B">
+<attribute name="MF" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S3B" constant="no"/>
+<attribute name="OC_FARNELL" value="2454093" constant="no"/>
+<attribute name="OC_NEWARK" value="58K2396" constant="no"/>
+</technology>
+<technology name="D">
+<attribute name="MF" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S3D" constant="no"/>
+<attribute name="OC_FARNELL" value="1017804" constant="no"/>
+<attribute name="OC_NEWARK" value="95M9092" constant="no"/>
+</technology>
+<technology name="G">
+<attribute name="MF" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S3G" constant="no"/>
+<attribute name="OC_FARNELL" value="2454094" constant="no"/>
+<attribute name="OC_NEWARK" value="58K2397" constant="no"/>
+</technology>
+<technology name="J">
+<attribute name="MF" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S3J" constant="no"/>
+<attribute name="OC_FARNELL" value="2454095" constant="no"/>
+<attribute name="OC_NEWARK" value="31Y4762" constant="no"/>
+</technology>
+<technology name="K">
+<attribute name="MF" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S3K" constant="no"/>
+<attribute name="OC_FARNELL" value="2454096" constant="no"/>
+<attribute name="OC_NEWARK" value="31Y4763" constant="no"/>
+</technology>
+<technology name="M">
+<attribute name="MF" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S3M" constant="no"/>
+<attribute name="OC_FARNELL" value="9843884" constant="no"/>
+<attribute name="OC_NEWARK" value="58K2398" constant="no"/>
+</technology>
+<technology name="N">
+<attribute name="MF" value="Fairchild" constant="no"/>
+<attribute name="MPN" value="S3N" constant="no"/>
+<attribute name="OC_FARNELL" value="2454367" constant="no"/>
+<attribute name="OC_NEWARK" value="31Y4764" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17554,6 +17664,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="C22" library="resistor" deviceset="C-EU" device="C1206"/>
 <part name="C25" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680UF"/>
 <part name="C5" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680UF"/>
+<part name="MBRS340T3" library="s3x_10" deviceset="S3*" device="" technology="A"/>
 </parts>
 <sheets>
 <sheet>
@@ -17619,6 +17730,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <instance part="C22" gate="G$1" x="172.72" y="35.56"/>
 <instance part="C25" gate="A" x="274.32" y="40.64" rot="R90"/>
 <instance part="C5" gate="A" x="274.32" y="22.86" rot="R90"/>
+<instance part="MBRS340T3" gate="G$1" x="172.72" y="124.46" rot="R90"/>
 </instances>
 <busses>
 </busses>

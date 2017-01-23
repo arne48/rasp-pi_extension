@@ -17617,17 +17617,17 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="ADP2303ARDZ" deviceset="ADP2303ARDZ-5.0" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="47uF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="56k"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10.2k"/>
@@ -17643,13 +17643,13 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="U2" library="TPS54356" deviceset="TPS54356-EP_PWP_16" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="1.0uF"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="1500pF"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="4.7"/>
-<part name="C17" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-D8" technology="FK1V101XP" value="100UF"/>
-<part name="C18" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-G" technology="FK1V331P" value=" 330UF"/>
+<part name="C17" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-D8" technology="FK1V101XP" value="100uF"/>
+<part name="C18" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-G" technology="FK1V331P" value=" 330uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="1sma59xx_10" deviceset="1SMA59*BT3G" device="" technology="34"/>
 <part name="L2" library="WE-PD" deviceset="WE-PD" device="_1260/1245/1280/1210" technology="-744770122" value="22uH"/>
@@ -17662,8 +17662,8 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="resistor" deviceset="C-EU" device="C1206" value="220uF"/>
-<part name="C25" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680UF"/>
-<part name="C5" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680UF"/>
+<part name="C25" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680uF"/>
+<part name="C5" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680uF"/>
 <part name="MBRS340T3" library="s3x_10" deviceset="S3*" device="" technology="A"/>
 </parts>
 <sheets>
