@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -76,6 +76,7 @@
 <wire x1="80" y1="0" x2="80" y2="49.95" width="0" layer="20"/>
 <wire x1="80" y1="49.95" x2="0.05" y2="49.9" width="0" layer="20"/>
 <wire x1="0.05" y1="49.9" x2="0" y2="0" width="0" layer="20"/>
+<text x="76.05" y="3.25" size="1.27" layer="26" rot="MR0">Hitzmann 2017</text>
 </plain>
 <libraries>
 <library name="con-lstb">
@@ -2259,79 +2260,166 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="SV1" library="con-lstb" package="MA08-2W" value="" x="29.25" y="4.55" rot="R180">
+<element name="SV1" library="con-lstb" package="MA08-2W" value="" x="29.25" y="4.55" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="29.25" y="4.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="29.25" y="4.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="29.25" y="4.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="29.25" y="4.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.96" y="8.36" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="31.79" y="8.36" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="SV3" library="con-lsta" package="FE08-2" value="" x="4.55" y="17.55" rot="R270">
+<element name="SV3" library="con-lsta" package="FE08-2" value="" x="4.55" y="17.55" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="4.55" y="17.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="4.55" y="17.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="4.55" y="17.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="4.55" y="17.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="7.979" y="18.73" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="-0.149" y="27.71" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="SJ1" library="jumper" package="SJ" value="" x="45.65" y="35.1" rot="R270"/>
-<element name="SJ2" library="jumper" package="SJ" value="" x="41.65" y="35.1" rot="R270"/>
-<element name="SJ3" library="jumper" package="SJ" value="" x="37.85" y="35.1" rot="R270"/>
-<element name="SJ4" library="jumper" package="SJ" value="" x="33.65" y="35.1" rot="R270"/>
-<element name="SV2" library="con-lstb" package="MA08-2W" value="" x="51.35" y="4.55" rot="R180">
+<element name="ID3" library="jumper" package="SJ" value="" x="45.65" y="35.1" rot="R270"/>
+<element name="ID2" library="jumper" package="SJ" value="" x="41.65" y="35.1" rot="R270"/>
+<element name="ID1" library="jumper" package="SJ" value="" x="37.85" y="35.1" rot="R270"/>
+<element name="ID0" library="jumper" package="SJ" value="" x="33.65" y="35.1" rot="R270"/>
+<element name="SV2" library="con-lstb" package="MA08-2W" value="" x="51.35" y="4.55" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="51.35" y="4.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="51.35" y="4.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="51.35" y="4.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="51.35" y="4.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="53.06" y="8.36" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="53.89" y="8.36" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="SV5" library="con-lsta" package="FE20-2" value="" x="28.6" y="41.6" rot="MR180">
+<element name="SV5" library="con-lsta" package="FE20-2" value="" x="28.6" y="41.6" smashed="yes" rot="MR180">
 <attribute name="MF" value="" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="27.13" y="38.171" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="3.2" y="46.299" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="SJ5" library="jumper" package="SJ" value="" x="16.25" y="35.1" rot="R270"/>
-<element name="SJ6" library="jumper" package="SJ" value="" x="12.35" y="35.1" rot="R270"/>
-<element name="SJ7" library="jumper" package="SJ" value="" x="8.45" y="35.1" rot="R270"/>
-<element name="SJ8" library="jumper" package="SJ" value="" x="4.55" y="35.1" rot="R270"/>
-<element name="U1" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="16.9" y="25.35"/>
-<element name="U2" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="27.95" y="25.35"/>
-<element name="U9" library="STM32F103RCT6" package="QFP50P1200X1200X160-64N" value="STM32F103RCT6" x="67.6" y="31.2" rot="MR0">
+<element name="ID7" library="jumper" package="SJ" value="" x="16.25" y="35.1" rot="R270"/>
+<element name="ID6" library="jumper" package="SJ" value="" x="12.35" y="35.1" rot="R270"/>
+<element name="ID5" library="jumper" package="SJ" value="" x="8.45" y="35.1" rot="R270"/>
+<element name="ID4" library="jumper" package="SJ" value="" x="4.55" y="35.1" rot="R270"/>
+<element name="U1" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="16.9" y="25.35" smashed="yes">
+<attribute name="NAME" x="15.9798" y="19.515" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="13.6234" y="24.715" size="1.27" layer="27" ratio="6" rot="SR0"/>
+</element>
+<element name="U2" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="27.95" y="25.35" smashed="yes">
+<attribute name="NAME" x="27.0298" y="19.515" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="24.6734" y="24.715" size="1.27" layer="27" ratio="6" rot="SR0"/>
+</element>
+<element name="U9" library="STM32F103RCT6" package="QFP50P1200X1200X160-64N" value="STM32F103RCT6" x="67.6" y="31.2" smashed="yes" rot="MR0">
 <attribute name="SUPPLIER" value="STMICROELECTRONICS" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="QFP-64" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1624136" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="STM32F103RCT6" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="01P4099" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="74.3044" y="36.84" size="1.27" layer="26" ratio="10" rot="SMR0"/>
+<attribute name="VALUE" x="71.0544" y="19.77" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
-<element name="Y2" library="kc2520b_c1" package="KC2520B-C1" value="KC2520B-C1" x="9.1" y="28.3"/>
-<element name="C1" library="rcl" package="C0603" value="0.1uf" x="9.95" y="30.4" rot="R180"/>
-<element name="C2" library="rcl" package="C0603" value="100nf" x="77.3" y="27.45" rot="MR90"/>
-<element name="C3" library="rcl" package="C0603" value="100nf" x="65.65" y="28.95" rot="R90"/>
-<element name="C4" library="rcl" package="C0603" value="100nf" x="68.55" y="28.95" rot="R90"/>
-<element name="C5" library="rcl" package="C0603" value="100nf" x="61.1" y="35.4" rot="R270"/>
-<element name="C6" library="rcl" package="C0603" value="100nf" x="77.3" y="35.8" rot="MR90"/>
-<element name="SV4" library="con-lstb" package="MA03-2" value="" x="75.4" y="42.9" rot="R90">
+<element name="Y2" library="kc2520b_c1" package="KC2520B-C1" value="KC2520B-C1" x="9.1" y="28.3" smashed="yes"/>
+<element name="C1" library="rcl" package="C0603" value="0.1uf" x="9.95" y="30.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.635" y="31.065" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="10.585" y="32.305" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C2" library="rcl" package="C0603" value="100nf" x="77.3" y="27.45" smashed="yes" rot="MR90">
+<attribute name="NAME" x="78.335" y="26.215" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="75.395" y="26.815" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="C3" library="rcl" package="C0603" value="100nf" x="65.65" y="28.95" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.315" y="25.065" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.555" y="28.315" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C4" library="rcl" package="C0603" value="100nf" x="68.55" y="28.95" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.215" y="25.065" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="70.455" y="28.315" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C5" library="rcl" package="C0603" value="100nf" x="61.1" y="35.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.435" y="39.285" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="59.195" y="36.035" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C6" library="rcl" package="C0603" value="100nf" x="77.3" y="35.8" smashed="yes" rot="MR90">
+<attribute name="NAME" x="78.335" y="34.565" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="75.395" y="35.165" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="SV4" library="con-lstb" package="MA03-2" value="" x="75.4" y="42.9" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="75.4" y="42.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="75.4" y="42.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="75.4" y="42.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="75.4" y="42.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="75.49" y="47.121" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="79.591" y="41.63" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U3" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="39" y="25.35"/>
-<element name="U4" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="50.05" y="25.35"/>
-<element name="U5" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="72.15" y="13" rot="MR0"/>
-<element name="U6" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="61.1" y="13" rot="MR0"/>
-<element name="U7" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="50.05" y="13" rot="MR0"/>
-<element name="U8" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="39" y="13" rot="MR0"/>
+<element name="U3" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="39" y="25.35" smashed="yes">
+<attribute name="NAME" x="38.0798" y="19.515" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="35.7234" y="24.715" size="1.27" layer="27" ratio="6" rot="SR0"/>
+</element>
+<element name="U4" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="50.05" y="25.35" smashed="yes">
+<attribute name="NAME" x="49.1298" y="19.515" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="46.7734" y="24.715" size="1.27" layer="27" ratio="6" rot="SR0"/>
+</element>
+<element name="U5" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="72.15" y="13" smashed="yes" rot="MR0">
+<attribute name="NAME" x="73.0702" y="7.165" size="1.27" layer="26" ratio="6" rot="SMR0"/>
+<attribute name="VALUE" x="75.4266" y="12.365" size="1.27" layer="28" ratio="6" rot="SMR0"/>
+</element>
+<element name="U6" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="61.1" y="13" smashed="yes" rot="MR0">
+<attribute name="NAME" x="62.0202" y="7.165" size="1.27" layer="26" ratio="6" rot="SMR0"/>
+<attribute name="VALUE" x="64.3766" y="12.365" size="1.27" layer="28" ratio="6" rot="SMR0"/>
+</element>
+<element name="U7" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="50.05" y="13" smashed="yes" rot="MR0">
+<attribute name="NAME" x="50.9702" y="7.165" size="1.27" layer="26" ratio="6" rot="SMR0"/>
+<attribute name="VALUE" x="53.3266" y="12.365" size="1.27" layer="28" ratio="6" rot="SMR0"/>
+</element>
+<element name="U8" library="AD7730BRUZ" package="RU_24" value="AD7730BRUZ" x="39" y="13" smashed="yes" rot="MR0">
+<attribute name="NAME" x="39.9202" y="7.165" size="1.27" layer="26" ratio="6" rot="SMR0"/>
+<attribute name="VALUE" x="42.2766" y="12.365" size="1.27" layer="28" ratio="6" rot="SMR0"/>
+</element>
 <element name="Y1" library="ABM3B" package="ABM3B" value="ABM3B" x="70.2" y="37.05"/>
-<element name="C7" library="rcl" package="C0603" value="33pf" x="77.35" y="36.2" rot="R270"/>
-<element name="C8" library="rcl" package="C0603" value="33pf" x="67" y="35.5" rot="R90"/>
-<element name="C9" library="rcl" package="C0603" value="0.1uf" x="56.55" y="18.2" rot="MR90"/>
+<element name="C7" library="rcl" package="C0603" value="33pf" x="77.35" y="36.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="78.285" y="37.135" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="75.445" y="36.835" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C8" library="rcl" package="C0603" value="33pf" x="67" y="35.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.665" y="37.015" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="68.905" y="34.865" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C9" library="rcl" package="C0603" value="0.1uf" x="56.55" y="18.2" smashed="yes" rot="MR90">
+<attribute name="NAME" x="55.935" y="19.715" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="54.645" y="17.565" size="1.27" layer="28" rot="MR90"/>
+</element>
 <element name="C10" library="rcl" package="C0603" value="0.1uf" x="23.4" y="34.75" rot="R180"/>
-<element name="SJ9" library="jumper" package="SJ" value="" x="40.3" y="46.8" rot="R90"/>
-<element name="SJ10" library="jumper" package="SJ" value="" x="44.2" y="46.8" rot="R90"/>
-<element name="SJ11" library="jumper" package="SJ" value="" x="48.1" y="46.8" rot="R90"/>
-<element name="SJ12" library="jumper" package="SJ" value="" x="52" y="46.8" rot="R90"/>
-<element name="SJ13" library="jumper" package="SJ" value="" x="6.5" y="46.8" rot="R90"/>
-<element name="SJ14" library="jumper" package="SJ" value="" x="10.4" y="46.8" rot="R90"/>
-<element name="SJ15" library="jumper" package="SJ" value="" x="18.2" y="46.8" rot="R90"/>
-<element name="SJ16" library="jumper" package="SJ" value="" x="14.3" y="46.8" rot="R90"/>
+<element name="ID8" library="jumper" package="SJ" value="" x="40.3" y="46.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="42.757" y="45.149" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="40.3" y="47.2001" size="0.02" layer="27" rot="R90"/>
+</element>
+<element name="ID9" library="jumper" package="SJ" value="" x="44.2" y="46.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.657" y="45.149" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="44.2" y="47.2001" size="0.02" layer="27" rot="R90"/>
+</element>
+<element name="ID10" library="jumper" package="SJ" value="" x="48.1" y="46.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.557" y="45.149" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="48.1" y="47.2001" size="0.02" layer="27" rot="R90"/>
+</element>
+<element name="ID11" library="jumper" package="SJ" value="" x="52" y="46.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.457" y="45.149" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="52" y="47.2001" size="0.02" layer="27" rot="R90"/>
+</element>
+<element name="ID12" library="jumper" package="SJ" value="" x="6.5" y="46.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.957" y="45.149" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="6.5" y="47.2001" size="0.02" layer="27" rot="R90"/>
+</element>
+<element name="ID13" library="jumper" package="SJ" value="" x="10.4" y="46.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.857" y="45.149" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.4" y="47.2001" size="0.02" layer="27" rot="R90"/>
+</element>
+<element name="ID15" library="jumper" package="SJ" value="" x="18.2" y="46.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.657" y="45.149" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="18.2" y="47.2001" size="0.02" layer="27" rot="R90"/>
+</element>
+<element name="ID14" library="jumper" package="SJ" value="" x="14.3" y="46.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.757" y="45.149" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="14.3" y="47.2001" size="0.02" layer="27" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2726,7 +2814,7 @@ design rules under a new name.</description>
 <wire x1="28.6" y1="41.6" x2="27.33" y2="40.33" width="0.254" layer="16"/>
 </signal>
 <signal name="N$20">
-<contactref element="SJ1" pad="1"/>
+<contactref element="ID3" pad="1"/>
 <contactref element="SV5" pad="36"/>
 <wire x1="47.65" y1="42.87" x2="47.65" y2="42.35" width="0.254" layer="1"/>
 <wire x1="47.65" y1="42.35" x2="46.4" y2="41.1" width="0.254" layer="1"/>
@@ -2735,7 +2823,7 @@ design rules under a new name.</description>
 <wire x1="46.4" y1="41.1" x2="46.4" y2="38.45" width="0.254" layer="1"/>
 </signal>
 <signal name="N$22">
-<contactref element="SJ2" pad="1"/>
+<contactref element="ID2" pad="1"/>
 <contactref element="SV5" pad="32"/>
 <wire x1="42.57" y1="42.87" x2="42.57" y2="42.32" width="0.254" layer="1"/>
 <wire x1="42.57" y1="42.32" x2="41.3" y2="41.05" width="0.254" layer="1"/>
@@ -2745,14 +2833,14 @@ design rules under a new name.</description>
 <wire x1="41.65" y1="38" x2="41.3" y2="38.35" width="0.254" layer="1"/>
 </signal>
 <signal name="N$24">
-<contactref element="SJ4" pad="1"/>
+<contactref element="ID0" pad="1"/>
 <contactref element="SV5" pad="24"/>
 <wire x1="32.41" y1="42.87" x2="32.41" y2="42.19" width="0.254" layer="1"/>
 <wire x1="32.41" y1="42.19" x2="33.65" y2="40.95" width="0.254" layer="1"/>
 <wire x1="33.65" y1="40.95" x2="33.65" y2="35.862" width="0.254" layer="1"/>
 </signal>
 <signal name="N$23">
-<contactref element="SJ3" pad="1"/>
+<contactref element="ID1" pad="1"/>
 <wire x1="36.2" y1="40.9" x2="36.2" y2="38.4" width="0.254" layer="1"/>
 <contactref element="SV5" pad="26"/>
 <wire x1="34.95" y1="42.87" x2="34.95" y2="42.15" width="0.254" layer="1"/>
@@ -2761,7 +2849,7 @@ design rules under a new name.</description>
 <wire x1="37.85" y1="36.75" x2="36.2" y2="38.4" width="0.254" layer="1"/>
 </signal>
 <signal name="N$21">
-<contactref element="SJ8" pad="1"/>
+<contactref element="ID4" pad="1"/>
 <contactref element="SV5" pad="7"/>
 <wire x1="12.09" y1="40.33" x2="12.09" y2="40.04" width="0.254" layer="1"/>
 <wire x1="12.09" y1="40.04" x2="11.05" y2="39" width="0.254" layer="1"/>
@@ -2770,7 +2858,7 @@ design rules under a new name.</description>
 <wire x1="4.55" y1="37.05256875" x2="4.55" y2="35.862" width="0.254" layer="1"/>
 </signal>
 <signal name="N$25">
-<contactref element="SJ7" pad="1"/>
+<contactref element="ID5" pad="1"/>
 <contactref element="SV5" pad="11"/>
 <wire x1="8.45" y1="35.862" x2="8.45" y2="37.0461625" width="0.254" layer="1"/>
 <wire x1="8.45" y1="37.0461625" x2="9.7538375" y2="38.35" width="0.254" layer="1"/>
@@ -2778,7 +2866,7 @@ design rules under a new name.</description>
 <wire x1="15.19" y1="38.35" x2="17.17" y2="40.33" width="0.254" layer="1"/>
 </signal>
 <signal name="N$26">
-<contactref element="SJ6" pad="1"/>
+<contactref element="ID6" pad="1"/>
 <contactref element="SV5" pad="13"/>
 <wire x1="12.35" y1="35.862" x2="12.35" y2="37.05" width="0.254" layer="1"/>
 <wire x1="12.35" y1="37.05" x2="13" y2="37.7" width="0.254" layer="1"/>
@@ -2786,7 +2874,7 @@ design rules under a new name.</description>
 <wire x1="17.08" y1="37.7" x2="19.71" y2="40.33" width="0.254" layer="1"/>
 </signal>
 <signal name="N$27">
-<contactref element="SJ5" pad="1"/>
+<contactref element="ID7" pad="1"/>
 <contactref element="SV5" pad="15"/>
 <wire x1="16.25" y1="35.862" x2="17.782" y2="35.862" width="0.254" layer="1"/>
 <wire x1="17.782" y1="35.862" x2="22.25" y2="40.33" width="0.254" layer="1"/>
@@ -3256,17 +3344,17 @@ design rules under a new name.</description>
 <wire x1="22.9" y1="5.82" x2="22.9" y2="5.85" width="0.254" layer="1"/>
 </signal>
 <signal name="SS_STACK">
-<contactref element="SJ8" pad="2"/>
-<contactref element="SJ7" pad="2"/>
-<contactref element="SJ6" pad="2"/>
-<contactref element="SJ5" pad="2"/>
+<contactref element="ID4" pad="2"/>
+<contactref element="ID5" pad="2"/>
+<contactref element="ID6" pad="2"/>
+<contactref element="ID7" pad="2"/>
 <wire x1="4.55" y1="34.338" x2="8.45" y2="34.338" width="0.254" layer="1"/>
 <wire x1="8.45" y1="34.338" x2="12.35" y2="34.338" width="0.254" layer="1"/>
 <wire x1="12.35" y1="34.338" x2="16.25" y2="34.338" width="0.254" layer="1"/>
-<contactref element="SJ1" pad="2"/>
-<contactref element="SJ2" pad="2"/>
-<contactref element="SJ3" pad="2"/>
-<contactref element="SJ4" pad="2"/>
+<contactref element="ID3" pad="2"/>
+<contactref element="ID2" pad="2"/>
+<contactref element="ID1" pad="2"/>
+<contactref element="ID0" pad="2"/>
 <wire x1="33.65" y1="34.338" x2="37.85" y2="34.338" width="0.254" layer="1"/>
 <wire x1="37.85" y1="34.338" x2="41.65" y2="34.338" width="0.254" layer="1"/>
 <wire x1="41.65" y1="34.338" x2="45.65" y2="34.338" width="0.254" layer="1"/>
@@ -3280,19 +3368,19 @@ design rules under a new name.</description>
 <via x="61.1" y="43.55" extent="1-16" drill="0.7"/>
 <wire x1="61.1" y1="43.55" x2="51.888" y2="34.338" width="0.254" layer="1"/>
 <wire x1="45.65" y1="34.338" x2="51.888" y2="34.338" width="0.254" layer="1"/>
-<contactref element="SJ11" pad="2"/>
-<contactref element="SJ12" pad="2"/>
-<contactref element="SJ10" pad="2"/>
-<contactref element="SJ9" pad="2"/>
+<contactref element="ID10" pad="2"/>
+<contactref element="ID11" pad="2"/>
+<contactref element="ID9" pad="2"/>
+<contactref element="ID8" pad="2"/>
 <wire x1="52" y1="47.562" x2="57.088" y2="47.562" width="0.254" layer="1"/>
 <wire x1="57.088" y1="47.562" x2="61.1" y2="43.55" width="0.254" layer="1"/>
 <wire x1="48.1" y1="47.562" x2="52" y2="47.562" width="0.254" layer="1"/>
 <wire x1="44.2" y1="47.562" x2="48.1" y2="47.562" width="0.254" layer="1"/>
 <wire x1="40.3" y1="47.562" x2="44.2" y2="47.562" width="0.254" layer="1"/>
-<contactref element="SJ15" pad="2"/>
-<contactref element="SJ16" pad="2"/>
-<contactref element="SJ13" pad="2"/>
-<contactref element="SJ14" pad="2"/>
+<contactref element="ID15" pad="2"/>
+<contactref element="ID14" pad="2"/>
+<contactref element="ID12" pad="2"/>
+<contactref element="ID13" pad="2"/>
 <wire x1="6.5" y1="47.562" x2="3.372721875" y2="47.562" width="0.254" layer="1"/>
 <wire x1="3.372721875" y1="47.562" x2="1.95" y2="46.139278125" width="0.254" layer="1"/>
 <wire x1="1.95" y1="46.139278125" x2="1.95" y2="35.75" width="0.254" layer="1"/>
@@ -3762,7 +3850,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$1">
 <contactref element="SV5" pad="37"/>
-<contactref element="SJ12" pad="1"/>
+<contactref element="ID11" pad="1"/>
 <wire x1="50.19" y1="40.33" x2="50.19" y2="40.34" width="0.254" layer="1"/>
 <wire x1="50.19" y1="40.34" x2="51.5" y2="41.65" width="0.254" layer="1"/>
 <wire x1="51.5" y1="41.65" x2="51.5" y2="43.7" width="0.254" layer="1"/>
@@ -3771,7 +3859,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$4">
 <contactref element="SV5" pad="35"/>
-<contactref element="SJ11" pad="1"/>
+<contactref element="ID10" pad="1"/>
 <wire x1="47.65" y1="40.33" x2="47.65" y2="40.35" width="0.254" layer="1"/>
 <wire x1="47.65" y1="40.35" x2="48.95" y2="41.65" width="0.254" layer="1"/>
 <wire x1="48.95" y1="41.65" x2="48.95" y2="44" width="0.254" layer="1"/>
@@ -3780,7 +3868,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$5">
 <contactref element="SV5" pad="33"/>
-<contactref element="SJ10" pad="1"/>
+<contactref element="ID9" pad="1"/>
 <wire x1="45.11" y1="40.33" x2="45.11" y2="40.86" width="0.254" layer="1"/>
 <wire x1="45.11" y1="40.86" x2="46.4" y2="42.15" width="0.254" layer="1"/>
 <wire x1="46.4" y1="42.15" x2="46.4" y2="43.589675" width="0.254" layer="1"/>
@@ -3791,7 +3879,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$6">
 <contactref element="SV5" pad="31"/>
-<contactref element="SJ9" pad="1"/>
+<contactref element="ID8" pad="1"/>
 <wire x1="42.57" y1="40.33" x2="42.58" y2="40.33" width="0.254" layer="1"/>
 <wire x1="42.58" y1="40.33" x2="43.85" y2="41.6" width="0.254" layer="1"/>
 <wire x1="43.85" y1="41.6" x2="43.85" y2="43.527321875" width="0.254" layer="1"/>
@@ -3802,14 +3890,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$7">
 <contactref element="SV5" pad="8"/>
-<contactref element="SJ16" pad="1"/>
+<contactref element="ID14" pad="1"/>
 <wire x1="12.09" y1="42.87" x2="12.12" y2="42.87" width="0.254" layer="1"/>
 <wire x1="12.12" y1="42.87" x2="14.3" y2="45.05" width="0.254" layer="1"/>
 <wire x1="14.3" y1="46.038" x2="14.3" y2="45.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="SV5" pad="10"/>
-<contactref element="SJ15" pad="1"/>
+<contactref element="ID15" pad="1"/>
 <wire x1="14.63" y1="42.87" x2="14.63" y2="42.88" width="0.254" layer="1"/>
 <wire x1="14.63" y1="42.88" x2="15.95" y2="44.2" width="0.254" layer="1"/>
 <wire x1="15.95" y1="44.2" x2="17.55" y2="44.2" width="0.254" layer="1"/>
@@ -3818,7 +3906,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$9">
 <contactref element="SV5" pad="3"/>
-<contactref element="SJ13" pad="1"/>
+<contactref element="ID12" pad="1"/>
 <wire x1="6.5" y1="46.038" x2="6.5" y2="44.3" width="0.254" layer="1"/>
 <wire x1="6.5" y1="44.3" x2="5.7" y2="43.5" width="0.254" layer="1"/>
 <wire x1="5.7" y1="43.5" x2="5.7" y2="41.64" width="0.254" layer="1"/>
@@ -3826,7 +3914,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$10">
 <contactref element="SV5" pad="5"/>
-<contactref element="SJ14" pad="1"/>
+<contactref element="ID13" pad="1"/>
 <wire x1="10.4" y1="46.038" x2="10.4" y2="44.05" width="0.254" layer="1"/>
 <wire x1="10.4" y1="44.05" x2="10.85" y2="43.6" width="0.254" layer="1"/>
 <wire x1="10.85" y1="43.6" x2="10.85" y2="41.63" width="0.254" layer="1"/>
