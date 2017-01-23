@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -1806,8 +1806,6 @@ design rules under a new name.</description>
 <contactref element="SV5" pad="39"/>
 <contactref element="SV4" pad="18"/>
 <contactref element="SV4" pad="16"/>
-<wire x1="17.7" y1="57.88" x2="20.24" y2="57.88" width="0" layer="19" extent="1-1"/>
-<wire x1="19.71" y1="42.87" x2="20.24" y2="57.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DVCC">
 <contactref element="SV3" pad="1"/>
@@ -1832,7 +1830,7 @@ design rules under a new name.</description>
 <signal name="MISO">
 <contactref element="SV5" pad="21"/>
 <contactref element="C20" pad="2"/>
-<wire x1="29.87" y1="40.33" x2="29.87" y2="37.92" width="0.4064" layer="1"/>
+<wire x1="29.87" y1="40.33" x2="29.87" y2="37.92" width="0.3048" layer="1"/>
 <wire x1="29.87" y1="37.92" x2="29.85" y2="37.9" width="0.4064" layer="1"/>
 <contactref element="SV4" pad="7"/>
 <wire x1="30.4" y1="60.42" x2="30.43" y2="60.42" width="0.3048" layer="1"/>
@@ -1845,7 +1843,7 @@ design rules under a new name.</description>
 <signal name="SCLK">
 <contactref element="SV5" pad="23"/>
 <contactref element="C21" pad="2"/>
-<wire x1="32.41" y1="40.33" x2="32.41" y2="37.94" width="0.4064" layer="1"/>
+<wire x1="32.41" y1="40.33" x2="32.41" y2="37.94" width="0.3048" layer="1"/>
 <wire x1="32.41" y1="37.94" x2="32.45" y2="37.9" width="0.4064" layer="1"/>
 <contactref element="SV4" pad="5"/>
 <wire x1="32.94" y1="60.42" x2="32.94" y2="60.41" width="0.3048" layer="1"/>
@@ -1899,7 +1897,7 @@ design rules under a new name.</description>
 <signal name="MOSI">
 <contactref element="SV5" pad="19"/>
 <contactref element="C19" pad="2"/>
-<wire x1="27.33" y1="40.33" x2="27.33" y2="37.92" width="0.4064" layer="1"/>
+<wire x1="27.33" y1="40.33" x2="27.33" y2="37.92" width="0.3048" layer="1"/>
 <wire x1="27.33" y1="37.92" x2="27.35" y2="37.9" width="0.4064" layer="1"/>
 <contactref element="SV4" pad="9"/>
 <wire x1="27.86" y1="60.42" x2="27.86" y2="60.39" width="0.3048" layer="1"/>

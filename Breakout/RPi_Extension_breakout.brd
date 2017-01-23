@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -1757,9 +1757,18 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C19" library="rcl" package="C0603" value="" x="27.35" y="37.05" rot="R90"/>
-<element name="C20" library="rcl" package="C0603" value="" x="29.85" y="37.05" rot="R90"/>
-<element name="C21" library="rcl" package="C0603" value="" x="32.45" y="37.05" rot="R90"/>
+<element name="C19" library="rcl" package="C0603" value="" x="27.35" y="37.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.715" y="35.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="29.255" y="36.415" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C20" library="rcl" package="C0603" value="" x="29.85" y="37.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.215" y="35.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="31.755" y="36.415" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C21" library="rcl" package="C0603" value="" x="32.45" y="37.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.815" y="35.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="34.355" y="36.415" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="SV2" library="con-lstb" package="MA05-2" value="" x="55.25" y="62.4" rot="R180">
 <attribute name="MPN" value="" x="55.25" y="62.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="55.25" y="62.4" size="1.778" layer="27" rot="R180" display="off"/>

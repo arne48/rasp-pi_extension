@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -1920,15 +1920,25 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPIO3">
 <contactref element="SV5" pad="36"/>
+<contactref element="SV4" pad="6"/>
+<wire x1="32.94" y1="57.88" x2="32.97" y2="57.88" width="0.3048" layer="16"/>
+<wire x1="32.97" y1="57.88" x2="47.65" y2="43.2" width="0.3048" layer="16"/>
+<wire x1="47.65" y1="42.87" x2="47.65" y2="43.2" width="0.3048" layer="16"/>
 </signal>
 <signal name="GPIO2">
 <contactref element="SV5" pad="32"/>
+<contactref element="SV4" pad="8"/>
+<wire x1="42.57" y1="42.87" x2="30.4" y2="57.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO0">
 <contactref element="SV5" pad="24"/>
+<contactref element="SV4" pad="12"/>
+<wire x1="32.41" y1="42.87" x2="25.32" y2="57.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO1">
 <contactref element="SV5" pad="26"/>
+<contactref element="SV4" pad="10"/>
+<wire x1="34.95" y1="42.87" x2="27.86" y2="57.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO4">
 <contactref element="SV5" pad="7"/>
@@ -1991,12 +2001,16 @@ design rules under a new name.</description>
 <signal name="GPIO15">
 <contactref element="SV5" pad="8"/>
 <contactref element="SV4" pad="22"/>
-<wire x1="12.09" y1="42.87" x2="12.62" y2="57.88" width="0" layer="19" extent="1-1"/>
+<wire x1="12.62" y1="57.88" x2="12.62" y2="45.12" width="0.3048" layer="1"/>
+<wire x1="12.62" y1="45.12" x2="12.09" y2="44.59" width="0.3048" layer="1"/>
+<wire x1="12.09" y1="42.87" x2="12.09" y2="44.59" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO14">
 <contactref element="SV5" pad="10"/>
 <contactref element="SV4" pad="20"/>
-<wire x1="14.63" y1="42.87" x2="15.16" y2="57.88" width="0" layer="19" extent="1-1"/>
+<wire x1="15.16" y1="57.88" x2="15.16" y2="45.06" width="0.3048" layer="1"/>
+<wire x1="14.63" y1="42.87" x2="14.63" y2="44.53" width="0.3048" layer="1"/>
+<wire x1="14.63" y1="44.53" x2="15.16" y2="45.06" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO12">
 <contactref element="SV5" pad="3"/>
@@ -2052,20 +2066,8 @@ design rules under a new name.</description>
 <signal name="N$17">
 <contactref element="SV4" pad="16"/>
 </signal>
-<signal name="N$18">
-<contactref element="SV4" pad="12"/>
-</signal>
 <signal name="N$19">
 <contactref element="SV4" pad="14"/>
-</signal>
-<signal name="N$20">
-<contactref element="SV4" pad="10"/>
-</signal>
-<signal name="N$21">
-<contactref element="SV4" pad="8"/>
-</signal>
-<signal name="N$22">
-<contactref element="SV4" pad="6"/>
 </signal>
 <signal name="CONVST">
 <contactref element="SV5" pad="16"/>

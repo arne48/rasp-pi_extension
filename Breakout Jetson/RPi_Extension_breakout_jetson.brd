@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -1851,9 +1851,18 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="28.6" y="41.6" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C19" library="rcl" package="C0603" value="" x="27.35" y="37.05" rot="R90"/>
-<element name="C20" library="rcl" package="C0603" value="" x="29.85" y="37.05" rot="R90"/>
-<element name="C21" library="rcl" package="C0603" value="" x="32.45" y="37.05" rot="R90"/>
+<element name="C19" library="rcl" package="C0603" value="" x="27.35" y="37.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.565" y="34.965" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="29.255" y="36.415" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C20" library="rcl" package="C0603" value="" x="29.85" y="37.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.215" y="35.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="31.755" y="36.415" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C21" library="rcl" package="C0603" value="" x="32.45" y="37.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.815" y="35.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="34.355" y="36.415" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="SV2" library="con-lstb" package="MA05-2" value="" x="55.25" y="67.6" rot="R180">
 <attribute name="MPN" value="" x="55.25" y="67.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="55.25" y="67.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1866,7 +1875,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="26.1" y="67.55" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="26.1" y="67.55" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="CD74HC4515" package="DW24" value="CD74HC4515" x="27.3" y="55.25">
+<element name="U1" library="CD74HC4515" package="DW24" value="CD74HC4515" x="27.3" y="55.25" smashed="yes">
 <attribute name="PIN_COUNT" value="24" x="27.3" y="55.25" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="High Speed CMOS Logic 4-to-16 Line Decoder/Demultiplexer with Input Latches" x="27.3" y="55.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="27.3" y="55.25" size="1.778" layer="27" display="off"/>
@@ -1875,6 +1884,8 @@ design rules under a new name.</description>
 <attribute name="GENERIC_PART_NUMBER" value="CD74HC4515" x="27.3" y="55.25" size="1.778" layer="27" display="off"/>
 <attribute name="INDUSTRY_STD_PKG_TYPE" value="SOIC" x="27.3" y="55.25" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE_DESIGNATOR" value="DW" x="27.3" y="55.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="26.5298" y="45.865" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="24.0234" y="54.615" size="1.27" layer="27" ratio="6" rot="SR0"/>
 </element>
 </elements>
 <signals>

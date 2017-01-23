@@ -2103,9 +2103,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="LATCH">
 <contactref element="U1" pad="1"/>
-<contactref element="SV1" pad="8"/>
-<wire x1="28.6" y1="67.59" x2="27.37" y2="68.82" width="0.3048" layer="1"/>
-<wire x1="22.7788" y1="62.235" x2="28.6" y2="67.59" width="0" layer="19" extent="1-1"/>
+<contactref element="SV1" pad="6"/>
+<wire x1="26.135" y1="67.515" x2="24.83" y2="68.82" width="0.3048" layer="1"/>
+<wire x1="22.7788" y1="62.235" x2="26.135" y2="67.515" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADDR3">
 <contactref element="SV1" pad="12"/>
@@ -2120,9 +2120,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="ENABLE">
 <contactref element="U1" pad="23"/>
-<contactref element="SV1" pad="6"/>
-<wire x1="26.135" y1="67.515" x2="24.83" y2="68.82" width="0.3048" layer="1"/>
-<wire x1="26.135" y1="67.515" x2="31.8212" y2="60.965" width="0" layer="19" extent="1-1"/>
+<contactref element="SV1" pad="8"/>
+<wire x1="28.6" y1="67.59" x2="27.37" y2="68.82" width="0.3048" layer="1"/>
+<wire x1="31.8212" y1="60.965" x2="28.6" y2="67.59" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
