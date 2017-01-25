@@ -17363,8 +17363,8 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="47uF"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="56k"/>
@@ -17401,7 +17401,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="C22" library="resistor" deviceset="C-EU" device="C1206" value="220uF"/>
 <part name="C25" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680uF"/>
 <part name="C5" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680uF"/>
-<part name="MBRS340T3" library="s3x_10" deviceset="S3*" device="" technology="A"/>
+<part name="D2" library="s3x_10" deviceset="S3*" device="" technology="A"/>
 </parts>
 <sheets>
 <sheet>
@@ -17466,7 +17466,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <instance part="C22" gate="G$1" x="172.72" y="35.56"/>
 <instance part="C25" gate="A" x="264.16" y="40.64" rot="R90"/>
 <instance part="C5" gate="A" x="264.16" y="22.86" rot="R90"/>
-<instance part="MBRS340T3" gate="G$1" x="162.56" y="109.22" rot="R90"/>
+<instance part="D2" gate="G$1" x="162.56" y="109.22" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17585,7 +17585,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <junction x="162.56" y="99.06"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <junction x="170.18" y="99.06"/>
-<pinref part="MBRS340T3" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="162.56" y1="106.68" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <junction x="162.56" y="101.6"/>
 </segment>
@@ -17959,7 +17959,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <wire x1="170.18" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="111.76" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
 <junction x="157.48" y="116.84"/>
-<pinref part="MBRS340T3" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="162.56" y1="111.76" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 <junction x="162.56" y="116.84"/>
 </segment>

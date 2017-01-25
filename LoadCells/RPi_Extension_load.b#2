@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -76,7 +76,6 @@
 <wire x1="80" y1="0" x2="80" y2="49.95" width="0" layer="20"/>
 <wire x1="80" y1="49.95" x2="0.05" y2="49.9" width="0" layer="20"/>
 <wire x1="0.05" y1="49.9" x2="0" y2="0" width="0" layer="20"/>
-<text x="76.05" y="3.25" size="1.27" layer="26" rot="MR0">Hitzmann 2017</text>
 </plain>
 <libraries>
 <library name="con-lstb">
@@ -2308,14 +2307,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.0298" y="19.515" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="24.6734" y="24.715" size="1.27" layer="27" ratio="6" rot="SR0"/>
 </element>
-<element name="U9" library="STM32F103RCT6" package="QFP50P1200X1200X160-64N" value="STM32F103RCT6" x="67.6" y="31.2" smashed="yes" rot="MR0">
+<element name="U9" library="STM32F103RCT6" package="QFP50P1200X1200X160-64N" value="STM32F103RCT6" x="67.6" y="31.2" rot="MR0">
 <attribute name="SUPPLIER" value="STMICROELECTRONICS" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="QFP-64" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1624136" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="STM32F103RCT6" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="01P4099" x="67.6" y="31.2" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="74.3044" y="36.84" size="1.27" layer="26" ratio="10" rot="SMR0"/>
-<attribute name="VALUE" x="71.0544" y="19.77" size="2.0828" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="Y2" library="kc2520b_c1" package="KC2520B-C1" value="KC2520B-C1" x="9.1" y="28.3" smashed="yes"/>
 <element name="C1" library="rcl" package="C0603" value="0.1uf" x="9.95" y="30.4" smashed="yes" rot="R180">
@@ -2384,7 +2381,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="68.905" y="34.865" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C9" library="rcl" package="C0603" value="0.1uf" x="56.55" y="18.2" smashed="yes" rot="MR90">
-<attribute name="NAME" x="55.935" y="19.715" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="57.185" y="17.565" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="54.645" y="17.565" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C10" library="rcl" package="C0603" value="0.1uf" x="23.4" y="34.75" rot="R180"/>

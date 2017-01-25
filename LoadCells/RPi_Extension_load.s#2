@@ -5185,17 +5185,17 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U9" library="STM32F103RCT6" deviceset="STM32F103RCT6" device=""/>
 <part name="Y2" library="kc2520b_c1" deviceset="KC2520B-C1" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1uf"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="SV4" library="con-lstb" deviceset="MA03-2" device=""/>
@@ -5241,8 +5241,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="33pf"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.1uf"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1uf"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="ID8" library="jumper" deviceset="SJ" device=""/>
 <part name="ID9" library="jumper" deviceset="SJ" device=""/>
@@ -5906,7 +5906,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="U9" gate="A" pin="PB5"/>
 <wire x1="152.4" y1="-58.42" x2="144.78" y2="-58.42" width="0.1524" layer="91"/>
-<label x="137.16" y="-58.42" size="1.778" layer="95"/>
+<label x="132.08" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -5918,7 +5918,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="U9" gate="A" pin="PB4"/>
 <wire x1="152.4" y1="-55.88" x2="144.78" y2="-55.88" width="0.1524" layer="91"/>
-<label x="137.16" y="-55.88" size="1.778" layer="95"/>
+<label x="132.08" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -5930,7 +5930,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="U9" gate="A" pin="PB3"/>
 <wire x1="152.4" y1="-53.34" x2="144.78" y2="-53.34" width="0.1524" layer="91"/>
-<label x="137.16" y="-53.34" size="1.778" layer="95"/>
+<label x="132.08" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">

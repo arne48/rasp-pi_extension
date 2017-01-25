@@ -17615,55 +17615,55 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="con-phoenix-508" deviceset="MKDSN1,5/3-5,08" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="ADP2303ARDZ" deviceset="ADP2303ARDZ-5.0" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="47uF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="56k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10.2k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="52.3k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="1smb59xx_10" deviceset="1SMB59*BT3G" device="" technology="13"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="WE-PD" deviceset="WE-PD" device="_1030/1050" technology="-7447713047"/>
+<part name="L1" library="WE-PD" deviceset="WE-PD" device="_1030/1050" technology="-7447713047" value="4.7uH"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="U2" library="TPS54356" deviceset="TPS54356-EP_PWP_16" device=""/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="C17" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-D8" technology="FK1V101XP" value="100UF"/>
-<part name="C18" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-G" technology="FK1V331P" value=" 330UF"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="1.0uF"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="1500pF"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="4.7"/>
+<part name="C17" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-D8" technology="FK1V101XP" value="100uF"/>
+<part name="C18" library="Panasonic-EEEFK_EEEFP" deviceset="EEE-" device="-CASE-G" technology="FK1V331P" value=" 330uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="1sma59xx_10" deviceset="1SMA59*BT3G" device="" technology="34"/>
-<part name="L2" library="WE-PD" deviceset="WE-PD" device="_1260/1245/1280/1210" technology="-744770122"/>
+<part name="L2" library="WE-PD" deviceset="WE-PD" device="_1260/1245/1280/1210" technology="-744770122" value="22uH"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C22" library="resistor" deviceset="C-EU" device="C1206"/>
-<part name="C25" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680UF"/>
-<part name="C5" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680UF"/>
+<part name="C22" library="resistor" deviceset="C-EU" device="C1206" value="220uF"/>
+<part name="C25" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680uF"/>
+<part name="C5" library="Panasonic-EEEFT_EEEH" deviceset="EEE-" device="-CASE-F" technology="FT1C681AP" value="680uF"/>
 <part name="MBRS340T3" library="s3x_10" deviceset="S3*" device="" technology="A"/>
 </parts>
 <sheets>
@@ -17681,15 +17681,15 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <instance part="X1" gate="-2" x="279.4" y="35.56"/>
 <instance part="X1" gate="-3" x="279.4" y="30.48"/>
 <instance part="GND1" gate="1" x="261.62" y="35.56" rot="R270"/>
-<instance part="C1" gate="G$1" x="254" y="27.94"/>
-<instance part="C2" gate="G$1" x="254" y="43.18" rot="R180"/>
-<instance part="C3" gate="G$1" x="264.16" y="25.4" rot="R180"/>
-<instance part="C4" gate="G$1" x="264.16" y="45.72"/>
+<instance part="C1" gate="G$1" x="251.46" y="27.94"/>
+<instance part="C2" gate="G$1" x="251.46" y="43.18" rot="R180"/>
+<instance part="C3" gate="G$1" x="266.7" y="25.4" rot="R180"/>
+<instance part="C4" gate="G$1" x="259.08" y="45.72"/>
 <instance part="GND3" gate="1" x="274.32" y="17.78"/>
 <instance part="GND4" gate="1" x="274.32" y="53.34" rot="R180"/>
 <instance part="U1" gate="A" x="99.06" y="35.56"/>
 <instance part="GND6" gate="1" x="78.74" y="17.78"/>
-<instance part="GND7" gate="1" x="177.8" y="93.98"/>
+<instance part="GND7" gate="1" x="182.88" y="93.98"/>
 <instance part="C7" gate="G$1" x="58.42" y="40.64"/>
 <instance part="C8" gate="G$1" x="144.78" y="45.72"/>
 <instance part="C9" gate="G$1" x="152.4" y="45.72"/>
@@ -17704,7 +17704,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <instance part="D1" gate="G$1" x="121.92" y="35.56" rot="R90"/>
 <instance part="GND10" gate="1" x="121.92" y="27.94"/>
 <instance part="L1" gate="G$1" x="134.62" y="40.64"/>
-<instance part="P+1" gate="1" x="198.12" y="40.64" rot="R270"/>
+<instance part="P+1" gate="1" x="200.66" y="40.64" rot="R270"/>
 <instance part="P+2" gate="1" x="-30.48" y="71.12" rot="R90"/>
 <instance part="U2" gate="A" x="78.74" y="116.84"/>
 <instance part="C11" gate="G$1" x="66.04" y="114.3"/>
@@ -17724,9 +17724,9 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <instance part="C20" gate="G$1" x="271.78" y="86.36" rot="R180"/>
 <instance part="C21" gate="G$1" x="281.94" y="86.36" rot="R180"/>
 <instance part="GND15" gate="1" x="271.78" y="73.66"/>
-<instance part="C23" gate="G$1" x="180.34" y="35.56"/>
-<instance part="C24" gate="G$1" x="187.96" y="35.56"/>
-<instance part="GND16" gate="1" x="180.34" y="22.86"/>
+<instance part="C23" gate="G$1" x="185.42" y="35.56"/>
+<instance part="C24" gate="G$1" x="198.12" y="35.56"/>
+<instance part="GND16" gate="1" x="185.42" y="25.4"/>
 <instance part="C22" gate="G$1" x="172.72" y="35.56"/>
 <instance part="C25" gate="A" x="274.32" y="40.64" rot="R90"/>
 <instance part="C5" gate="A" x="274.32" y="22.86" rot="R90"/>
@@ -17799,9 +17799,9 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="254" y1="22.86" x2="264.16" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="22.86" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
-<junction x="264.16" y="22.86"/>
+<wire x1="251.46" y1="22.86" x2="266.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="22.86" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
+<junction x="266.7" y="22.86"/>
 <wire x1="274.32" y1="22.86" x2="274.32" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="C5" gate="A" pin="1"/>
@@ -17823,14 +17823,14 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="U2" gate="A" pin="AGND"/>
-<wire x1="177.8" y1="99.06" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
-<junction x="177.8" y="99.06"/>
+<wire x1="182.88" y1="99.06" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
+<junction x="182.88" y="99.06"/>
 <pinref part="C18" gate="A" pin="2"/>
+<wire x1="170.18" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="106.68" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="99.06" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="99.06" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="99.06" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
 <junction x="200.66" y="99.06"/>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -17900,26 +17900,25 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="30.48" x2="185.42" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="30.48" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
-<junction x="180.34" y="30.48"/>
+<wire x1="185.42" y1="30.48" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
+<junction x="185.42" y="30.48"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="180.34" y1="30.48" x2="180.34" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="30.48" x2="185.42" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="254" y1="48.26" x2="264.16" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="48.26" x2="266.7" y2="48.26" width="0.1524" layer="91"/>
-<junction x="264.16" y="48.26"/>
+<wire x1="251.46" y1="48.26" x2="259.08" y2="48.26" width="0.1524" layer="91"/>
+<junction x="259.08" y="48.26"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="266.7" y1="48.26" x2="274.32" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="48.26" x2="274.32" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="50.8" x2="274.32" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C25" gate="A" pin="2"/>
 <junction x="274.32" y="48.26"/>
-<wire x1="266.7" y1="48.26" x2="276.86" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="48.26" x2="276.86" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DVCC" class="0">
@@ -18017,20 +18016,18 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 </segment>
 <segment>
 <pinref part="X1" gate="-1" pin="KL"/>
-<label x="243.84" y="40.64" size="1.778" layer="95"/>
+<label x="236.22" y="40.64" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="40.64" x2="274.32" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="40.64" x2="266.7" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="40.64" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="40.64" x2="254" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="254" y1="40.64" x2="243.84" y2="40.64" width="0.1524" layer="91"/>
-<junction x="254" y="40.64"/>
+<wire x1="274.32" y1="40.64" x2="259.08" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="40.64" x2="251.46" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="40.64" x2="243.84" y2="40.64" width="0.1524" layer="91"/>
+<junction x="251.46" y="40.64"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<junction x="264.16" y="40.64"/>
+<junction x="259.08" y="40.64"/>
 <pinref part="C25" gate="A" pin="1"/>
 <junction x="274.32" y="40.64"/>
 <wire x1="279.4" y1="40.64" x2="276.86" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="40.64" x2="266.7" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="40.64" x2="274.32" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VIN"/>
@@ -18054,10 +18051,10 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <wire x1="78.74" y1="114.3" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
 <junction x="78.74" y="116.84"/>
-<label x="50.8" y="116.84" size="1.778" layer="95"/>
+<label x="45.72" y="116.84" size="1.778" layer="95"/>
 <pinref part="C17" gate="A" pin="1"/>
 <wire x1="66.04" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 <junction x="58.42" y="116.84"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <junction x="66.04" y="116.84"/>
@@ -18082,15 +18079,15 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 </segment>
 <segment>
 <pinref part="X1" gate="-3" pin="KL"/>
-<label x="243.84" y="30.48" size="1.778" layer="95"/>
+<label x="236.22" y="30.48" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="30.48" x2="274.32" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="30.48" x2="264.16" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="30.48" x2="254" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="254" y1="30.48" x2="243.84" y2="30.48" width="0.1524" layer="91"/>
-<junction x="254" y="30.48"/>
+<wire x1="274.32" y1="30.48" x2="266.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="30.48" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="30.48" x2="243.84" y2="30.48" width="0.1524" layer="91"/>
+<junction x="251.46" y="30.48"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<junction x="264.16" y="30.48"/>
+<junction x="266.7" y="30.48"/>
 <pinref part="C5" gate="A" pin="2"/>
 <junction x="274.32" y="30.48"/>
 </segment>
@@ -18162,16 +18159,15 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="195.58" y1="40.64" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="40.64" x2="180.34" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="40.64" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="38.1" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="38.1" x2="180.34" y2="40.64" width="0.1524" layer="91"/>
-<junction x="180.34" y="40.64"/>
+<wire x1="185.42" y1="38.1" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
+<junction x="185.42" y="40.64"/>
 <pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="38.1" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
-<junction x="187.96" y="40.64"/>
+<wire x1="198.12" y1="38.1" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
+<junction x="198.12" y="40.64"/>
 <junction x="172.72" y="40.64"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>

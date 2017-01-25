@@ -17351,7 +17351,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="SV5" library="con-lsta" deviceset="FE20-2" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="con-phoenix-508" deviceset="MKDSN1,5/3-5,08" device=""/>
+<part name="X1" library="con-phoenix-508" deviceset="MKDSN1,5/3-5,08" device="" value=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
@@ -17363,8 +17363,8 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/S3/S3A.pdf"&gt;http:
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="47uF"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="22uF"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="56k"/>

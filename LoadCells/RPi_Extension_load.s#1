@@ -5185,17 +5185,17 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U9" library="STM32F103RCT6" deviceset="STM32F103RCT6" device=""/>
 <part name="Y2" library="kc2520b_c1" deviceset="KC2520B-C1" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1uf"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100nf"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="SV4" library="con-lstb" deviceset="MA03-2" device=""/>
@@ -5241,8 +5241,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="33pf"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.1uf"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1uf"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="ID8" library="jumper" deviceset="SJ" device=""/>
 <part name="ID9" library="jumper" deviceset="SJ" device=""/>
