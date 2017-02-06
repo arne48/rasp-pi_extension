@@ -7118,9 +7118,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="365.76" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U9" gate="A" pin="PA1"/>
-<wire x1="152.4" y1="-5.08" x2="144.78" y2="-5.08" width="0.1524" layer="91"/>
-<label x="137.16" y="-5.08" size="1.778" layer="95"/>
+<pinref part="U9" gate="A" pin="PA2"/>
+<wire x1="152.4" y1="-7.62" x2="144.78" y2="-7.62" width="0.1524" layer="91"/>
+<label x="137.16" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RDY3" class="0">
@@ -7142,9 +7142,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="502.92" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U9" gate="A" pin="PA2"/>
-<wire x1="152.4" y1="-7.62" x2="144.78" y2="-7.62" width="0.1524" layer="91"/>
-<label x="137.16" y="-7.62" size="1.778" layer="95"/>
+<pinref part="U9" gate="A" pin="PA1"/>
+<wire x1="152.4" y1="-5.08" x2="144.78" y2="-5.08" width="0.1524" layer="91"/>
+<label x="137.16" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RDY5" class="0">
