@@ -1988,18 +1988,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="393.7" y1="121.92" x2="391.16" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="X24" gate="-1" pin="S"/>
-<wire x1="391.16" y1="91.44" x2="388.62" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="X23" gate="-1" pin="S"/>
-<wire x1="363.22" y1="91.44" x2="360.68" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="X22" gate="-1" pin="S"/>
@@ -2010,30 +1998,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <pinref part="X21" gate="-1" pin="S"/>
 <wire x1="309.88" y1="91.44" x2="307.34" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="X25" gate="-1" pin="S"/>
-<wire x1="309.88" y1="60.96" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="X26" gate="-1" pin="S"/>
-<wire x1="335.28" y1="60.96" x2="332.74" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="X27" gate="-1" pin="S"/>
-<wire x1="360.68" y1="60.96" x2="358.14" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="X28" gate="-1" pin="S"/>
-<wire x1="391.16" y1="60.96" x2="388.62" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -2254,6 +2218,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="40.64" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <label x="40.64" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X28" gate="-1" pin="S"/>
+<wire x1="391.16" y1="60.96" x2="388.62" y2="60.96" width="0.1524" layer="91"/>
+<label x="386.08" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DAC_11" class="0">
 <segment>
@@ -2272,6 +2241,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="SV12" gate="1" pin="3"/>
 <wire x1="81.28" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
 <label x="81.28" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X27" gate="-1" pin="S"/>
+<wire x1="360.68" y1="60.96" x2="358.14" y2="60.96" width="0.1524" layer="91"/>
+<label x="355.6" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAC_12" class="0">
@@ -2292,6 +2266,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-38.1" y1="48.26" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
 <label x="-38.1" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X26" gate="-1" pin="S"/>
+<wire x1="335.28" y1="60.96" x2="332.74" y2="60.96" width="0.1524" layer="91"/>
+<label x="330.2" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DAC_13" class="0">
 <segment>
@@ -2310,6 +2289,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="SV14" gate="1" pin="3"/>
 <wire x1="0" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 <label x="0" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X25" gate="-1" pin="S"/>
+<wire x1="309.88" y1="60.96" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
+<label x="304.8" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAC_14" class="0">
@@ -2330,6 +2314,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="40.64" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 <label x="40.64" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X24" gate="-1" pin="S"/>
+<wire x1="391.16" y1="91.44" x2="388.62" y2="91.44" width="0.1524" layer="91"/>
+<label x="386.08" y="91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DAC_15" class="0">
 <segment>
@@ -2348,6 +2337,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="SV16" gate="1" pin="3"/>
 <wire x1="81.28" y1="48.26" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
 <label x="81.28" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X23" gate="-1" pin="S"/>
+<wire x1="363.22" y1="91.44" x2="360.68" y2="91.44" width="0.1524" layer="91"/>
+<label x="358.14" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAC_16" class="0">
@@ -2424,12 +2418,22 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-53.34" y1="50.8" x2="-60.96" y2="50.8" width="0.1524" layer="91"/>
 <label x="-60.96" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X10" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="86.36" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
+<label x="243.84" y="86.36" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$78" class="0">
+<net name="LC_P_13" class="0">
 <segment>
 <pinref part="SV13" gate="1" pin="5"/>
 <wire x1="-38.1" y1="50.8" x2="-33.02" y2="50.8" width="0.1524" layer="91"/>
 <label x="-38.1" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X10" gate="G$1" pin="5"/>
+<wire x1="210.82" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
+<label x="208.28" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC_P_10" class="0">
@@ -2444,11 +2448,16 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <label x="251.46" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$81" class="0">
+<net name="LC_P_14" class="0">
 <segment>
 <pinref part="SV14" gate="1" pin="5"/>
 <wire x1="0" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
 <label x="0" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X9" gate="G$1" pin="5"/>
+<wire x1="210.82" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
+<label x="208.28" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC_N_14" class="0">
@@ -2457,12 +2466,22 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="-15.24" y1="50.8" x2="-22.86" y2="50.8" width="0.1524" layer="91"/>
 <label x="-22.86" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X9" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
+<label x="243.84" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$83" class="0">
+<net name="LC_P_15" class="0">
 <segment>
 <pinref part="SV15" gate="1" pin="5"/>
 <wire x1="40.64" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <label x="40.64" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="5"/>
+<wire x1="167.64" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<label x="165.1" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC_N_15" class="0">
@@ -2471,6 +2490,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="25.4" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
 <label x="20.32" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="3"/>
+<wire x1="198.12" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="200.66" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LC_N_16" class="0">
 <segment>
@@ -2478,19 +2502,34 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="66.04" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
 <label x="58.42" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X7" gate="G$1" pin="3"/>
+<wire x1="198.12" y1="53.34" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
+<label x="200.66" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$86" class="0">
+<net name="LC_P_16" class="0">
 <segment>
 <pinref part="SV16" gate="1" pin="5"/>
 <wire x1="81.28" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
 <label x="81.28" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X7" gate="G$1" pin="5"/>
+<wire x1="167.64" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
+<label x="165.1" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$87" class="0">
+<net name="LC_P_12" class="0">
 <segment>
 <pinref part="SV12" gate="1" pin="5"/>
 <wire x1="81.28" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <label x="81.28" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X11" gate="G$1" pin="5"/>
+<wire x1="210.82" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
+<label x="208.28" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LC_N_12" class="0">
@@ -2499,6 +2538,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="66.04" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 <label x="58.42" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X11" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
+<label x="243.84" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LC_N_11" class="0">
 <segment>
@@ -2506,12 +2550,22 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="25.4" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
 <label x="20.32" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X12" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="17.78" x2="243.84" y2="17.78" width="0.1524" layer="91"/>
+<label x="243.84" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$90" class="0">
+<net name="LC_P_11" class="0">
 <segment>
 <pinref part="SV11" gate="1" pin="5"/>
 <wire x1="45.72" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 <label x="40.64" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X12" gate="G$1" pin="5"/>
+<wire x1="210.82" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91"/>
+<label x="208.28" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$91" class="0">
@@ -2594,18 +2648,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="167.64" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$103" class="0">
-<segment>
-<pinref part="X9" gate="G$1" pin="5"/>
-<wire x1="210.82" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$104" class="0">
-<segment>
-<pinref part="X9" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$105" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="5"/>
@@ -2628,18 +2670,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <pinref part="X6" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$109" class="0">
-<segment>
-<pinref part="X10" gate="G$1" pin="5"/>
-<wire x1="210.82" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$110" class="0">
-<segment>
-<pinref part="X10" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="86.36" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LC_N_9" class="0">
@@ -2666,30 +2696,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="254" y1="53.34" x2="251.46" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="X11" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="X11" gate="G$1" pin="5"/>
-<wire x1="210.82" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="X7" gate="G$1" pin="3"/>
-<wire x1="198.12" y1="53.34" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="X7" gate="G$1" pin="5"/>
-<wire x1="167.64" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="3"/>
@@ -2712,30 +2718,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <pinref part="X4" gate="G$1" pin="5"/>
 <wire x1="119.38" y1="17.78" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="X8" gate="G$1" pin="5"/>
-<wire x1="167.64" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="X8" gate="G$1" pin="3"/>
-<wire x1="198.12" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="X12" gate="G$1" pin="5"/>
-<wire x1="210.82" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="X12" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="17.78" x2="243.84" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$111" class="0">
