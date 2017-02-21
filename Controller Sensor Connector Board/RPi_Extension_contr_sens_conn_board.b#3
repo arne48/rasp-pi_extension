@@ -503,232 +503,350 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 </pass>
 </autorouter>
 <elements>
-<element name="SV1" library="con-lstb" package="MA03-2" value="" x="22.75" y="32.5">
+<element name="SV1" library="con-lstb" package="MA03-2" value="" x="22.75" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="18.94" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="21.48" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X1" library="mini_din" package="M_DIN4" value="" x="22.75" y="5.85" rot="R180"/>
-<element name="X2" library="mini_din" package="M_DIN4" value="" x="40.95" y="5.85" rot="R180"/>
-<element name="X3" library="mini_din" package="M_DIN4" value="" x="59.15" y="5.85" rot="R180"/>
-<element name="X4" library="mini_din" package="M_DIN4" value="" x="77.35" y="5.85" rot="R180"/>
-<element name="X5" library="mini_din" package="M_DIN4" value="" x="94.25" y="22.75" rot="R270"/>
-<element name="X6" library="mini_din" package="M_DIN4" value="" x="94.25" y="40.95" rot="R270"/>
-<element name="X7" library="mini_din" package="M_DIN4" value="" x="94.25" y="59.15" rot="R270"/>
-<element name="X8" library="mini_din" package="M_DIN4" value="" x="94.25" y="77.35" rot="R270"/>
-<element name="X9" library="mini_din" package="M_DIN4" value="" x="77.35" y="94.25"/>
-<element name="X10" library="mini_din" package="M_DIN4" value="" x="59.15" y="94.25"/>
-<element name="X11" library="mini_din" package="M_DIN4" value="" x="40.95" y="94.25"/>
-<element name="X12" library="mini_din" package="M_DIN4" value="" x="22.75" y="94.25"/>
-<element name="X13" library="mini_din" package="M_DIN4" value="" x="5.85" y="77.35" rot="R90"/>
-<element name="X14" library="mini_din" package="M_DIN4" value="" x="5.85" y="59.15" rot="R90"/>
-<element name="X15" library="mini_din" package="M_DIN4" value="" x="5.85" y="40.95" rot="R90"/>
-<element name="X16" library="mini_din" package="M_DIN4" value="" x="5.85" y="22.75" rot="R90"/>
-<element name="J1" library="con-molex" package="6410-05" value="22-27-2051-05" x="92.6" y="91.45">
+<element name="X1" library="mini_din" package="M_DIN4" value="" x="22.75" y="5.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.45" y="2.02" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="29.1" y="3.26" size="1.778" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="X2" library="mini_din" package="M_DIN4" value="" x="40.95" y="5.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.65" y="2.02" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="47.3" y="3.26" size="1.778" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="X3" library="mini_din" package="M_DIN4" value="" x="59.15" y="5.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="51.85" y="2.02" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="65.5" y="3.26" size="1.778" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="X4" library="mini_din" package="M_DIN4" value="" x="77.35" y="5.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="70.05" y="2.02" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="83.7" y="3.26" size="1.778" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="X5" library="mini_din" package="M_DIN4" value="" x="94.25" y="22.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="98.08" y="15.45" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="96.84" y="29.1" size="1.778" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="X6" library="mini_din" package="M_DIN4" value="" x="94.25" y="40.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="98.08" y="33.65" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="96.84" y="47.3" size="1.778" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="X7" library="mini_din" package="M_DIN4" value="" x="94.25" y="59.15" smashed="yes" rot="R270">
+<attribute name="NAME" x="98.08" y="51.85" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="96.84" y="65.5" size="1.778" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="X8" library="mini_din" package="M_DIN4" value="" x="94.25" y="77.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="98.08" y="70.05" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="96.84" y="83.7" size="1.778" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="X9" library="mini_din" package="M_DIN4" value="" x="77.35" y="94.25" smashed="yes">
+<attribute name="NAME" x="84.65" y="98.08" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="71" y="96.84" size="1.778" layer="27" ratio="10"/>
+</element>
+<element name="X10" library="mini_din" package="M_DIN4" value="" x="59.15" y="94.25" smashed="yes">
+<attribute name="NAME" x="66.45" y="98.08" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="52.8" y="96.84" size="1.778" layer="27" ratio="10"/>
+</element>
+<element name="X11" library="mini_din" package="M_DIN4" value="" x="40.95" y="94.25" smashed="yes">
+<attribute name="NAME" x="48.25" y="98.08" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="34.6" y="96.84" size="1.778" layer="27" ratio="10"/>
+</element>
+<element name="X12" library="mini_din" package="M_DIN4" value="" x="22.75" y="94.25" smashed="yes">
+<attribute name="NAME" x="30.05" y="98.08" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="16.4" y="96.84" size="1.778" layer="27" ratio="10"/>
+</element>
+<element name="X13" library="mini_din" package="M_DIN4" value="" x="5.85" y="77.35" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.02" y="84.65" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="3.26" y="71" size="1.778" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="X14" library="mini_din" package="M_DIN4" value="" x="5.85" y="59.15" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.02" y="66.45" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="3.26" y="52.8" size="1.778" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="X15" library="mini_din" package="M_DIN4" value="" x="5.85" y="40.95" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.02" y="48.25" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="3.26" y="34.6" size="1.778" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="X16" library="mini_din" package="M_DIN4" value="" x="5.85" y="22.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.02" y="30.05" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="3.26" y="16.4" size="1.778" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="J1" library="con-molex" package="6410-05" value="22-27-2051-05" x="92.6" y="91.45" smashed="yes">
 <attribute name="MF" value="" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="86.4039" y="94.7251" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="86.2769" y="86.8511" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="J2" library="con-molex" package="6410-05" value="22-27-2051-05" x="7.45" y="91.5" rot="R180">
+<element name="J2" library="con-molex" package="6410-05" value="22-27-2051-05" x="7.45" y="91.5" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="13.6461" y="88.2249" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="13.7731" y="96.0989" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="X17" library="con-molex" package="53047-03" value="53047-03" x="22.75" y="16.9" rot="R180">
+<element name="X17" library="con-molex" package="53047-03" value="53047-03" x="22.75" y="16.9" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="22.75" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="530470310" x="22.75" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="22.75" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="22.75" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="25.25" y="15.15" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="24.75" y="20.15" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="X18" library="con-molex" package="53047-03" value="53047-03" x="41.6" y="16.9" rot="R180">
+<element name="X18" library="con-molex" package="53047-03" value="53047-03" x="41.6" y="16.9" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="41.6" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="530470310" x="41.6" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="41.6" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="41.6" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="44.1" y="15.15" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="43.6" y="20.15" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="X19" library="con-molex" package="53047-03" value="53047-03" x="59.15" y="16.9" rot="R180">
+<element name="X19" library="con-molex" package="53047-03" value="53047-03" x="59.15" y="16.9" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="59.15" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="530470310" x="59.15" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="59.15" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="59.15" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="61.65" y="15.15" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="61.15" y="20.15" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="X20" library="con-molex" package="53047-03" value="53047-03" x="77.35" y="16.9" rot="R180">
+<element name="X20" library="con-molex" package="53047-03" value="53047-03" x="77.35" y="16.9" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="77.35" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="530470310" x="77.35" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="77.35" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="77.35" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="79.85" y="15.15" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="79.35" y="20.15" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="X21" library="con-molex" package="53047-03" value="53047-03" x="83.2" y="22.75" rot="R270">
+<element name="X21" library="con-molex" package="53047-03" value="53047-03" x="83.2" y="22.75" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="83.2" y="22.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="530470310" x="83.2" y="22.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="83.2" y="22.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="83.2" y="22.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="84.95" y="25.25" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="79.95" y="24.75" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X22" library="con-molex" package="53047-03" value="53047-03" x="83.2" y="40.95" rot="R270">
+<element name="X22" library="con-molex" package="53047-03" value="53047-03" x="83.2" y="40.95" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="83.2" y="40.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="530470310" x="83.2" y="40.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="83.2" y="40.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="83.2" y="40.95" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="84.95" y="43.45" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="79.95" y="42.95" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X23" library="con-molex" package="53047-03" value="53047-03" x="83.2" y="59.15" rot="R270">
+<element name="X23" library="con-molex" package="53047-03" value="53047-03" x="83.2" y="59.15" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="83.2" y="59.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="530470310" x="83.2" y="59.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="83.2" y="59.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="83.2" y="59.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="84.95" y="61.65" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="79.95" y="61.15" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X24" library="con-molex" package="53047-03" value="53047-03" x="83.2" y="72.8" rot="R270">
+<element name="X24" library="con-molex" package="53047-03" value="53047-03" x="83.2" y="72.8" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="83.2" y="72.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="530470310" x="83.2" y="72.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="83.2" y="72.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="83.2" y="72.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="84.95" y="75.3" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="79.95" y="74.8" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X25" library="con-molex" package="53047-03" value="53047-03" x="77.35" y="78.65">
+<element name="X25" library="con-molex" package="53047-03" value="53047-03" x="77.35" y="78.65" smashed="yes">
 <attribute name="MF" value="" x="77.35" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="530470310" x="77.35" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="77.35" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="77.35" y="78.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="74.85" y="80.4" size="1.27" layer="25"/>
+<attribute name="VALUE" x="75.35" y="75.4" size="1.27" layer="27"/>
 </element>
-<element name="X26" library="con-molex" package="53047-03" value="53047-03" x="59.15" y="78.65">
+<element name="X26" library="con-molex" package="53047-03" value="53047-03" x="59.15" y="78.65" smashed="yes">
 <attribute name="MF" value="" x="59.15" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="530470310" x="59.15" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="59.15" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="59.15" y="78.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="56.65" y="80.4" size="1.27" layer="25"/>
+<attribute name="VALUE" x="57.15" y="75.4" size="1.27" layer="27"/>
 </element>
-<element name="X27" library="con-molex" package="53047-03" value="53047-03" x="40.95" y="78.65">
+<element name="X27" library="con-molex" package="53047-03" value="53047-03" x="40.95" y="78.65" smashed="yes">
 <attribute name="MF" value="" x="40.95" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="530470310" x="40.95" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="40.95" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="40.95" y="78.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.45" y="80.4" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.95" y="75.4" size="1.27" layer="27"/>
 </element>
-<element name="X28" library="con-molex" package="53047-03" value="53047-03" x="22.1" y="78.65">
+<element name="X28" library="con-molex" package="53047-03" value="53047-03" x="22.1" y="78.65" smashed="yes">
 <attribute name="MF" value="" x="22.1" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="530470310" x="22.1" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="22.1" y="78.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="22.1" y="78.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.6" y="80.4" size="1.27" layer="25"/>
+<attribute name="VALUE" x="20.1" y="75.4" size="1.27" layer="27"/>
 </element>
-<element name="X29" library="con-molex" package="53047-03" value="53047-03" x="16.9" y="72.8" rot="R90">
+<element name="X29" library="con-molex" package="53047-03" value="53047-03" x="16.9" y="72.8" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="16.9" y="72.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="530470310" x="16.9" y="72.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="16.9" y="72.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="16.9" y="72.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="15.15" y="70.3" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="20.15" y="70.8" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="X30" library="con-molex" package="53047-03" value="53047-03" x="16.9" y="58.5" rot="R90">
+<element name="X30" library="con-molex" package="53047-03" value="53047-03" x="16.9" y="58.5" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="16.9" y="58.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="530470310" x="16.9" y="58.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="16.9" y="58.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="16.9" y="58.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="15.15" y="56" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="20.15" y="56.5" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="X31" library="con-molex" package="53047-03" value="53047-03" x="16.9" y="40.3" rot="R90">
+<element name="X31" library="con-molex" package="53047-03" value="53047-03" x="16.9" y="40.3" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="16.9" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="530470310" x="16.9" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="16.9" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="16.9" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="15.15" y="37.8" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="20.15" y="38.3" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="X32" library="con-molex" package="53047-03" value="53047-03" x="16.9" y="22.75" rot="R90">
+<element name="X32" library="con-molex" package="53047-03" value="53047-03" x="16.9" y="22.75" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="16.9" y="22.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="530470310" x="16.9" y="22.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="14R5412" x="16.9" y="22.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9732853" x="16.9" y="22.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="15.15" y="20.25" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="20.15" y="20.75" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U1" library="AMP 5103309-8 40pin" package="TYCO_5103309-8" value="5103309-8" x="74.1" y="47.45">
+<element name="U1" library="AMP 5103309-8 40pin" package="TYCO_5103309-8" value="5103309-8" x="74.1" y="47.45" smashed="yes">
 <attribute name="MPN" value="5103309-8" x="74.1" y="47.45" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="40-WAY HAEDER" x="74.1" y="47.45" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1416256" x="74.1" y="47.45" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="02M6715" x="74.1" y="47.45" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="TYCO ELECTRONICS" x="74.1" y="47.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.2964" y="54.5366" size="1.27" layer="25" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="44.2042" y="41.481" size="1.27" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="SV2" library="con-lstb" package="MA03-2" value="" x="30.55" y="32.5">
+<element name="SV2" library="con-lstb" package="MA03-2" value="" x="30.55" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="30.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="30.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="30.55" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="26.74" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="29.28" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV3" library="con-lstb" package="MA03-2" value="" x="38.35" y="32.5">
+<element name="SV3" library="con-lstb" package="MA03-2" value="" x="38.35" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="38.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="38.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="38.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="38.35" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.54" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="37.08" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV4" library="con-lstb" package="MA03-2" value="" x="46.15" y="32.5">
+<element name="SV4" library="con-lstb" package="MA03-2" value="" x="46.15" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="46.15" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="46.15" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="46.15" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="46.15" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="42.34" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="44.88" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV5" library="con-lstb" package="MA03-2" value="" x="53.95" y="32.5">
+<element name="SV5" library="con-lstb" package="MA03-2" value="" x="53.95" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="53.95" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="53.95" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="53.95" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.95" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.14" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="52.68" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV6" library="con-lstb" package="MA03-2" value="" x="61.75" y="32.5">
+<element name="SV6" library="con-lstb" package="MA03-2" value="" x="61.75" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="61.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="61.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="61.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="61.75" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="57.94" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="60.48" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV7" library="con-lstb" package="MA03-2" value="" x="69.55" y="32.5">
+<element name="SV7" library="con-lstb" package="MA03-2" value="" x="69.55" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="69.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="69.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="69.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="69.55" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="65.74" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="68.28" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV8" library="con-lstb" package="MA03-2" value="" x="77.35" y="32.5">
+<element name="SV8" library="con-lstb" package="MA03-2" value="" x="77.35" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="77.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="77.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="77.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="77.35" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.54" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="76.08" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV9" library="con-lstb" package="MA03-2" value="" x="22.75" y="65.65">
+<element name="SV9" library="con-lstb" package="MA03-2" value="" x="22.75" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="22.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="22.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="22.75" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="18.94" y="68.571" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="21.48" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV10" library="con-lstb" package="MA03-2" value="" x="30.55" y="65.65">
+<element name="SV10" library="con-lstb" package="MA03-2" value="" x="30.55" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="30.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="30.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="30.55" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="26.74" y="68.571" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="29.28" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV11" library="con-lstb" package="MA03-2" value="" x="38.35" y="65.65">
+<element name="SV11" library="con-lstb" package="MA03-2" value="" x="38.35" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="38.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="38.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="38.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="38.35" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.54" y="68.571" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="37.08" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV12" library="con-lstb" package="MA03-2" value="" x="46.15" y="65.65">
+<element name="SV12" library="con-lstb" package="MA03-2" value="" x="46.15" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="46.15" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="46.15" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="46.15" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="46.15" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="42.34" y="68.571" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="44.88" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV13" library="con-lstb" package="MA03-2" value="" x="53.95" y="65.65">
+<element name="SV13" library="con-lstb" package="MA03-2" value="" x="53.95" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="53.95" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="53.95" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="53.95" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.95" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.14" y="68.571" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="52.68" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV14" library="con-lstb" package="MA03-2" value="" x="61.75" y="65.65">
+<element name="SV14" library="con-lstb" package="MA03-2" value="" x="61.75" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="61.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="61.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="61.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="61.75" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="57.94" y="68.571" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="60.48" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV15" library="con-lstb" package="MA03-2" value="" x="69.55" y="65.65">
+<element name="SV15" library="con-lstb" package="MA03-2" value="" x="69.55" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="69.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="69.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="69.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="69.55" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="65.74" y="68.571" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="68.28" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV16" library="con-lstb" package="MA03-2" value="" x="77.35" y="65.65">
+<element name="SV16" library="con-lstb" package="MA03-2" value="" x="77.35" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="77.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="77.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="77.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="77.35" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.54" y="68.571" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="76.08" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -1162,9 +1280,9 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <signal name="ADC_1">
 <contactref element="SV1" pad="3"/>
 <contactref element="X31" pad="1"/>
-<wire x1="16.45" y1="41.55" x2="19.64653125" y2="41.55" width="0.254" layer="16"/>
-<wire x1="19.64653125" y1="41.55" x2="21.45" y2="39.74653125" width="0.254" layer="16"/>
-<wire x1="21.45" y1="39.74653125" x2="21.45" y2="32.53" width="0.254" layer="16"/>
+<wire x1="16.45" y1="41.55" x2="18.229753125" y2="41.55" width="0.254" layer="16"/>
+<wire x1="18.229753125" y1="41.55" x2="21.45" y2="38.329753125" width="0.254" layer="16"/>
+<wire x1="21.45" y1="38.329753125" x2="21.45" y2="32.53" width="0.254" layer="16"/>
 <wire x1="21.45" y1="32.53" x2="22.75" y2="31.23" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_2">
@@ -1187,10 +1305,10 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <contactref element="SV3" pad="3"/>
 <contactref element="X17" pad="1"/>
 <wire x1="21.5" y1="16.45" x2="21.5" y2="18.25" width="0.254" layer="16"/>
-<wire x1="21.5" y1="18.25" x2="24.05" y2="20.8" width="0.254" layer="16"/>
-<wire x1="24.05" y1="20.8" x2="30.55" y2="20.8" width="0.254" layer="16"/>
-<wire x1="30.55" y1="20.8" x2="38.35" y2="28.6" width="0.254" layer="16"/>
+<wire x1="29.9" y1="20.15" x2="38.35" y2="28.6" width="0.254" layer="16"/>
 <wire x1="38.35" y1="28.6" x2="38.35" y2="31.23" width="0.254" layer="16"/>
+<wire x1="21.5" y1="18.25" x2="23.4" y2="20.15" width="0.254" layer="16"/>
+<wire x1="23.4" y1="20.15" x2="29.9" y2="20.15" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_3">
 <contactref element="SV3" pad="1"/>
@@ -1204,9 +1322,10 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <signal name="ADC_4">
 <contactref element="SV4" pad="3"/>
 <contactref element="X18" pad="1"/>
-<wire x1="40.35" y1="16.45" x2="40.35" y2="20.85" width="0.254" layer="16"/>
-<wire x1="40.35" y1="20.85" x2="46.15" y2="26.65" width="0.254" layer="16"/>
-<wire x1="46.15" y1="26.65" x2="46.15" y2="31.23" width="0.254" layer="16"/>
+<wire x1="40.35" y1="16.45" x2="40.35" y2="17.847828125" width="0.254" layer="16"/>
+<wire x1="40.35" y1="17.847828125" x2="42.652171875" y2="20.15" width="0.254" layer="16"/>
+<wire x1="42.652171875" y1="20.15" x2="46.15" y2="23.647828125" width="0.254" layer="16"/>
+<wire x1="46.15" y1="23.647828125" x2="46.15" y2="31.23" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_4">
 <contactref element="SV4" pad="1"/>
@@ -1236,9 +1355,9 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <signal name="ADC_6">
 <contactref element="SV6" pad="3"/>
 <contactref element="X20" pad="1"/>
-<wire x1="61.75" y1="27.3" x2="61.75" y2="31.23" width="0.254" layer="16"/>
-<wire x1="61.75" y1="27.3" x2="72.6" y2="16.45" width="0.254" layer="16"/>
-<wire x1="76.1" y1="16.45" x2="72.6" y2="16.45" width="0.254" layer="16"/>
+<wire x1="76.1" y1="16.45" x2="73.35829375" y2="16.45" width="0.254" layer="16"/>
+<wire x1="73.35829375" y1="16.45" x2="61.75" y2="28.05829375" width="0.254" layer="16"/>
+<wire x1="61.75" y1="28.05829375" x2="61.75" y2="31.23" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_6">
 <contactref element="SV6" pad="1"/>
@@ -1268,9 +1387,9 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <signal name="ADC_8">
 <contactref element="SV8" pad="3"/>
 <contactref element="X22" pad="1"/>
-<wire x1="83.65" y1="39.7" x2="81.3" y2="39.7" width="0.254" layer="16"/>
-<wire x1="81.3" y1="39.7" x2="76.05" y2="34.45" width="0.254" layer="16"/>
-<wire x1="76.05" y1="34.45" x2="76.05" y2="32.53" width="0.254" layer="16"/>
+<wire x1="83.65" y1="39.7" x2="80.2511875" y2="39.7" width="0.254" layer="16"/>
+<wire x1="80.2511875" y1="39.7" x2="76.05" y2="35.4988125" width="0.254" layer="16"/>
+<wire x1="76.05" y1="35.4988125" x2="76.05" y2="32.53" width="0.254" layer="16"/>
 <wire x1="76.05" y1="32.53" x2="77.35" y2="31.23" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_8">
@@ -1434,40 +1553,40 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <signal name="LC_N_1">
 <contactref element="SV1" pad="5"/>
 <contactref element="X15" pad="3"/>
-<wire x1="9.6" y1="37.55" x2="9.9" y2="37.55" width="0.254" layer="16"/>
-<wire x1="9.9" y1="37.55" x2="18.85" y2="28.6" width="0.254" layer="16"/>
-<wire x1="18.85" y1="28.6" x2="24.7" y2="28.6" width="0.254" layer="16"/>
-<wire x1="24.7" y1="28.6" x2="25.35" y2="29.25" width="0.254" layer="16"/>
 <wire x1="25.35" y1="29.25" x2="25.35" y2="31.17" width="0.254" layer="16"/>
 <wire x1="25.35" y1="31.17" x2="25.29" y2="31.23" width="0.254" layer="16"/>
+<wire x1="25.35" y1="29.25" x2="24.05" y2="27.95" width="0.254" layer="16"/>
+<wire x1="24.05" y1="27.95" x2="17.55" y2="27.95" width="0.254" layer="16"/>
+<wire x1="17.55" y1="27.95" x2="9.6" y2="35.9" width="0.254" layer="16"/>
+<wire x1="9.6" y1="37.55" x2="9.6" y2="35.9" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_N_5">
 <contactref element="SV5" pad="5"/>
 <contactref element="X3" pad="3"/>
 <wire x1="62.55" y1="9.6" x2="62.9" y2="9.6" width="0.254" layer="16"/>
-<wire x1="62.9" y1="9.6" x2="64.35" y2="11.05" width="0.254" layer="16"/>
-<wire x1="64.35" y1="11.05" x2="64.35" y2="19.5" width="0.254" layer="16"/>
-<wire x1="64.35" y1="19.5" x2="56.49" y2="27.36" width="0.254" layer="16"/>
+<wire x1="62.9" y1="9.6" x2="64.60786875" y2="11.30786875" width="0.254" layer="16"/>
+<wire x1="64.60786875" y1="11.30786875" x2="64.60786875" y2="19.24213125" width="0.254" layer="16"/>
+<wire x1="64.60786875" y1="19.24213125" x2="56.49" y2="27.36" width="0.254" layer="16"/>
 <wire x1="56.49" y1="31.23" x2="56.49" y2="27.36" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_5">
 <contactref element="SV5" pad="6"/>
 <contactref element="X3" pad="5"/>
 <wire x1="55.75" y1="9.6" x2="57.7" y2="9.6" width="0.254" layer="16"/>
-<wire x1="57.7" y1="9.6" x2="63.05" y2="14.95" width="0.254" layer="16"/>
-<wire x1="63.05" y1="14.95" x2="63.05" y2="18.85" width="0.254" layer="16"/>
+<wire x1="55.25" y1="26.65" x2="62.701903125" y2="19.198096875" width="0.254" layer="16"/>
+<wire x1="62.701903125" y1="19.198096875" x2="62.701903125" y2="14.601903125" width="0.254" layer="16"/>
+<wire x1="62.701903125" y1="14.601903125" x2="57.7" y2="9.6" width="0.254" layer="16"/>
 <wire x1="56.49" y1="33.77" x2="56.49" y2="33.74" width="0.254" layer="16"/>
 <wire x1="56.49" y1="33.74" x2="55.25" y2="32.5" width="0.254" layer="16"/>
 <wire x1="55.25" y1="32.5" x2="55.25" y2="26.65" width="0.254" layer="16"/>
-<wire x1="55.25" y1="26.65" x2="63.05" y2="18.85" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_2">
 <contactref element="SV2" pad="6"/>
 <contactref element="X16" pad="5"/>
 <wire x1="9.6" y1="26.15" x2="9.6" y2="24.85" width="0.254" layer="16"/>
-<wire x1="9.6" y1="24.85" x2="16.25" y2="18.2" width="0.254" layer="16"/>
-<wire x1="16.25" y1="18.2" x2="17.55" y2="18.2" width="0.254" layer="16"/>
-<wire x1="17.55" y1="18.2" x2="22.1" y2="22.75" width="0.254" layer="16"/>
+<wire x1="9.6" y1="24.85" x2="15.521140625" y2="18.928859375" width="0.254" layer="16"/>
+<wire x1="15.521140625" y1="18.928859375" x2="18.278859375" y2="18.928859375" width="0.254" layer="16"/>
+<wire x1="18.278859375" y1="18.928859375" x2="22.1" y2="22.75" width="0.254" layer="16"/>
 <wire x1="22.1" y1="22.75" x2="25.35" y2="22.75" width="0.254" layer="16"/>
 <wire x1="25.35" y1="22.75" x2="31.85" y2="29.25" width="0.254" layer="16"/>
 <wire x1="31.85" y1="29.25" x2="31.85" y2="32.53" width="0.254" layer="16"/>
@@ -1479,11 +1598,11 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="9.6" y1="19.35" x2="9.9" y2="19.35" width="0.254" layer="16"/>
 <wire x1="9.9" y1="19.35" x2="11.7" y2="17.55" width="0.254" layer="16"/>
 <wire x1="11.7" y1="17.55" x2="18.2" y2="17.55" width="0.254" layer="16"/>
-<wire x1="18.2" y1="17.55" x2="22.75" y2="22.1" width="0.254" layer="16"/>
-<wire x1="22.75" y1="22.1" x2="26" y2="22.1" width="0.254" layer="16"/>
-<wire x1="26" y1="22.1" x2="33.15" y2="29.25" width="0.254" layer="16"/>
+<wire x1="25.35" y1="21.45" x2="33.15" y2="29.25" width="0.254" layer="16"/>
 <wire x1="33.15" y1="29.25" x2="33.15" y2="31.17" width="0.254" layer="16"/>
 <wire x1="33.15" y1="31.17" x2="33.09" y2="31.23" width="0.254" layer="16"/>
+<wire x1="18.2" y1="17.55" x2="22.1" y2="21.45" width="0.254" layer="16"/>
+<wire x1="22.1" y1="21.45" x2="25.35" y2="21.45" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_6">
 <contactref element="SV6" pad="6"/>
@@ -1664,9 +1783,9 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <contactref element="SV8" pad="5"/>
 <contactref element="X6" pad="3"/>
 <wire x1="90.5" y1="44.35" x2="90.5" y2="40.8" width="0.254" layer="16"/>
-<wire x1="91.65" y1="39.65" x2="91.65" y2="35.75" width="0.254" layer="16"/>
-<wire x1="91.65" y1="35.75" x2="87.13" y2="31.23" width="0.254" layer="16"/>
-<wire x1="79.89" y1="31.23" x2="87.13" y2="31.23" width="0.254" layer="16"/>
+<wire x1="79.89" y1="31.23" x2="86.59635" y2="31.23" width="0.254" layer="16"/>
+<wire x1="86.59635" y1="31.23" x2="91.65" y2="36.28365" width="0.254" layer="16"/>
+<wire x1="91.65" y1="36.28365" x2="91.65" y2="39.65" width="0.254" layer="16"/>
 <wire x1="90.5" y1="40.8" x2="91.65" y2="39.65" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_8">
@@ -1741,9 +1860,9 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <signal name="LC_P_9">
 <contactref element="X14" pad="5"/>
 <contactref element="SV9" pad="6"/>
-<wire x1="7.8" y1="55.25" x2="9.1" y2="53.95" width="0.254" layer="16"/>
-<wire x1="9.1" y1="53.95" x2="18.325940625" y2="53.95" width="0.254" layer="16"/>
-<wire x1="18.325940625" y1="53.95" x2="26.65" y2="62.274059375" width="0.254" layer="16"/>
+<wire x1="7.8" y1="55.25" x2="9.494440625" y2="53.555559375" width="0.254" layer="16"/>
+<wire x1="9.494440625" y1="53.555559375" x2="17.931503125" y2="53.555559375" width="0.254" layer="16"/>
+<wire x1="17.931503125" y1="53.555559375" x2="26.65" y2="62.274059375" width="0.254" layer="16"/>
 <wire x1="26.65" y1="62.274059375" x2="26.65" y2="65.56" width="0.254" layer="16"/>
 <wire x1="26.65" y1="65.56" x2="25.29" y2="66.92" width="0.254" layer="16"/>
 <wire x1="7.8" y1="55.25" x2="7.8" y2="56.55" width="0.254" layer="16"/>

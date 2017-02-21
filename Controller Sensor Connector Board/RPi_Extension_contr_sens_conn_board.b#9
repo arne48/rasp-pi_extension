@@ -1645,9 +1645,9 @@ design rules under a new name.</description>
 <contactref element="X14" pad="3"/>
 <contactref element="SV9" pad="5"/>
 <wire x1="9.6" y1="55.75" x2="10.75" y2="54.6" width="0.254" layer="16"/>
-<wire x1="10.75" y1="54.6" x2="17.55" y2="54.6" width="0.254" layer="16"/>
-<wire x1="17.55" y1="54.6" x2="25.29" y2="62.34" width="0.254" layer="16"/>
-<wire x1="25.29" y1="64.38" x2="25.29" y2="62.34" width="0.254" layer="16"/>
+<wire x1="25.29" y1="64.38" x2="25.29" y2="62.5409125" width="0.254" layer="16"/>
+<wire x1="25.29" y1="62.5409125" x2="17.3490875" y2="54.6" width="0.254" layer="16"/>
+<wire x1="17.3490875" y1="54.6" x2="10.75" y2="54.6" width="0.254" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="X15" pad="3"/>
