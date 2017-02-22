@@ -1703,9 +1703,6 @@ design rules under a new name.</description>
 <signal name="LC_N_14">
 <contactref element="X9" pad="3"/>
 <contactref element="SV14" pad="5"/>
-<wire x1="73.95" y1="90.5" x2="73.95" y2="90.2" width="0.254" layer="1"/>
-<wire x1="73.95" y1="90.2" x2="68.25" y2="84.5" width="0.254" layer="1"/>
-<wire x1="68.25" y1="84.5" x2="34.990628125" y2="84.5" width="0.254" layer="1"/>
 <wire x1="34.990628125" y1="84.5" x2="32.31783125" y2="81.827203125" width="0.254" layer="1"/>
 <wire x1="32.31783125" y1="81.827203125" x2="32.31783125" y2="77.23791875" width="0.254" layer="1"/>
 <wire x1="32.31783125" y1="77.23791875" x2="36.75575" y2="72.8" width="0.254" layer="1"/>
@@ -1714,6 +1711,8 @@ design rules under a new name.</description>
 <wire x1="64.29" y1="64.38" x2="64.29" y2="64.41" width="0.254" layer="1"/>
 <wire x1="64.29" y1="64.41" x2="63.05" y2="65.65" width="0.254" layer="1"/>
 <wire x1="63.05" y1="65.65" x2="63.05" y2="68.25" width="0.254" layer="1"/>
+<wire x1="34.990628125" y1="84.5" x2="67.95" y2="84.5" width="0.254" layer="1"/>
+<wire x1="67.95" y1="84.5" x2="73.95" y2="90.5" width="0.254" layer="1"/>
 </signal>
 <signal name="LC_P_15">
 <contactref element="X8" pad="5"/>
@@ -1859,9 +1858,8 @@ design rules under a new name.</description>
 <contactref element="X5" pad="3"/>
 <wire x1="72.8" y1="29.25" x2="87.4" y2="29.25" width="0.254" layer="16"/>
 <wire x1="87.4" y1="29.25" x2="90.5" y2="26.15" width="0.254" layer="16"/>
-<wire x1="72.12" y1="31.23" x2="72.12" y2="29.93" width="0.254" layer="16"/>
-<wire x1="72.12" y1="29.93" x2="72.8" y2="29.25" width="0.254" layer="16"/>
-<wire x1="72.12" y1="31.23" x2="72.09" y2="31.23" width="0" layer="19" extent="16-16"/>
+<wire x1="72.09" y1="29.96" x2="72.8" y2="29.25" width="0.254" layer="16"/>
+<wire x1="72.09" y1="31.23" x2="72.09" y2="29.96" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_7">
 <contactref element="SV7" pad="6"/>
