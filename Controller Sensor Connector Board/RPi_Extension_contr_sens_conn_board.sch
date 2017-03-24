@@ -1390,7 +1390,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201431"&gt; Datashee
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="-17.78" y1="-66.04" x2="-17.78" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="34"/>
 <wire x1="-17.78" y1="-68.58" x2="-17.78" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-71.12" x2="-17.78" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-73.66" x2="-17.78" y2="-76.2" width="0.1524" layer="91"/>
@@ -1406,8 +1405,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201431"&gt; Datashee
 <wire x1="-17.78" y1="-99.06" x2="-17.78" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-101.6" x2="-17.78" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-104.14" x2="-17.78" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-106.68" x2="-17.78" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-109.22" x2="-22.86" y2="-109.22" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="2"/>
 <wire x1="-17.78" y1="-68.58" x2="-22.86" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="-17.78" y="-68.58"/>
@@ -1455,7 +1452,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201431"&gt; Datashee
 <junction x="-17.78" y="-104.14"/>
 <pinref part="U1" gate="A" pin="32"/>
 <wire x1="-17.78" y1="-106.68" x2="-22.86" y2="-106.68" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-106.68"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>

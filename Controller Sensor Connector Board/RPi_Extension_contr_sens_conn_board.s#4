@@ -775,8 +775,8 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201431"&gt; Datashee
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="con-molex" deviceset="22-?-05" device="27-2051"/>
-<part name="J2" library="con-molex" deviceset="22-?-05" device="27-2051"/>
+<part name="POWER_2" library="con-molex" deviceset="22-?-05" device="27-2051"/>
+<part name="POWER_1" library="con-molex" deviceset="22-?-05" device="27-2051"/>
 <part name="U1" library="AMP 5103309-7 34pin" deviceset="5103309-7" device=""/>
 <part name="SV2" library="con-lstb" deviceset="MA03-2" device=""/>
 <part name="SV3" library="con-lstb" deviceset="MA03-2" device=""/>
@@ -881,16 +881,16 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201431"&gt; Datashee
 <instance part="GND14" gate="1" x="228.6" y="78.74"/>
 <instance part="GND15" gate="1" x="165.1" y="78.74"/>
 <instance part="GND16" gate="1" x="104.14" y="78.74"/>
-<instance part="J1" gate="-1" x="53.34" y="-68.58"/>
-<instance part="J1" gate="-2" x="53.34" y="-73.66"/>
-<instance part="J1" gate="-3" x="53.34" y="-78.74"/>
-<instance part="J1" gate="-4" x="53.34" y="-83.82"/>
-<instance part="J1" gate="-5" x="53.34" y="-88.9"/>
-<instance part="J2" gate="-1" x="91.44" y="-68.58"/>
-<instance part="J2" gate="-2" x="91.44" y="-73.66"/>
-<instance part="J2" gate="-3" x="91.44" y="-78.74"/>
-<instance part="J2" gate="-4" x="91.44" y="-83.82"/>
-<instance part="J2" gate="-5" x="91.44" y="-88.9"/>
+<instance part="POWER_2" gate="-1" x="53.34" y="-68.58"/>
+<instance part="POWER_2" gate="-2" x="53.34" y="-73.66"/>
+<instance part="POWER_2" gate="-3" x="53.34" y="-78.74"/>
+<instance part="POWER_2" gate="-4" x="53.34" y="-83.82"/>
+<instance part="POWER_2" gate="-5" x="53.34" y="-88.9"/>
+<instance part="POWER_1" gate="-1" x="91.44" y="-68.58"/>
+<instance part="POWER_1" gate="-2" x="91.44" y="-73.66"/>
+<instance part="POWER_1" gate="-3" x="91.44" y="-78.74"/>
+<instance part="POWER_1" gate="-4" x="91.44" y="-83.82"/>
+<instance part="POWER_1" gate="-5" x="91.44" y="-88.9"/>
 <instance part="U1" gate="A" x="-40.64" y="-86.36"/>
 <instance part="SV2" gate="1" x="-73.66" y="96.52"/>
 <instance part="SV3" gate="1" x="-22.86" y="96.52"/>
@@ -1154,12 +1154,12 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201431"&gt; Datashee
 <wire x1="292.1" y1="-17.78" x2="292.1" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="-3" pin="S"/>
+<pinref part="POWER_2" gate="-3" pin="S"/>
 <wire x1="50.8" y1="-78.74" x2="43.18" y2="-78.74" width="0.1524" layer="91"/>
 <label x="43.18" y="-78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="-3" pin="S"/>
+<pinref part="POWER_1" gate="-3" pin="S"/>
 <wire x1="88.9" y1="-78.74" x2="81.28" y2="-78.74" width="0.1524" layer="91"/>
 <label x="81.28" y="-78.74" size="1.778" layer="95"/>
 </segment>
@@ -1540,24 +1540,24 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201431"&gt; Datashee
 </net>
 <net name="+3_3V" class="0">
 <segment>
-<pinref part="J1" gate="-1" pin="S"/>
+<pinref part="POWER_2" gate="-1" pin="S"/>
 <wire x1="50.8" y1="-68.58" x2="43.18" y2="-68.58" width="0.1524" layer="91"/>
 <label x="43.18" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="-1" pin="S"/>
+<pinref part="POWER_1" gate="-1" pin="S"/>
 <wire x1="88.9" y1="-68.58" x2="81.28" y2="-68.58" width="0.1524" layer="91"/>
 <label x="81.28" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="J2" gate="-2" pin="S"/>
+<pinref part="POWER_1" gate="-2" pin="S"/>
 <wire x1="88.9" y1="-73.66" x2="81.28" y2="-73.66" width="0.1524" layer="91"/>
 <label x="81.28" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="-2" pin="S"/>
+<pinref part="POWER_2" gate="-2" pin="S"/>
 <wire x1="50.8" y1="-73.66" x2="43.18" y2="-73.66" width="0.1524" layer="91"/>
 <label x="43.18" y="-73.66" size="1.778" layer="95"/>
 </segment>
@@ -1644,24 +1644,24 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201431"&gt; Datashee
 </net>
 <net name="-12V" class="0">
 <segment>
-<pinref part="J2" gate="-4" pin="S"/>
+<pinref part="POWER_1" gate="-4" pin="S"/>
 <wire x1="88.9" y1="-83.82" x2="81.28" y2="-83.82" width="0.1524" layer="91"/>
 <label x="81.28" y="-83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="-4" pin="S"/>
+<pinref part="POWER_2" gate="-4" pin="S"/>
 <wire x1="50.8" y1="-83.82" x2="43.18" y2="-83.82" width="0.1524" layer="91"/>
 <label x="43.18" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="J2" gate="-5" pin="S"/>
+<pinref part="POWER_1" gate="-5" pin="S"/>
 <wire x1="88.9" y1="-88.9" x2="81.28" y2="-88.9" width="0.1524" layer="91"/>
 <label x="81.28" y="-88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="-5" pin="S"/>
+<pinref part="POWER_2" gate="-5" pin="S"/>
 <wire x1="50.8" y1="-88.9" x2="43.18" y2="-88.9" width="0.1524" layer="91"/>
 <label x="43.18" y="-88.9" size="1.778" layer="95"/>
 </segment>

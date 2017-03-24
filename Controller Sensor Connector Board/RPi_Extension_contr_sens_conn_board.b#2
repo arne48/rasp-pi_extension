@@ -531,67 +531,67 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="18.94" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="21.48" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X1" library="mini_din" package="M_DIN4" value="" x="22.75" y="5.85" smashed="yes" rot="R180">
+<element name="X3" library="mini_din" package="M_DIN4" value="" x="22.75" y="5.85" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.45" y="2.67" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="29.1" y="3.26" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="X2" library="mini_din" package="M_DIN4" value="" x="40.95" y="5.85" smashed="yes" rot="R180">
+<element name="X4" library="mini_din" package="M_DIN4" value="" x="40.95" y="5.85" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.65" y="2.67" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="47.3" y="3.26" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="X3" library="mini_din" package="M_DIN4" value="" x="59.15" y="5.85" smashed="yes" rot="R180">
+<element name="X5" library="mini_din" package="M_DIN4" value="" x="59.15" y="5.85" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.85" y="2.67" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="65.5" y="3.26" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="X4" library="mini_din" package="M_DIN4" value="" x="77.35" y="5.85" smashed="yes" rot="R180">
+<element name="X6" library="mini_din" package="M_DIN4" value="" x="77.35" y="5.85" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.05" y="2.67" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="83.7" y="3.26" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="X5" library="mini_din" package="M_DIN4" value="" x="94.25" y="22.75" smashed="yes" rot="R270">
+<element name="X7" library="mini_din" package="M_DIN4" value="" x="94.25" y="22.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.43" y="15.45" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="96.84" y="29.1" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="X6" library="mini_din" package="M_DIN4" value="" x="94.25" y="40.95" smashed="yes" rot="R270">
+<element name="X8" library="mini_din" package="M_DIN4" value="" x="94.25" y="40.95" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.43" y="33.65" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="96.84" y="47.3" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="X7" library="mini_din" package="M_DIN4" value="" x="94.25" y="59.15" smashed="yes" rot="R270">
+<element name="X16" library="mini_din" package="M_DIN4" value="" x="94.25" y="59.15" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.43" y="51.85" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="96.84" y="65.5" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="X8" library="mini_din" package="M_DIN4" value="" x="94.25" y="77.35" smashed="yes" rot="R270">
+<element name="X15" library="mini_din" package="M_DIN4" value="" x="94.25" y="77.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.43" y="70.05" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="96.84" y="83.7" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="X9" library="mini_din" package="M_DIN4" value="" x="77.35" y="94.25" smashed="yes">
-<attribute name="NAME" x="86.95" y="98.87" size="1.27" layer="25" ratio="10" rot="SR180"/>
+<element name="X14" library="mini_din" package="M_DIN4" value="" x="77.35" y="94.25" smashed="yes">
+<attribute name="NAME" x="87.6" y="98.87" size="1.27" layer="25" ratio="10" rot="SR180"/>
 <attribute name="VALUE" x="71" y="96.84" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="X10" library="mini_din" package="M_DIN4" value="" x="59.15" y="94.25" smashed="yes">
+<element name="X13" library="mini_din" package="M_DIN4" value="" x="59.15" y="94.25" smashed="yes">
 <attribute name="NAME" x="69.4" y="98.87" size="1.27" layer="25" ratio="10" rot="SR180"/>
 <attribute name="VALUE" x="52.8" y="96.84" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="X11" library="mini_din" package="M_DIN4" value="" x="40.95" y="94.25" smashed="yes">
+<element name="X12" library="mini_din" package="M_DIN4" value="" x="40.95" y="94.25" smashed="yes">
 <attribute name="NAME" x="51.2" y="98.87" size="1.27" layer="25" ratio="10" rot="SR180"/>
 <attribute name="VALUE" x="34.6" y="96.84" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="X12" library="mini_din" package="M_DIN4" value="" x="22.75" y="94.25" smashed="yes">
+<element name="X11" library="mini_din" package="M_DIN4" value="" x="22.75" y="94.25" smashed="yes">
 <attribute name="NAME" x="33" y="98.87" size="1.27" layer="25" ratio="10" rot="SR180"/>
 <attribute name="VALUE" x="16.4" y="96.84" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="X13" library="mini_din" package="M_DIN4" value="" x="5.85" y="77.35" smashed="yes" rot="R90">
+<element name="X10" library="mini_din" package="M_DIN4" value="" x="5.85" y="77.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.23" y="87.6" size="1.27" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="3.26" y="71" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X14" library="mini_din" package="M_DIN4" value="" x="5.85" y="59.15" smashed="yes" rot="R90">
+<element name="X9" library="mini_din" package="M_DIN4" value="" x="5.85" y="59.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.23" y="69.4" size="1.27" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="3.26" y="52.8" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X15" library="mini_din" package="M_DIN4" value="" x="5.85" y="40.95" smashed="yes" rot="R90">
+<element name="X1" library="mini_din" package="M_DIN4" value="" x="5.85" y="40.95" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.23" y="51.2" size="1.27" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="3.26" y="34.6" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X16" library="mini_din" package="M_DIN4" value="" x="5.85" y="22.75" smashed="yes" rot="R90">
+<element name="X2" library="mini_din" package="M_DIN4" value="" x="5.85" y="22.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.23" y="33" size="1.27" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="3.26" y="16.4" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -820,7 +820,7 @@ W = angled&lt;p&gt;
 <attribute name="RS_PART_NUMBER" value="8201431P" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.15" y="20.15" size="1.27" layer="25" align="center"/>
 </element>
-<element name="J11" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="60.45" smashed="yes" rot="R270">
+<element name="J9" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="60.45" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
@@ -830,7 +830,7 @@ W = angled&lt;p&gt;
 <attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.15" y="57.85" size="1.27" layer="25" rot="SR270" align="center"/>
 </element>
-<element name="J12" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="74.75" smashed="yes" rot="R270">
+<element name="J10" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="74.75" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -840,7 +840,7 @@ W = angled&lt;p&gt;
 <attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.15" y="72.8" size="1.27" layer="25" rot="SR270" align="center"/>
 </element>
-<element name="J13" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="26" y="79.3" smashed="yes" rot="R180">
+<element name="J11" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="26" y="79.3" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -850,7 +850,7 @@ W = angled&lt;p&gt;
 <attribute name="RS_PART_NUMBER" value="8201431P" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="24.7" y="75.4" size="1.27" layer="25" rot="SR180" align="center"/>
 </element>
-<element name="J14" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="42.25" y="79.3" smashed="yes" rot="R180">
+<element name="J12" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="42.25" y="79.3" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -860,7 +860,7 @@ W = angled&lt;p&gt;
 <attribute name="RS_PART_NUMBER" value="8201431P" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.3" y="75.4" size="1.27" layer="25" rot="SR180" align="center"/>
 </element>
-<element name="J15" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="56.55" smashed="yes" rot="R90">
+<element name="J16" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="56.55" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
@@ -870,7 +870,7 @@ W = angled&lt;p&gt;
 <attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="79.95" y="58.5" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="J16" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="72.15" smashed="yes" rot="R90">
+<element name="J15" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="72.15" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -880,7 +880,7 @@ W = angled&lt;p&gt;
 <attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="79.95" y="72.8" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="J17" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="78" y="79.3" smashed="yes" rot="R180">
+<element name="J14" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="78" y="79.3" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -890,7 +890,7 @@ W = angled&lt;p&gt;
 <attribute name="RS_PART_NUMBER" value="8201431P" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="76.05" y="75.4" size="1.27" layer="25" rot="SR180" align="center"/>
 </element>
-<element name="J18" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="61.1" y="79.3" smashed="yes" rot="R180">
+<element name="J13" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="61.1" y="79.3" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -915,72 +915,72 @@ W = angled&lt;p&gt;
 <vertex x="100.5" y="100.5"/>
 <vertex x="100.5" y="-0.5"/>
 </polygon>
-<contactref element="X1" pad="SH3"/>
-<contactref element="X1" pad="SH1"/>
-<contactref element="X1" pad="SH2"/>
-<contactref element="X5" pad="SH3"/>
-<contactref element="X5" pad="SH2"/>
-<contactref element="X5" pad="SH1"/>
-<contactref element="X9" pad="SH2"/>
-<contactref element="X9" pad="SH3"/>
-<contactref element="X9" pad="SH1"/>
-<contactref element="X13" pad="SH3"/>
-<contactref element="X13" pad="SH2"/>
-<contactref element="X13" pad="SH1"/>
-<contactref element="X14" pad="SH1"/>
-<contactref element="X14" pad="SH2"/>
-<contactref element="X14" pad="SH3"/>
-<contactref element="X10" pad="SH1"/>
-<contactref element="X10" pad="SH2"/>
-<contactref element="X10" pad="SH3"/>
-<contactref element="X6" pad="SH1"/>
-<contactref element="X6" pad="SH2"/>
-<contactref element="X6" pad="SH3"/>
-<contactref element="X2" pad="SH1"/>
-<contactref element="X2" pad="SH2"/>
-<contactref element="X2" pad="SH3"/>
 <contactref element="X3" pad="SH3"/>
 <contactref element="X3" pad="SH1"/>
 <contactref element="X3" pad="SH2"/>
 <contactref element="X7" pad="SH3"/>
 <contactref element="X7" pad="SH2"/>
 <contactref element="X7" pad="SH1"/>
-<contactref element="X11" pad="SH3"/>
-<contactref element="X11" pad="SH2"/>
-<contactref element="X11" pad="SH1"/>
-<contactref element="X15" pad="SH3"/>
-<contactref element="X15" pad="SH2"/>
-<contactref element="X15" pad="SH1"/>
+<contactref element="X14" pad="SH2"/>
+<contactref element="X14" pad="SH3"/>
+<contactref element="X14" pad="SH1"/>
+<contactref element="X10" pad="SH3"/>
+<contactref element="X10" pad="SH2"/>
+<contactref element="X10" pad="SH1"/>
+<contactref element="X9" pad="SH1"/>
+<contactref element="X9" pad="SH2"/>
+<contactref element="X9" pad="SH3"/>
+<contactref element="X13" pad="SH1"/>
+<contactref element="X13" pad="SH2"/>
+<contactref element="X13" pad="SH3"/>
+<contactref element="X8" pad="SH1"/>
+<contactref element="X8" pad="SH2"/>
+<contactref element="X8" pad="SH3"/>
 <contactref element="X4" pad="SH1"/>
 <contactref element="X4" pad="SH2"/>
 <contactref element="X4" pad="SH3"/>
-<contactref element="X8" pad="SH3"/>
-<contactref element="X8" pad="SH1"/>
-<contactref element="X8" pad="SH2"/>
-<contactref element="X12" pad="SH3"/>
-<contactref element="X12" pad="SH1"/>
-<contactref element="X12" pad="SH2"/>
+<contactref element="X5" pad="SH3"/>
+<contactref element="X5" pad="SH1"/>
+<contactref element="X5" pad="SH2"/>
 <contactref element="X16" pad="SH3"/>
-<contactref element="X16" pad="SH1"/>
 <contactref element="X16" pad="SH2"/>
+<contactref element="X16" pad="SH1"/>
+<contactref element="X12" pad="SH3"/>
+<contactref element="X12" pad="SH2"/>
+<contactref element="X12" pad="SH1"/>
+<contactref element="X1" pad="SH3"/>
+<contactref element="X1" pad="SH2"/>
+<contactref element="X1" pad="SH1"/>
+<contactref element="X6" pad="SH1"/>
+<contactref element="X6" pad="SH2"/>
+<contactref element="X6" pad="SH3"/>
+<contactref element="X15" pad="SH3"/>
+<contactref element="X15" pad="SH1"/>
+<contactref element="X15" pad="SH2"/>
+<contactref element="X11" pad="SH3"/>
+<contactref element="X11" pad="SH1"/>
+<contactref element="X11" pad="SH2"/>
+<contactref element="X2" pad="SH3"/>
+<contactref element="X2" pad="SH1"/>
+<contactref element="X2" pad="SH2"/>
 <contactref element="POWER_2" pad="3"/>
 <contactref element="POWER_1" pad="3"/>
-<contactref element="X1" pad="8"/>
-<contactref element="X5" pad="8"/>
-<contactref element="X9" pad="8"/>
-<contactref element="X13" pad="8"/>
-<contactref element="X14" pad="8"/>
-<contactref element="X15" pad="8"/>
-<contactref element="X16" pad="8"/>
-<contactref element="X12" pad="8"/>
-<contactref element="X11" pad="8"/>
-<contactref element="X10" pad="8"/>
-<contactref element="X6" pad="8"/>
-<contactref element="X7" pad="8"/>
-<contactref element="X8" pad="8"/>
-<contactref element="X4" pad="8"/>
 <contactref element="X3" pad="8"/>
+<contactref element="X7" pad="8"/>
+<contactref element="X14" pad="8"/>
+<contactref element="X10" pad="8"/>
+<contactref element="X9" pad="8"/>
+<contactref element="X1" pad="8"/>
 <contactref element="X2" pad="8"/>
+<contactref element="X11" pad="8"/>
+<contactref element="X12" pad="8"/>
+<contactref element="X13" pad="8"/>
+<contactref element="X8" pad="8"/>
+<contactref element="X16" pad="8"/>
+<contactref element="X15" pad="8"/>
+<contactref element="X6" pad="8"/>
+<contactref element="X5" pad="8"/>
+<contactref element="X4" pad="8"/>
 <contactref element="SV1" pad="2"/>
 <contactref element="SV5" pad="2"/>
 <contactref element="SV9" pad="2"/>
@@ -1038,14 +1038,14 @@ W = angled&lt;p&gt;
 <contactref element="J6" pad="2"/>
 <contactref element="J7" pad="2"/>
 <contactref element="J8" pad="2"/>
+<contactref element="J9" pad="2"/>
+<contactref element="J10" pad="2"/>
 <contactref element="J11" pad="2"/>
 <contactref element="J12" pad="2"/>
-<contactref element="J13" pad="2"/>
-<contactref element="J14" pad="2"/>
-<contactref element="J15" pad="2"/>
 <contactref element="J16" pad="2"/>
-<contactref element="J17" pad="2"/>
-<contactref element="J18" pad="2"/>
+<contactref element="J15" pad="2"/>
+<contactref element="J14" pad="2"/>
+<contactref element="J13" pad="2"/>
 </signal>
 <signal name="+3_3V">
 <contactref element="POWER_2" pad="1"/>
@@ -1104,14 +1104,14 @@ W = angled&lt;p&gt;
 <contactref element="J7" pad="3"/>
 <contactref element="J6" pad="3"/>
 <contactref element="J5" pad="3"/>
+<contactref element="J9" pad="3"/>
+<contactref element="J10" pad="3"/>
 <contactref element="J11" pad="3"/>
 <contactref element="J12" pad="3"/>
-<contactref element="J13" pad="3"/>
-<contactref element="J14" pad="3"/>
-<contactref element="J15" pad="3"/>
 <contactref element="J16" pad="3"/>
-<contactref element="J17" pad="3"/>
-<contactref element="J18" pad="3"/>
+<contactref element="J15" pad="3"/>
+<contactref element="J14" pad="3"/>
+<contactref element="J13" pad="3"/>
 <wire x1="74.1" y1="81.25" x2="57.2" y2="81.25" width="0.8128" layer="1"/>
 <wire x1="57.2" y1="81.25" x2="39.65" y2="81.25" width="0.8128" layer="1"/>
 <wire x1="16.25" y1="70.75" x2="14.4" y2="70.75" width="0.8128" layer="1"/>
@@ -1163,22 +1163,22 @@ W = angled&lt;p&gt;
 <wire x1="12.53" y1="90.17" x2="16.9" y2="85.8" width="1.27" layer="16"/>
 <wire x1="16.9" y1="85.8" x2="83.2" y2="85.8" width="1.27" layer="16"/>
 <wire x1="87.52" y1="90.12" x2="83.2" y2="85.8" width="1.27" layer="16"/>
-<contactref element="X1" pad="6"/>
-<contactref element="X5" pad="6"/>
-<contactref element="X9" pad="6"/>
-<contactref element="X13" pad="6"/>
-<contactref element="X14" pad="6"/>
-<contactref element="X10" pad="6"/>
-<contactref element="X6" pad="6"/>
-<contactref element="X2" pad="6"/>
 <contactref element="X3" pad="6"/>
 <contactref element="X7" pad="6"/>
-<contactref element="X11" pad="6"/>
-<contactref element="X15" pad="6"/>
-<contactref element="X16" pad="6"/>
-<contactref element="X12" pad="6"/>
+<contactref element="X14" pad="6"/>
+<contactref element="X10" pad="6"/>
+<contactref element="X9" pad="6"/>
+<contactref element="X13" pad="6"/>
 <contactref element="X8" pad="6"/>
 <contactref element="X4" pad="6"/>
+<contactref element="X5" pad="6"/>
+<contactref element="X16" pad="6"/>
+<contactref element="X12" pad="6"/>
+<contactref element="X1" pad="6"/>
+<contactref element="X2" pad="6"/>
+<contactref element="X11" pad="6"/>
+<contactref element="X15" pad="6"/>
+<contactref element="X6" pad="6"/>
 <wire x1="87.52" y1="90.12" x2="87.52" y2="91.45" width="1.27" layer="16"/>
 <wire x1="88.05" y1="80.75" x2="88.05" y2="79" width="0.6096" layer="1"/>
 <wire x1="88.05" y1="79" x2="92.3" y2="74.75" width="0.6096" layer="1"/>
@@ -1415,7 +1415,7 @@ W = angled&lt;p&gt;
 <contactref element="SV9" pad="3"/>
 <wire x1="22.75" y1="64.38" x2="22.75" y2="61.624165625" width="0.254" layer="16"/>
 <wire x1="22.75" y1="61.624165625" x2="21.575834375" y2="60.45" width="0.254" layer="16"/>
-<contactref element="J11" pad="1"/>
+<contactref element="J9" pad="1"/>
 <wire x1="16.25" y1="60.45" x2="21.575834375" y2="60.45" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_9">
@@ -1432,7 +1432,7 @@ W = angled&lt;p&gt;
 <wire x1="22.9991" y1="74.75" x2="29.25" y2="68.4991" width="0.254" layer="16"/>
 <wire x1="29.25" y1="68.4991" x2="29.25" y2="65.68" width="0.254" layer="16"/>
 <wire x1="29.25" y1="65.68" x2="30.55" y2="64.38" width="0.254" layer="16"/>
-<contactref element="J12" pad="1"/>
+<contactref element="J10" pad="1"/>
 <wire x1="16.25" y1="74.75" x2="22.9991" y2="74.75" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_10">
@@ -1449,7 +1449,7 @@ W = angled&lt;p&gt;
 <wire x1="26" y1="79.3" x2="37.05" y2="68.25" width="0.254" layer="16"/>
 <wire x1="37.05" y1="68.25" x2="37.05" y2="65.68" width="0.254" layer="16"/>
 <wire x1="37.05" y1="65.68" x2="38.35" y2="64.38" width="0.254" layer="16"/>
-<contactref element="J13" pad="1"/>
+<contactref element="J11" pad="1"/>
 </signal>
 <signal name="DAC_11">
 <contactref element="SV11" pad="1"/>
@@ -1465,7 +1465,7 @@ W = angled&lt;p&gt;
 <wire x1="42.2" y1="70.9" x2="44.85" y2="68.25" width="0.254" layer="16"/>
 <wire x1="44.85" y1="68.25" x2="44.85" y2="65.68" width="0.254" layer="16"/>
 <wire x1="44.85" y1="65.68" x2="46.15" y2="64.38" width="0.254" layer="16"/>
-<contactref element="J14" pad="1"/>
+<contactref element="J12" pad="1"/>
 <wire x1="42.2" y1="70.9" x2="42.2" y2="79.25" width="0.254" layer="16"/>
 <wire x1="42.2" y1="79.25" x2="42.25" y2="79.3" width="0.254" layer="16"/>
 </signal>
@@ -1483,7 +1483,7 @@ W = angled&lt;p&gt;
 <wire x1="61.1" y1="74.1" x2="55.25" y2="68.25" width="0.254" layer="16"/>
 <wire x1="55.25" y1="68.25" x2="55.25" y2="65.68" width="0.254" layer="16"/>
 <wire x1="55.25" y1="65.68" x2="53.95" y2="64.38" width="0.254" layer="16"/>
-<contactref element="J18" pad="1"/>
+<contactref element="J13" pad="1"/>
 <wire x1="61.1" y1="79.3" x2="61.1" y2="74.1" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_13">
@@ -1502,7 +1502,7 @@ W = angled&lt;p&gt;
 <wire x1="68.9" y1="74.1" x2="63.05" y2="68.25" width="0.254" layer="16"/>
 <wire x1="63.05" y1="68.25" x2="63.05" y2="65.68" width="0.254" layer="16"/>
 <wire x1="63.05" y1="65.68" x2="61.75" y2="64.38" width="0.254" layer="16"/>
-<contactref element="J17" pad="1"/>
+<contactref element="J14" pad="1"/>
 <wire x1="78" y1="79.3" x2="78" y2="76.7" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_14">
@@ -1518,7 +1518,7 @@ W = angled&lt;p&gt;
 <wire x1="72.92648125" y1="72.15" x2="70.85" y2="70.07351875" width="0.254" layer="16"/>
 <wire x1="70.85" y1="70.07351875" x2="70.85" y2="65.68" width="0.254" layer="16"/>
 <wire x1="70.85" y1="65.68" x2="69.55" y2="64.38" width="0.254" layer="16"/>
-<contactref element="J16" pad="1"/>
+<contactref element="J15" pad="1"/>
 <wire x1="83.85" y1="72.15" x2="72.92648125" y2="72.15" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_15">
@@ -1534,7 +1534,7 @@ W = angled&lt;p&gt;
 <contactref element="SV16" pad="3"/>
 <wire x1="81.25" y1="56.55" x2="77.35" y2="60.45" width="0.254" layer="16"/>
 <wire x1="77.35" y1="60.45" x2="77.35" y2="64.38" width="0.254" layer="16"/>
-<contactref element="J15" pad="1"/>
+<contactref element="J16" pad="1"/>
 <wire x1="83.85" y1="56.55" x2="81.25" y2="56.55" width="0.254" layer="16"/>
 </signal>
 <signal name="DAC_16">
@@ -1548,7 +1548,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_P_1">
 <contactref element="SV1" pad="6"/>
-<contactref element="X15" pad="5"/>
+<contactref element="X1" pad="5"/>
 <wire x1="9.6" y1="44.35" x2="9.6" y2="42.4" width="0.254" layer="16"/>
 <wire x1="9.6" y1="42.4" x2="16.9" y2="35.1" width="0.254" layer="16"/>
 <wire x1="16.9" y1="35.1" x2="16.9" y2="31.85" width="0.254" layer="16"/>
@@ -1560,7 +1560,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_N_1">
 <contactref element="SV1" pad="5"/>
-<contactref element="X15" pad="3"/>
+<contactref element="X1" pad="3"/>
 <wire x1="25.35" y1="29.25" x2="25.35" y2="31.17" width="0.254" layer="16"/>
 <wire x1="25.35" y1="31.17" x2="25.29" y2="31.23" width="0.254" layer="16"/>
 <wire x1="25.35" y1="29.25" x2="24.05" y2="27.95" width="0.254" layer="16"/>
@@ -1570,7 +1570,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_N_5">
 <contactref element="SV5" pad="5"/>
-<contactref element="X3" pad="3"/>
+<contactref element="X5" pad="3"/>
 <wire x1="62.55" y1="9.6" x2="62.9" y2="9.6" width="0.254" layer="16"/>
 <wire x1="62.9" y1="9.6" x2="64.60786875" y2="11.30786875" width="0.254" layer="16"/>
 <wire x1="64.60786875" y1="11.30786875" x2="64.60786875" y2="19.24213125" width="0.254" layer="16"/>
@@ -1579,7 +1579,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_P_5">
 <contactref element="SV5" pad="6"/>
-<contactref element="X3" pad="5"/>
+<contactref element="X5" pad="5"/>
 <wire x1="55.75" y1="9.6" x2="57.7" y2="9.6" width="0.254" layer="16"/>
 <wire x1="55.25" y1="26.65" x2="62.701903125" y2="19.198096875" width="0.254" layer="16"/>
 <wire x1="62.701903125" y1="19.198096875" x2="62.701903125" y2="14.601903125" width="0.254" layer="16"/>
@@ -1590,7 +1590,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_P_2">
 <contactref element="SV2" pad="6"/>
-<contactref element="X16" pad="5"/>
+<contactref element="X2" pad="5"/>
 <wire x1="9.6" y1="26.15" x2="9.6" y2="24.85" width="0.254" layer="16"/>
 <wire x1="9.6" y1="24.85" x2="15.521140625" y2="18.928859375" width="0.254" layer="16"/>
 <wire x1="15.521140625" y1="18.928859375" x2="18.278859375" y2="18.928859375" width="0.254" layer="16"/>
@@ -1602,7 +1602,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_N_2">
 <contactref element="SV2" pad="5"/>
-<contactref element="X16" pad="3"/>
+<contactref element="X2" pad="3"/>
 <wire x1="9.6" y1="19.35" x2="9.9" y2="19.35" width="0.254" layer="16"/>
 <wire x1="9.9" y1="19.35" x2="11.7" y2="17.55" width="0.254" layer="16"/>
 <wire x1="11.7" y1="17.55" x2="18.85" y2="17.55" width="0.254" layer="16"/>
@@ -1614,7 +1614,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_P_6">
 <contactref element="SV6" pad="6"/>
-<contactref element="X4" pad="5"/>
+<contactref element="X6" pad="5"/>
 <wire x1="73.95" y1="9.6" x2="75.25" y2="9.6" width="0.254" layer="16"/>
 <wire x1="75.25" y1="9.6" x2="80.6" y2="14.95" width="0.254" layer="16"/>
 <wire x1="80.6" y1="14.95" x2="80.6" y2="17.55" width="0.254" layer="16"/>
@@ -1626,7 +1626,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_N_6">
 <contactref element="SV6" pad="5"/>
-<contactref element="X4" pad="3"/>
+<contactref element="X6" pad="3"/>
 <wire x1="80.75" y1="9.6" x2="80.75" y2="9.9" width="0.254" layer="16"/>
 <wire x1="80.75" y1="9.9" x2="82.55" y2="11.7" width="0.254" layer="16"/>
 <wire x1="82.55" y1="11.7" x2="82.55" y2="17.55" width="0.254" layer="16"/>
@@ -1636,7 +1636,7 @@ W = angled&lt;p&gt;
 <wire x1="64.29" y1="31.23" x2="64.29" y2="29.31" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_N_13">
-<contactref element="X10" pad="3"/>
+<contactref element="X13" pad="3"/>
 <contactref element="SV13" pad="5"/>
 <wire x1="34.552809375" y1="85.8" x2="31.0717875" y2="82.318978125" width="0.254" layer="1"/>
 <wire x1="31.0717875" y1="82.318978125" x2="31.0717875" y2="76.66876875" width="0.254" layer="1"/>
@@ -1651,7 +1651,7 @@ W = angled&lt;p&gt;
 <wire x1="51.05" y1="85.8" x2="55.75" y2="90.5" width="0.254" layer="1"/>
 </signal>
 <signal name="LC_P_13">
-<contactref element="X10" pad="5"/>
+<contactref element="X13" pad="5"/>
 <contactref element="SV13" pad="6"/>
 <wire x1="62.55" y1="90.5" x2="57.2" y2="85.15" width="0.254" layer="1"/>
 <wire x1="57.2" y1="85.15" x2="34.769071875" y2="85.15" width="0.254" layer="1"/>
@@ -1663,7 +1663,7 @@ W = angled&lt;p&gt;
 <wire x1="56.49" y1="66.92" x2="56.49" y2="68.31" width="0.254" layer="1"/>
 </signal>
 <signal name="LC_P_10">
-<contactref element="X13" pad="5"/>
+<contactref element="X10" pad="5"/>
 <contactref element="SV10" pad="6"/>
 <wire x1="9.6" y1="80.75" x2="9.6" y2="78.15" width="0.254" layer="16"/>
 <wire x1="24.35" y1="77.05" x2="33.09" y2="68.31" width="0.254" layer="16"/>
@@ -1672,7 +1672,7 @@ W = angled&lt;p&gt;
 <wire x1="10.7" y1="77.05" x2="24.35" y2="77.05" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_14">
-<contactref element="X9" pad="5"/>
+<contactref element="X14" pad="5"/>
 <contactref element="SV14" pad="6"/>
 <wire x1="80.75" y1="90.5" x2="74.1" y2="83.85" width="0.254" layer="1"/>
 <wire x1="74.1" y1="83.85" x2="35.2228625" y2="83.85" width="0.254" layer="1"/>
@@ -1684,7 +1684,7 @@ W = angled&lt;p&gt;
 <wire x1="64.29" y1="66.92" x2="64.29" y2="68.31" width="0.254" layer="1"/>
 </signal>
 <signal name="LC_N_14">
-<contactref element="X9" pad="3"/>
+<contactref element="X14" pad="3"/>
 <contactref element="SV14" pad="5"/>
 <wire x1="34.990628125" y1="84.5" x2="32.31783125" y2="81.827203125" width="0.254" layer="1"/>
 <wire x1="32.31783125" y1="81.827203125" x2="32.31783125" y2="77.23791875" width="0.254" layer="1"/>
@@ -1698,7 +1698,7 @@ W = angled&lt;p&gt;
 <wire x1="67.95" y1="84.5" x2="73.95" y2="90.5" width="0.254" layer="1"/>
 </signal>
 <signal name="LC_P_15">
-<contactref element="X8" pad="5"/>
+<contactref element="X15" pad="5"/>
 <contactref element="SV15" pad="6"/>
 <wire x1="72.09" y1="66.92" x2="72.09" y2="69.2374" width="0.254" layer="16"/>
 <wire x1="72.09" y1="69.2374" x2="73.0526" y2="70.2" width="0.254" layer="16"/>
@@ -1707,7 +1707,7 @@ W = angled&lt;p&gt;
 <wire x1="90.5" y1="73.6" x2="87.1" y2="70.2" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_N_15">
-<contactref element="X8" pad="3"/>
+<contactref element="X15" pad="3"/>
 <contactref element="SV15" pad="5"/>
 <wire x1="90.5" y1="80.75" x2="90.5" y2="76.55" width="0.254" layer="16"/>
 <wire x1="90.5" y1="76.55" x2="92.3" y2="74.75" width="0.254" layer="16"/>
@@ -1720,13 +1720,13 @@ W = angled&lt;p&gt;
 <wire x1="74.1" y1="68.9" x2="73.45" y2="68.25" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_N_16">
-<contactref element="X7" pad="3"/>
+<contactref element="X16" pad="3"/>
 <contactref element="SV16" pad="5"/>
 <wire x1="79.89" y1="64.38" x2="88.67" y2="64.38" width="0.254" layer="16"/>
 <wire x1="88.67" y1="64.38" x2="90.5" y2="62.55" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_16">
-<contactref element="X7" pad="5"/>
+<contactref element="X16" pad="5"/>
 <contactref element="SV16" pad="6"/>
 <wire x1="90.5" y1="55.75" x2="90.5" y2="59.95" width="0.254" layer="16"/>
 <wire x1="90.5" y1="59.95" x2="92.3" y2="61.75" width="0.254" layer="16"/>
@@ -1736,7 +1736,7 @@ W = angled&lt;p&gt;
 <wire x1="79.92" y1="66.95" x2="79.89" y2="66.92" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_12">
-<contactref element="X11" pad="5"/>
+<contactref element="X12" pad="5"/>
 <contactref element="SV12" pad="6"/>
 <wire x1="40.3" y1="86.45" x2="34.3484" y2="86.45" width="0.254" layer="1"/>
 <wire x1="34.3484" y1="86.45" x2="30.4560875" y2="82.5576875" width="0.254" layer="1"/>
@@ -1748,7 +1748,7 @@ W = angled&lt;p&gt;
 <wire x1="40.3" y1="86.45" x2="44.35" y2="90.5" width="0.254" layer="1"/>
 </signal>
 <signal name="LC_N_12">
-<contactref element="X11" pad="3"/>
+<contactref element="X12" pad="3"/>
 <contactref element="SV12" pad="5"/>
 <wire x1="29.859659375" y1="82.80965625" x2="29.859659375" y2="76.097659375" width="0.254" layer="1"/>
 <wire x1="29.859659375" y1="76.097659375" x2="35.75731875" y2="70.2" width="0.254" layer="1"/>
@@ -1761,7 +1761,7 @@ W = angled&lt;p&gt;
 <wire x1="36.75" y1="89.7" x2="37.55" y2="90.5" width="0.254" layer="1"/>
 </signal>
 <signal name="LC_N_11">
-<contactref element="X12" pad="3"/>
+<contactref element="X11" pad="3"/>
 <contactref element="SV11" pad="5"/>
 <wire x1="39" y1="68.9" x2="35.177003125" y2="68.9" width="0.254" layer="1"/>
 <wire x1="39.65" y1="65.65" x2="39.65" y2="68.25" width="0.254" layer="1"/>
@@ -1773,7 +1773,7 @@ W = angled&lt;p&gt;
 <wire x1="19.35" y1="90.5" x2="28.6" y2="81.25" width="0.254" layer="1"/>
 </signal>
 <signal name="LC_P_11">
-<contactref element="X12" pad="5"/>
+<contactref element="X11" pad="5"/>
 <contactref element="SV11" pad="6"/>
 <wire x1="26.15" y1="90.5" x2="24.31574375" y2="88.66574375" width="0.254" layer="1"/>
 <wire x1="35.476415625" y1="69.55" x2="39.65" y2="69.55" width="0.254" layer="1"/>
@@ -1786,7 +1786,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_N_8">
 <contactref element="SV8" pad="5"/>
-<contactref element="X6" pad="3"/>
+<contactref element="X8" pad="3"/>
 <wire x1="90.5" y1="44.35" x2="90.5" y2="40.8" width="0.254" layer="16"/>
 <wire x1="79.89" y1="31.23" x2="86.59635" y2="31.23" width="0.254" layer="16"/>
 <wire x1="90.5" y1="40.8" x2="92.112540625" y2="39.187459375" width="0.254" layer="16"/>
@@ -1795,7 +1795,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_P_8">
 <contactref element="SV8" pad="6"/>
-<contactref element="X6" pad="5"/>
+<contactref element="X8" pad="5"/>
 <wire x1="90.5" y1="37.55" x2="90.5" y2="37.2" width="0.254" layer="16"/>
 <wire x1="90.5" y1="37.2" x2="87.1" y2="33.8" width="0.254" layer="16"/>
 <wire x1="87.1" y1="33.8" x2="79.92" y2="33.8" width="0.254" layer="16"/>
@@ -1803,14 +1803,14 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_N_4">
 <contactref element="SV4" pad="5"/>
-<contactref element="X2" pad="3"/>
+<contactref element="X4" pad="3"/>
 <wire x1="44.35" y1="9.6" x2="44.35" y2="9.9" width="0.254" layer="16"/>
 <wire x1="44.35" y1="9.9" x2="48.69" y2="14.24" width="0.254" layer="16"/>
 <wire x1="48.69" y1="31.23" x2="48.69" y2="14.24" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_4">
 <contactref element="SV4" pad="6"/>
-<contactref element="X2" pad="5"/>
+<contactref element="X4" pad="5"/>
 <wire x1="37.55" y1="9.6" x2="39.5" y2="9.6" width="0.254" layer="16"/>
 <wire x1="39.5" y1="9.6" x2="47.45" y2="17.55" width="0.254" layer="16"/>
 <wire x1="47.45" y1="17.55" x2="47.45" y2="32.53" width="0.254" layer="16"/>
@@ -1818,7 +1818,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_N_3">
 <contactref element="SV3" pad="5"/>
-<contactref element="X1" pad="3"/>
+<contactref element="X3" pad="3"/>
 <wire x1="26.15" y1="9.6" x2="26.15" y2="9.9" width="0.254" layer="16"/>
 <wire x1="26.15" y1="9.9" x2="29.25" y2="13" width="0.254" layer="16"/>
 <wire x1="40.95" y1="27.3" x2="40.95" y2="31.17" width="0.254" layer="16"/>
@@ -1829,7 +1829,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_P_3">
 <contactref element="SV3" pad="6"/>
-<contactref element="X1" pad="5"/>
+<contactref element="X3" pad="5"/>
 <wire x1="19.35" y1="9.6" x2="21.47721875" y2="9.6" width="0.254" layer="16"/>
 <wire x1="21.47721875" y1="9.6" x2="39.65" y2="27.77278125" width="0.254" layer="16"/>
 <wire x1="39.65" y1="27.77278125" x2="39.65" y2="32.53" width="0.254" layer="16"/>
@@ -1837,7 +1837,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_N_7">
 <contactref element="SV7" pad="5"/>
-<contactref element="X5" pad="3"/>
+<contactref element="X7" pad="3"/>
 <wire x1="72.8" y1="29.25" x2="87.4" y2="29.25" width="0.254" layer="16"/>
 <wire x1="87.4" y1="29.25" x2="90.5" y2="26.15" width="0.254" layer="16"/>
 <wire x1="72.09" y1="29.96" x2="72.8" y2="29.25" width="0.254" layer="16"/>
@@ -1845,7 +1845,7 @@ W = angled&lt;p&gt;
 </signal>
 <signal name="LC_P_7">
 <contactref element="SV7" pad="6"/>
-<contactref element="X5" pad="5"/>
+<contactref element="X7" pad="5"/>
 <wire x1="72.09" y1="33.77" x2="72.09" y2="33.74" width="0.254" layer="16"/>
 <wire x1="72.09" y1="33.74" x2="70.85" y2="32.5" width="0.254" layer="16"/>
 <wire x1="70.85" y1="32.5" x2="70.85" y2="29.25" width="0.254" layer="16"/>
@@ -1855,7 +1855,7 @@ W = angled&lt;p&gt;
 <wire x1="70.85" y1="29.25" x2="72.8" y2="27.3" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_N_9">
-<contactref element="X14" pad="3"/>
+<contactref element="X9" pad="3"/>
 <contactref element="SV9" pad="5"/>
 <wire x1="25.29" y1="62.5409125" x2="16.856546875" y2="54.107459375" width="0.254" layer="16"/>
 <wire x1="16.856546875" y1="54.107459375" x2="11.242540625" y2="54.107459375" width="0.254" layer="16"/>
@@ -1863,7 +1863,7 @@ W = angled&lt;p&gt;
 <wire x1="25.29" y1="64.38" x2="25.29" y2="62.5409125" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_P_9">
-<contactref element="X14" pad="5"/>
+<contactref element="X9" pad="5"/>
 <contactref element="SV9" pad="6"/>
 <wire x1="7.8" y1="55.25" x2="9.957496875" y2="53.092503125" width="0.254" layer="16"/>
 <wire x1="9.957496875" y1="53.092503125" x2="17.468446875" y2="53.092503125" width="0.254" layer="16"/>
@@ -1875,7 +1875,7 @@ W = angled&lt;p&gt;
 <wire x1="9.6" y1="62.55" x2="9.6" y2="58.35" width="0.254" layer="16"/>
 </signal>
 <signal name="LC_N_10">
-<contactref element="X13" pad="3"/>
+<contactref element="X10" pad="3"/>
 <contactref element="SV10" pad="5"/>
 <wire x1="9.6" y1="73.95" x2="11.504653125" y2="75.854653125" width="0.254" layer="16"/>
 <wire x1="11.504653125" y1="75.854653125" x2="23.595346875" y2="75.854653125" width="0.254" layer="16"/>

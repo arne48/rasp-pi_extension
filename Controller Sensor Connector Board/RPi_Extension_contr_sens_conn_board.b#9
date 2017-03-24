@@ -345,6 +345,32 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 </package>
 </packages>
 </library>
+<library name="JST_PH">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SHDR3W50P0X200_1X3_790X450X600">
+<description>&lt;b&gt;B3B-PH-K&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.1" shape="square"/>
+<pad name="2" x="2" y="0" drill="0.7" diameter="1.1"/>
+<pad name="3" x="4" y="0" drill="0.7" diameter="1.1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-2.2" y1="-1.95" x2="-2.2" y2="3.05" width="0.05" layer="21"/>
+<wire x1="-2.2" y1="3.05" x2="6.2" y2="3.05" width="0.05" layer="21"/>
+<wire x1="6.2" y1="3.05" x2="6.2" y2="-1.95" width="0.05" layer="21"/>
+<wire x1="6.2" y1="-1.95" x2="-2.2" y2="-1.95" width="0.05" layer="21"/>
+<wire x1="-1.95" y1="-1.7" x2="-1.95" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="2.8" x2="5.95" y2="2.8" width="0.1" layer="51"/>
+<wire x1="5.95" y1="2.8" x2="5.95" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="5.95" y1="-1.7" x2="-1.95" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="0" y1="-1.7" x2="5.95" y2="-1.7" width="0.2" layer="25"/>
+<wire x1="5.95" y1="-1.7" x2="5.95" y2="2.8" width="0.2" layer="25"/>
+<wire x1="5.95" y1="2.8" x2="-1.95" y2="2.8" width="0.2" layer="25"/>
+<wire x1="-1.95" y1="2.8" x2="-1.95" y2="0" width="0.2" layer="25"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -869,6 +895,150 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <attribute name="NAME" x="73.54" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="76.08" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
+<element name="J3" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-4.55">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-4.55" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-4.55" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-4.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-4.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-4.55" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-4.55" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-4.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J4" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-9.75">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-9.75" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-9.75" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-9.75" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-9.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-9.75" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-9.75" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-9.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J5" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-14.95">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-14.95" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-14.95" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-14.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-14.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-14.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-14.95" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-14.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J6" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-20.15">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-20.15" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-20.15" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-20.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-20.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-20.15" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-20.15" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-20.15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J7" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-25.35">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-25.35" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-25.35" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-25.35" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-25.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-25.35" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-25.35" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-25.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J8" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-30.55">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-30.55" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-30.55" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-30.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-30.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-30.55" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-30.55" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-30.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J9" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-35.75">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-35.75" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-35.75" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-35.75" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-35.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-35.75" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-35.75" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-35.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J10" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-40.95">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-40.95" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-40.95" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-40.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-40.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-40.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-40.95" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-40.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J11" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-46.15">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-46.15" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-46.15" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-46.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-46.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-46.15" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-46.15" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-46.15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J12" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-51.35">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-51.35" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-51.35" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-51.35" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-51.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-51.35" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-51.35" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-51.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J13" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-56.55">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-56.55" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-56.55" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-56.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-56.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-56.55" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-56.55" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-56.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J14" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-61.75">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-61.75" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-61.75" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-61.75" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-61.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-61.75" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-61.75" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-61.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J15" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-66.95">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-66.95" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-66.95" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-66.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-66.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-66.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-66.95" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-66.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J16" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-72.15">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-72.15" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-72.15" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-72.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-72.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-72.15" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-72.15" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-72.15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J17" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-77.35">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-77.35" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-77.35" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-77.35" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-77.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-77.35" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-77.35" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-77.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J18" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-82.55">
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="3.25" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="3.25" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="3D_PACKAGE" value="" x="3.25" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="3.25" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="3.25" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="3.25" y="-82.55" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="3.25" y="-82.55" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -999,6 +1169,152 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <contactref element="U1" pad="28"/>
 <contactref element="U1" pad="30"/>
 <contactref element="U1" pad="32"/>
+<contactref element="J4" pad="2"/>
+<contactref element="J3" pad="2"/>
+<contactref element="J5" pad="2"/>
+<contactref element="J6" pad="2"/>
+<contactref element="J10" pad="2"/>
+<contactref element="J9" pad="2"/>
+<contactref element="J8" pad="2"/>
+<contactref element="J7" pad="2"/>
+<contactref element="J11" pad="2"/>
+<contactref element="J12" pad="2"/>
+<contactref element="J13" pad="2"/>
+<contactref element="J14" pad="2"/>
+<contactref element="J15" pad="2"/>
+<contactref element="J16" pad="2"/>
+<contactref element="J17" pad="2"/>
+<contactref element="J18" pad="2"/>
+<wire x1="93.5" y1="84.1" x2="92.6" y2="91.45" width="0" layer="19" extent="1-1"/>
+<wire x1="94.3" y1="77.35" x2="93.5" y2="84.1" width="0" layer="19" extent="1-1"/>
+<wire x1="93.5" y1="70.55" x2="94.3" y2="77.35" width="0" layer="19" extent="1-1"/>
+<wire x1="93.5" y1="65.9" x2="93.5" y2="70.55" width="0" layer="19" extent="1-1"/>
+<wire x1="88" y1="73.95" x2="93.5" y2="70.55" width="0" layer="19" extent="1-1"/>
+<wire x1="94.3" y1="59.15" x2="93.5" y2="65.9" width="0" layer="19" extent="1-1"/>
+<wire x1="93.5" y1="52.35" x2="94.3" y2="59.15" width="0" layer="19" extent="1-1"/>
+<wire x1="93.5" y1="47.7" x2="93.5" y2="52.35" width="0" layer="19" extent="1-1"/>
+<wire x1="88" y1="55.75" x2="93.5" y2="52.35" width="0" layer="19" extent="1-1"/>
+<wire x1="94.3" y1="40.95" x2="93.5" y2="47.7" width="0" layer="19" extent="1-1"/>
+<wire x1="93.5" y1="34.15" x2="94.3" y2="40.95" width="0" layer="19" extent="1-1"/>
+<wire x1="93.5" y1="29.5" x2="93.5" y2="34.15" width="0" layer="19" extent="1-1"/>
+<wire x1="88" y1="37.55" x2="93.5" y2="34.15" width="0" layer="19" extent="1-1"/>
+<wire x1="94.3" y1="22.75" x2="93.5" y2="29.5" width="0" layer="19" extent="1-1"/>
+<wire x1="93.5" y1="15.95" x2="94.3" y2="22.75" width="0" layer="19" extent="1-1"/>
+<wire x1="88" y1="19.35" x2="93.5" y2="15.95" width="0" layer="19" extent="1-1"/>
+<wire x1="84.15" y1="93.5" x2="92.6" y2="91.45" width="0" layer="19" extent="1-1"/>
+<wire x1="80.75" y1="88" x2="84.15" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="77.35" y1="94.3" x2="84.15" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="70.6" y1="93.5" x2="77.35" y2="94.3" width="0" layer="19" extent="1-1"/>
+<wire x1="65.95" y1="93.5" x2="70.6" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="62.55" y1="88" x2="65.95" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="59.15" y1="94.3" x2="65.95" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="52.4" y1="93.5" x2="59.15" y2="94.3" width="0" layer="19" extent="1-1"/>
+<wire x1="47.75" y1="93.5" x2="52.4" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="44.35" y1="88" x2="47.75" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="40.95" y1="94.3" x2="47.75" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="34.2" y1="93.5" x2="40.95" y2="94.3" width="0" layer="19" extent="1-1"/>
+<wire x1="29.55" y1="93.5" x2="34.2" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="26.15" y1="88" x2="29.55" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="22.75" y1="94.3" x2="29.55" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="16" y1="93.5" x2="22.75" y2="94.3" width="0" layer="19" extent="1-1"/>
+<wire x1="7.45" y1="91.5" x2="16" y2="93.5" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="84.15" x2="7.45" y2="91.5" width="0" layer="19" extent="1-1"/>
+<wire x1="12.1" y1="80.75" x2="6.6" y2="84.15" width="0" layer="19" extent="1-1"/>
+<wire x1="5.8" y1="77.35" x2="6.6" y2="84.15" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="70.6" x2="5.8" y2="77.35" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="65.95" x2="6.6" y2="70.6" width="0" layer="19" extent="1-1"/>
+<wire x1="12.1" y1="62.55" x2="6.6" y2="65.95" width="0" layer="19" extent="1-1"/>
+<wire x1="5.8" y1="59.15" x2="6.6" y2="65.95" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="52.4" x2="5.8" y2="59.15" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="47.75" x2="6.6" y2="52.4" width="0" layer="19" extent="1-1"/>
+<wire x1="12.1" y1="44.35" x2="6.6" y2="47.75" width="0" layer="19" extent="1-1"/>
+<wire x1="5.8" y1="40.95" x2="6.6" y2="47.75" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="34.2" x2="5.8" y2="40.95" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="29.55" x2="6.6" y2="34.2" width="0" layer="19" extent="1-1"/>
+<wire x1="12.1" y1="26.15" x2="6.6" y2="29.55" width="0" layer="19" extent="1-1"/>
+<wire x1="5.8" y1="22.75" x2="6.6" y2="29.55" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="16" x2="5.8" y2="22.75" width="0" layer="19" extent="1-1"/>
+<wire x1="20.21" y1="66.92" x2="12.1" y2="62.55" width="0" layer="19" extent="1-1"/>
+<wire x1="22.75" y1="66.92" x2="20.21" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="28.01" y1="66.92" x2="22.75" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="30.55" y1="66.92" x2="28.01" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="35.81" y1="66.92" x2="30.55" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="38.35" y1="66.92" x2="35.81" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="43.61" y1="66.92" x2="38.35" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="46.15" y1="66.92" x2="43.61" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="51.41" y1="66.92" x2="46.15" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="53.95" y1="66.92" x2="51.41" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="59.21" y1="66.92" x2="53.95" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="61.75" y1="66.92" x2="59.21" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="67.01" y1="66.92" x2="61.75" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="69.55" y1="66.92" x2="67.01" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="74.81" y1="66.92" x2="69.55" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="77.35" y1="66.92" x2="74.81" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="20.21" y1="33.77" x2="12.1" y2="26.15" width="0" layer="19" extent="1-1"/>
+<wire x1="22.75" y1="33.77" x2="20.21" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="28.01" y1="33.77" x2="22.75" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="30.55" y1="33.77" x2="28.01" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="35.81" y1="33.77" x2="30.55" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="38.35" y1="33.77" x2="35.81" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="43.61" y1="33.77" x2="38.35" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="46.15" y1="33.77" x2="43.61" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="51.41" y1="33.77" x2="46.15" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="53.95" y1="33.77" x2="51.41" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="59.21" y1="33.77" x2="53.95" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="61.75" y1="33.77" x2="59.21" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="67.01" y1="33.77" x2="61.75" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="69.55" y1="33.77" x2="67.01" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="74.81" y1="33.77" x2="69.55" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="77.35" y1="33.77" x2="74.81" y2="33.77" width="0" layer="19" extent="1-1"/>
+<wire x1="84.1" y1="6.6" x2="93.5" y2="15.95" width="0" layer="19" extent="1-1"/>
+<wire x1="77.35" y1="5.8" x2="84.1" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="70.55" y1="6.6" x2="77.35" y2="5.8" width="0" layer="19" extent="1-1"/>
+<wire x1="65.9" y1="6.6" x2="70.55" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="73.95" y1="12.1" x2="70.55" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="59.15" y1="5.8" x2="65.9" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="52.35" y1="6.6" x2="59.15" y2="5.8" width="0" layer="19" extent="1-1"/>
+<wire x1="47.7" y1="6.6" x2="52.35" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="55.75" y1="12.1" x2="52.35" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="40.95" y1="5.8" x2="47.7" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="34.15" y1="6.6" x2="40.95" y2="5.8" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="6.6" x2="34.15" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="12.1" x2="34.15" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="22.75" y1="5.8" x2="29.5" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="15.95" y1="6.6" x2="22.75" y2="5.8" width="0" layer="19" extent="1-1"/>
+<wire x1="19.35" y1="12.1" x2="15.95" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-4.55" x2="15.95" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-9.75" x2="5.25" y2="-4.55" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-14.95" x2="5.25" y2="-9.75" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-20.15" x2="5.25" y2="-14.95" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-25.35" x2="5.25" y2="-20.15" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-30.55" x2="5.25" y2="-25.35" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-35.75" x2="5.25" y2="-30.55" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-40.95" x2="5.25" y2="-35.75" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-46.15" x2="5.25" y2="-40.95" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-51.35" x2="5.25" y2="-46.15" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-56.55" x2="5.25" y2="-51.35" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-61.75" x2="5.25" y2="-56.55" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-66.95" x2="5.25" y2="-61.75" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-72.15" x2="5.25" y2="-66.95" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-77.35" x2="5.25" y2="-72.15" width="0" layer="19" extent="1-1"/>
+<wire x1="5.25" y1="-82.55" x2="5.25" y2="-77.35" width="0" layer="19" extent="1-1"/>
+<wire x1="53.41" y1="50.7" x2="53.95" y2="66.92" width="0" layer="19" extent="1-1"/>
+<wire x1="55.95" y1="50.7" x2="53.41" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="58.49" y1="50.7" x2="55.95" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="61.03" y1="50.7" x2="58.49" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="63.57" y1="50.7" x2="61.03" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="66.11" y1="50.7" x2="63.57" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="68.65" y1="50.7" x2="66.11" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="71.19" y1="50.7" x2="68.65" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="50.87" y1="50.7" x2="53.41" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="48.33" y1="50.7" x2="50.87" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="45.79" y1="50.7" x2="48.33" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="43.25" y1="50.7" x2="45.79" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="40.71" y1="50.7" x2="43.25" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="38.17" y1="50.7" x2="40.71" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="35.63" y1="50.7" x2="38.17" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="33.09" y1="50.7" x2="35.63" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="30.55" y1="50.7" x2="33.09" y2="50.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3_3V">
 <contactref element="J1" pad="1"/>
@@ -1890,6 +2206,102 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="23.595346875" y1="75.854653125" x2="31.85" y2="67.6" width="0.254" layer="16"/>
 <wire x1="31.85" y1="67.6" x2="31.85" y2="65.62" width="0.254" layer="16"/>
 <wire x1="31.85" y1="65.62" x2="33.09" y2="64.38" width="0.254" layer="16"/>
+</signal>
+<signal name="N$2">
+<contactref element="J3" pad="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="J3" pad="3"/>
+</signal>
+<signal name="N$4">
+<contactref element="J4" pad="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="J4" pad="3"/>
+</signal>
+<signal name="N$7">
+<contactref element="J5" pad="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="J5" pad="3"/>
+</signal>
+<signal name="N$10">
+<contactref element="J6" pad="1"/>
+</signal>
+<signal name="N$11">
+<contactref element="J6" pad="3"/>
+</signal>
+<signal name="N$14">
+<contactref element="J7" pad="1"/>
+</signal>
+<signal name="N$15">
+<contactref element="J7" pad="3"/>
+</signal>
+<signal name="N$17">
+<contactref element="J8" pad="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="J8" pad="3"/>
+</signal>
+<signal name="N$19">
+<contactref element="J9" pad="1"/>
+</signal>
+<signal name="N$20">
+<contactref element="J9" pad="3"/>
+</signal>
+<signal name="N$22">
+<contactref element="J10" pad="1"/>
+</signal>
+<signal name="N$23">
+<contactref element="J10" pad="3"/>
+</signal>
+<signal name="N$24">
+<contactref element="J11" pad="1"/>
+</signal>
+<signal name="N$25">
+<contactref element="J11" pad="3"/>
+</signal>
+<signal name="N$27">
+<contactref element="J12" pad="1"/>
+</signal>
+<signal name="N$28">
+<contactref element="J12" pad="3"/>
+</signal>
+<signal name="N$30">
+<contactref element="J13" pad="1"/>
+</signal>
+<signal name="N$31">
+<contactref element="J13" pad="3"/>
+</signal>
+<signal name="N$33">
+<contactref element="J14" pad="1"/>
+</signal>
+<signal name="N$34">
+<contactref element="J14" pad="3"/>
+</signal>
+<signal name="N$36">
+<contactref element="J18" pad="1"/>
+</signal>
+<signal name="N$37">
+<contactref element="J18" pad="3"/>
+</signal>
+<signal name="N$39">
+<contactref element="J17" pad="1"/>
+</signal>
+<signal name="N$40">
+<contactref element="J17" pad="3"/>
+</signal>
+<signal name="N$42">
+<contactref element="J16" pad="1"/>
+</signal>
+<signal name="N$43">
+<contactref element="J16" pad="3"/>
+</signal>
+<signal name="N$45">
+<contactref element="J15" pad="1"/>
+</signal>
+<signal name="N$46">
+<contactref element="J15" pad="3"/>
 </signal>
 </signals>
 </board>

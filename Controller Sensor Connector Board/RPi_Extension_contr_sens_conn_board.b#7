@@ -1415,6 +1415,38 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="57.9" y1="81.2" x2="57.85" y2="81.25" width="0.8128" layer="1"/>
 <wire x1="76.1" y1="79.1" x2="76.1" y2="81.2" width="0.8128" layer="1"/>
 <wire x1="76.1" y1="81.2" x2="76.05" y2="81.25" width="0.8128" layer="1"/>
+<contactref element="J3" pad="3"/>
+<contactref element="J4" pad="3"/>
+<contactref element="J5" pad="3"/>
+<contactref element="J6" pad="3"/>
+<contactref element="J7" pad="3"/>
+<contactref element="J8" pad="3"/>
+<contactref element="J9" pad="3"/>
+<contactref element="J10" pad="3"/>
+<contactref element="J11" pad="3"/>
+<contactref element="J12" pad="3"/>
+<contactref element="J13" pad="3"/>
+<contactref element="J14" pad="3"/>
+<contactref element="J15" pad="3"/>
+<contactref element="J16" pad="3"/>
+<contactref element="J17" pad="3"/>
+<contactref element="J18" pad="3"/>
+<wire x1="7.25" y1="-77.35" x2="7.25" y2="-82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-72.15" x2="7.25" y2="-77.35" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-66.95" x2="7.25" y2="-72.15" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-61.75" x2="7.25" y2="-66.95" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-56.55" x2="7.25" y2="-61.75" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-51.35" x2="7.25" y2="-56.55" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-46.15" x2="7.25" y2="-51.35" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-40.95" x2="7.25" y2="-46.15" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-35.75" x2="7.25" y2="-40.95" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-30.55" x2="7.25" y2="-35.75" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-25.35" x2="7.25" y2="-30.55" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-20.15" x2="7.25" y2="-25.35" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-14.95" x2="7.25" y2="-20.15" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-9.75" x2="7.25" y2="-14.95" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="-4.55" x2="7.25" y2="-9.75" width="0" layer="19" extent="1-1"/>
+<wire x1="19.5" y1="14.3" x2="7.25" y2="-4.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-12V">
 <contactref element="J2" pad="4"/>
@@ -1615,6 +1647,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="18.229753125" y1="41.55" x2="21.45" y2="38.329753125" width="0.254" layer="16"/>
 <wire x1="21.45" y1="38.329753125" x2="21.45" y2="32.53" width="0.254" layer="16"/>
 <wire x1="21.45" y1="32.53" x2="22.75" y2="31.23" width="0.254" layer="16"/>
+<contactref element="J3" pad="1"/>
+<wire x1="3.25" y1="-4.55" x2="22.75" y2="31.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_2">
 <contactref element="SV2" pad="1"/>
@@ -1631,6 +1665,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="16.45" y1="24" x2="25.3" y2="24" width="0.254" layer="16"/>
 <wire x1="25.3" y1="24" x2="30.55" y2="29.25" width="0.254" layer="16"/>
 <wire x1="30.55" y1="29.25" x2="30.55" y2="31.23" width="0.254" layer="16"/>
+<contactref element="J4" pad="1"/>
+<wire x1="3.25" y1="-9.75" x2="16.45" y2="24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC_3">
 <contactref element="SV3" pad="3"/>
@@ -1640,6 +1676,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="29.111765625" y1="20.15" x2="38.35" y2="29.388234375" width="0.254" layer="16"/>
 <wire x1="38.35" y1="29.388234375" x2="38.35" y2="31.23" width="0.254" layer="16"/>
 <wire x1="21.5" y1="18.25" x2="23.4" y2="20.15" width="0.254" layer="16"/>
+<contactref element="J5" pad="1"/>
+<wire x1="3.25" y1="-14.95" x2="21.5" y2="16.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_3">
 <contactref element="SV3" pad="1"/>
@@ -1657,6 +1695,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="40.35" y1="17.847828125" x2="42.652171875" y2="20.15" width="0.254" layer="16"/>
 <wire x1="42.652171875" y1="20.15" x2="46.15" y2="23.647828125" width="0.254" layer="16"/>
 <wire x1="46.15" y1="23.647828125" x2="46.15" y2="31.23" width="0.254" layer="16"/>
+<contactref element="J6" pad="1"/>
+<wire x1="3.25" y1="-20.15" x2="40.35" y2="16.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_4">
 <contactref element="SV4" pad="1"/>
@@ -1673,6 +1713,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="57.9" y1="16.45" x2="57.9" y2="22.05" width="0.254" layer="16"/>
 <wire x1="57.9" y1="22.05" x2="53.95" y2="26" width="0.254" layer="16"/>
 <wire x1="53.95" y1="26" x2="53.95" y2="31.23" width="0.254" layer="16"/>
+<contactref element="J10" pad="1"/>
+<wire x1="3.25" y1="-40.95" x2="57.9" y2="16.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_5">
 <contactref element="SV5" pad="1"/>
@@ -1689,6 +1731,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="76.1" y1="16.45" x2="73.35829375" y2="16.45" width="0.254" layer="16"/>
 <wire x1="73.35829375" y1="16.45" x2="61.75" y2="28.05829375" width="0.254" layer="16"/>
 <wire x1="61.75" y1="28.05829375" x2="61.75" y2="31.23" width="0.254" layer="16"/>
+<contactref element="J9" pad="1"/>
+<wire x1="3.25" y1="-35.75" x2="61.75" y2="28.05829375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="DAC_6">
 <contactref element="SV6" pad="1"/>
@@ -1707,6 +1751,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="83.65" y1="21.5" x2="76.426771875" y2="21.5" width="0.254" layer="16"/>
 <wire x1="76.426771875" y1="21.5" x2="69.55" y2="28.376771875" width="0.254" layer="16"/>
 <wire x1="69.55" y1="28.376771875" x2="69.55" y2="31.23" width="0.254" layer="16"/>
+<contactref element="J8" pad="1"/>
+<wire x1="3.25" y1="-30.55" x2="69.55" y2="28.376771875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="DAC_7">
 <contactref element="SV7" pad="1"/>
@@ -1724,6 +1770,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="80.2511875" y1="39.7" x2="76.05" y2="35.4988125" width="0.254" layer="16"/>
 <wire x1="76.05" y1="35.4988125" x2="76.05" y2="32.53" width="0.254" layer="16"/>
 <wire x1="76.05" y1="32.53" x2="77.35" y2="31.23" width="0.254" layer="16"/>
+<contactref element="J7" pad="1"/>
+<wire x1="3.25" y1="-25.35" x2="76.05" y2="32.53" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="DAC_8">
 <contactref element="SV8" pad="1"/>
@@ -1740,6 +1788,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="22.75" y1="64.38" x2="22.75" y2="61.624165625" width="0.254" layer="16"/>
 <wire x1="22.75" y1="61.624165625" x2="20.875834375" y2="59.75" width="0.254" layer="16"/>
 <wire x1="20.875834375" y1="59.75" x2="16.45" y2="59.75" width="0.254" layer="16"/>
+<contactref element="J11" pad="1"/>
+<wire x1="3.25" y1="-46.15" x2="16.45" y2="59.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_9">
 <contactref element="SV9" pad="1"/>
@@ -1757,6 +1807,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="23.6991" y1="74.05" x2="29.25" y2="68.4991" width="0.254" layer="16"/>
 <wire x1="29.25" y1="68.4991" x2="29.25" y2="65.68" width="0.254" layer="16"/>
 <wire x1="29.25" y1="65.68" x2="30.55" y2="64.38" width="0.254" layer="16"/>
+<contactref element="J12" pad="1"/>
+<wire x1="3.25" y1="-51.35" x2="30.55" y2="64.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_10">
 <contactref element="SV10" pad="1"/>
@@ -1774,6 +1826,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="26.2" y1="79.1" x2="37.05" y2="68.25" width="0.254" layer="16"/>
 <wire x1="37.05" y1="68.25" x2="37.05" y2="65.68" width="0.254" layer="16"/>
 <wire x1="37.05" y1="65.68" x2="38.35" y2="64.38" width="0.254" layer="16"/>
+<contactref element="J13" pad="1"/>
+<wire x1="3.25" y1="-56.55" x2="38.35" y2="64.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_11">
 <contactref element="SV11" pad="1"/>
@@ -1791,6 +1845,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="42.2" y1="70.9" x2="44.85" y2="68.25" width="0.254" layer="16"/>
 <wire x1="44.85" y1="68.25" x2="44.85" y2="65.68" width="0.254" layer="16"/>
 <wire x1="44.85" y1="65.68" x2="46.15" y2="64.38" width="0.254" layer="16"/>
+<contactref element="J14" pad="1"/>
+<wire x1="3.25" y1="-61.75" x2="46.15" y2="64.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_12">
 <contactref element="SV12" pad="1"/>
@@ -1808,6 +1864,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="60.4" y1="73.4" x2="55.25" y2="68.25" width="0.254" layer="16"/>
 <wire x1="55.25" y1="68.25" x2="55.25" y2="65.68" width="0.254" layer="16"/>
 <wire x1="55.25" y1="65.68" x2="53.95" y2="64.38" width="0.254" layer="16"/>
+<contactref element="J18" pad="1"/>
+<wire x1="3.25" y1="-82.55" x2="53.95" y2="64.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_13">
 <contactref element="SV13" pad="1"/>
@@ -1827,6 +1885,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="68.9" y1="74.1" x2="63.05" y2="68.25" width="0.254" layer="16"/>
 <wire x1="63.05" y1="68.25" x2="63.05" y2="65.68" width="0.254" layer="16"/>
 <wire x1="63.05" y1="65.68" x2="61.75" y2="64.38" width="0.254" layer="16"/>
+<contactref element="J17" pad="1"/>
+<wire x1="3.25" y1="-77.35" x2="61.75" y2="64.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_14">
 <contactref element="SV14" pad="1"/>
@@ -1843,6 +1903,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="72.32648125" y1="71.55" x2="70.85" y2="70.07351875" width="0.254" layer="16"/>
 <wire x1="70.85" y1="70.07351875" x2="70.85" y2="65.68" width="0.254" layer="16"/>
 <wire x1="70.85" y1="65.68" x2="69.55" y2="64.38" width="0.254" layer="16"/>
+<contactref element="J16" pad="1"/>
+<wire x1="3.25" y1="-72.15" x2="69.55" y2="64.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DAC_15">
 <contactref element="SV15" pad="1"/>
@@ -1859,6 +1921,8 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="83.65" y1="57.9" x2="79.9" y2="57.9" width="0.254" layer="16"/>
 <wire x1="79.9" y1="57.9" x2="77.35" y2="60.45" width="0.254" layer="16"/>
 <wire x1="77.35" y1="60.45" x2="77.35" y2="64.38" width="0.254" layer="16"/>
+<contactref element="J15" pad="1"/>
+<wire x1="3.25" y1="-66.95" x2="79.9" y2="57.9" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="DAC_16">
 <contactref element="SV16" pad="1"/>
@@ -2206,102 +2270,6 @@ Sourcxe: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf</description>
 <wire x1="23.595346875" y1="75.854653125" x2="31.85" y2="67.6" width="0.254" layer="16"/>
 <wire x1="31.85" y1="67.6" x2="31.85" y2="65.62" width="0.254" layer="16"/>
 <wire x1="31.85" y1="65.62" x2="33.09" y2="64.38" width="0.254" layer="16"/>
-</signal>
-<signal name="N$2">
-<contactref element="J3" pad="1"/>
-</signal>
-<signal name="N$3">
-<contactref element="J3" pad="3"/>
-</signal>
-<signal name="N$4">
-<contactref element="J4" pad="1"/>
-</signal>
-<signal name="N$5">
-<contactref element="J4" pad="3"/>
-</signal>
-<signal name="N$7">
-<contactref element="J5" pad="1"/>
-</signal>
-<signal name="N$8">
-<contactref element="J5" pad="3"/>
-</signal>
-<signal name="N$10">
-<contactref element="J6" pad="1"/>
-</signal>
-<signal name="N$11">
-<contactref element="J6" pad="3"/>
-</signal>
-<signal name="N$14">
-<contactref element="J7" pad="1"/>
-</signal>
-<signal name="N$15">
-<contactref element="J7" pad="3"/>
-</signal>
-<signal name="N$17">
-<contactref element="J8" pad="1"/>
-</signal>
-<signal name="N$18">
-<contactref element="J8" pad="3"/>
-</signal>
-<signal name="N$19">
-<contactref element="J9" pad="1"/>
-</signal>
-<signal name="N$20">
-<contactref element="J9" pad="3"/>
-</signal>
-<signal name="N$22">
-<contactref element="J10" pad="1"/>
-</signal>
-<signal name="N$23">
-<contactref element="J10" pad="3"/>
-</signal>
-<signal name="N$24">
-<contactref element="J11" pad="1"/>
-</signal>
-<signal name="N$25">
-<contactref element="J11" pad="3"/>
-</signal>
-<signal name="N$27">
-<contactref element="J12" pad="1"/>
-</signal>
-<signal name="N$28">
-<contactref element="J12" pad="3"/>
-</signal>
-<signal name="N$30">
-<contactref element="J13" pad="1"/>
-</signal>
-<signal name="N$31">
-<contactref element="J13" pad="3"/>
-</signal>
-<signal name="N$33">
-<contactref element="J14" pad="1"/>
-</signal>
-<signal name="N$34">
-<contactref element="J14" pad="3"/>
-</signal>
-<signal name="N$36">
-<contactref element="J18" pad="1"/>
-</signal>
-<signal name="N$37">
-<contactref element="J18" pad="3"/>
-</signal>
-<signal name="N$39">
-<contactref element="J17" pad="1"/>
-</signal>
-<signal name="N$40">
-<contactref element="J17" pad="3"/>
-</signal>
-<signal name="N$42">
-<contactref element="J16" pad="1"/>
-</signal>
-<signal name="N$43">
-<contactref element="J16" pad="3"/>
-</signal>
-<signal name="N$45">
-<contactref element="J15" pad="1"/>
-</signal>
-<signal name="N$46">
-<contactref element="J15" pad="3"/>
 </signal>
 </signals>
 </board>

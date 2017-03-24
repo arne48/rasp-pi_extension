@@ -1013,7 +1013,6 @@ W = angled&lt;p&gt;
 <contactref element="SV8" pad="4"/>
 <contactref element="SV12" pad="4"/>
 <contactref element="SV16" pad="4"/>
-<contactref element="U1" pad="34"/>
 <contactref element="U1" pad="2"/>
 <contactref element="U1" pad="4"/>
 <contactref element="U1" pad="6"/>
