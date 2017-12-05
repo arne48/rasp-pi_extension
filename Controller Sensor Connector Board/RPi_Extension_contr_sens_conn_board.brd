@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -526,9 +526,9 @@ W = angled&lt;p&gt;
 <element name="SV1" library="con-lstb" package="MA03-2" value="" x="22.75" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.94" y="35.421" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="22.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.48" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="X3" library="mini_din" package="M_DIN4" value="" x="22.75" y="5.85" smashed="yes" rot="R180">
@@ -598,307 +598,307 @@ W = angled&lt;p&gt;
 <element name="POWER_2" library="con-molex" package="6410-05" value="22-27-2051-05" x="92.6" y="91.45" smashed="yes">
 <attribute name="MF" value="" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.4039" y="94.7251" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="92.6" y="91.45" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="86.2769" y="86.8511" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="POWER_1" library="con-molex" package="6410-05" value="22-27-2051-05" x="7.45" y="91.5" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="13.6461" y="88.2249" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="OC_FARNELL" value="unknown" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="7.45" y="91.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="13.7731" y="96.0989" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U1" library="AMP 5103309-7 34pin" package="TYCO_5103309-7" value="5103309-7" x="30.55" y="50.7" smashed="yes" rot="R180">
 <attribute name="MPN" value="5103309-7" x="30.55" y="50.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE" value="34 WAY HEADER" x="30.55" y="50.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23.1964" y="43.4866" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="OC_FARNELL" value="1425170" x="30.55" y="50.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="02M6713" x="30.55" y="50.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="34 WAY HEADER" x="30.55" y="50.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="TycoElectronics" x="30.55" y="50.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="23.1964" y="43.4866" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="60.4458" y="56.669" size="1.27" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="SV2" library="con-lstb" package="MA03-2" value="" x="30.55" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="30.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="30.55" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="26.74" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="30.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="30.55" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.74" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="29.28" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV3" library="con-lstb" package="MA03-2" value="" x="38.35" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="38.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="38.35" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.54" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="38.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="38.35" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.54" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="37.08" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV4" library="con-lstb" package="MA03-2" value="" x="46.15" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="46.15" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="46.15" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="42.34" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="46.15" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="46.15" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.34" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="44.88" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV5" library="con-lstb" package="MA03-2" value="" x="53.95" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="53.95" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="53.95" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.14" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="53.95" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.95" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.14" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="52.68" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV6" library="con-lstb" package="MA03-2" value="" x="61.75" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="61.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="61.75" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="57.94" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="61.75" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="61.75" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.94" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="60.48" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV7" library="con-lstb" package="MA03-2" value="" x="69.55" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="69.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="69.55" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="65.74" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="69.55" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="69.55" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="65.74" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="68.28" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV8" library="con-lstb" package="MA03-2" value="" x="77.35" y="32.5" smashed="yes">
 <attribute name="MF" value="" x="77.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="77.35" y="32.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.54" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="77.35" y="32.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="77.35" y="32.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="73.54" y="35.421" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="76.08" y="28.309" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV9" library="con-lstb" package="MA03-2" value="" x="22.75" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="22.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.75" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.59" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="22.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="22.75" y="65.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.59" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="21.48" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV10" library="con-lstb" package="MA03-2" value="" x="30.55" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="30.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="30.55" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="26.74" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="30.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="30.55" y="65.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.74" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="29.28" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV11" library="con-lstb" package="MA03-2" value="" x="38.35" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="38.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="38.35" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.54" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="38.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="38.35" y="65.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.54" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="37.08" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV12" library="con-lstb" package="MA03-2" value="" x="46.15" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="46.15" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="46.15" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="42.34" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="46.15" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="46.15" y="65.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.34" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="44.88" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV13" library="con-lstb" package="MA03-2" value="" x="53.95" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="53.95" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="53.95" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.14" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="53.95" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.95" y="65.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.14" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="52.68" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV14" library="con-lstb" package="MA03-2" value="" x="61.75" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="61.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="61.75" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="57.94" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="61.75" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="61.75" y="65.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.94" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="60.48" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV15" library="con-lstb" package="MA03-2" value="" x="69.55" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="69.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="69.55" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="65.74" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="69.55" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="69.55" y="65.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="65.74" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="68.28" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV16" library="con-lstb" package="MA03-2" value="" x="77.35" y="65.65" smashed="yes">
 <attribute name="MF" value="" x="77.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="77.35" y="65.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.54" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="77.35" y="65.65" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="77.35" y="65.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="73.54" y="68.571" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="76.08" y="61.459" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="J1" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="42.25" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.15" y="39.65" size="1.27" layer="25" rot="SR270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="42.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J2" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="24.7" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.15" y="22.75" size="1.27" layer="25" rot="SR270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J3" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="22.1" y="16.25" smashed="yes">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="24.05" y="20.15" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="22.1" y="16.25" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J4" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="39.65" y="16.25" smashed="yes">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="41.6" y="20.15" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="39.65" y="16.25" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J8" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="39" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="79.95" y="40.95" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="39" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J7" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="22.1" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="79.95" y="24.05" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J6" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="74.75" y="16.25" smashed="yes">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="76.05" y="20.15" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="74.75" y="16.25" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J5" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="57.2" y="16.25" smashed="yes">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.15" y="20.15" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="57.2" y="16.25" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J9" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="60.45" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.15" y="57.85" size="1.27" layer="25" rot="SR270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="60.45" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J10" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="74.75" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.15" y="72.8" size="1.27" layer="25" rot="SR270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="16.25" y="74.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J11" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="26" y="79.3" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="24.7" y="75.4" size="1.27" layer="25" rot="SR180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="26" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J12" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="42.25" y="79.3" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.3" y="75.4" size="1.27" layer="25" rot="SR180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="42.25" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J16" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="56.55" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="79.95" y="58.5" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="56.55" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J15" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="72.15" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="79.95" y="72.8" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="83.85" y="72.15" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J14" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="78" y="79.3" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="76.05" y="75.4" size="1.27" layer="25" rot="SR180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="78" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J13" library="JST_PH" package="SHDR3W50P0X200_1X3_790X450X600" value="B3B-PH-K-S(LF)(SN)" x="61.1" y="79.3" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="3D_PACKAGE" value="" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="PH-2.0mm Header top entry 3 way JST PH Series, Series Number B3B, 2mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole Termination, 2A" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PART_NUMBER" value="8201431P" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="6mm" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3B-PH-K-S(LF)(SN)" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.15" y="75.4" size="1.27" layer="25" rot="SR180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201431P" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="61.1" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>

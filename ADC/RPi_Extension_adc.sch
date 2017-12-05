@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8707,7 +8708,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="ID2" gate="1" x="187.96" y="236.22"/>
 <instance part="ID1" gate="1" x="187.96" y="228.6"/>
 <instance part="ID0" gate="1" x="187.96" y="220.98"/>
-<instance part="U2" gate="A" x="358.14" y="172.72"/>
+<instance part="U2" gate="A" x="358.14" y="172.72" smashed="yes">
+<attribute name="NAME" x="358.14" y="172.72" size="2.54" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="368.3" y="149.86" size="2.54" layer="96" ratio="10" rot="SR0"/>
+</instance>
 <instance part="GND7" gate="1" x="347.98" y="154.94"/>
 <instance part="C13" gate="G$1" x="347.98" y="167.64"/>
 <instance part="C14" gate="G$1" x="335.28" y="167.64"/>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8323,7 +8324,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="ID1" library="jumper" deviceset="SJ" device=""/>
 <part name="ID0" library="jumper" deviceset="SJ" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U2" library="ADR423ARZ" deviceset="ADR423ARZ" device=""/>
+<part name="U2" library="ADR423ARZ" deviceset="ADR423ARZ" device="" value="ADR425ARZ"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="10uF"/>
@@ -8385,7 +8386,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="ID1" gate="1" x="-83.82" y="-10.16"/>
 <instance part="ID0" gate="1" x="-83.82" y="-17.78"/>
 <instance part="GND6" gate="1" x="86.36" y="78.74" rot="R270"/>
-<instance part="U2" gate="A" x="248.92" y="116.84"/>
+<instance part="U2" gate="A" x="248.92" y="116.84" smashed="yes">
+<attribute name="NAME" x="248.92" y="116.84" size="2.54" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="259.08" y="93.98" size="2.54" layer="96" ratio="10" rot="SR0"/>
+</instance>
 <instance part="GND7" gate="1" x="231.14" y="99.06"/>
 <instance part="C13" gate="G$1" x="236.22" y="111.76"/>
 <instance part="C14" gate="G$1" x="226.06" y="111.76"/>

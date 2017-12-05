@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
@@ -3126,10 +3127,10 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -3294,7 +3295,7 @@ design rules under a new name.</description>
 <element name="ID2" library="jumper" package="SJ" value="" x="41.65" y="35.1" rot="R270"/>
 <element name="ID1" library="jumper" package="SJ" value="" x="37.85" y="35.1" rot="R270"/>
 <element name="ID0" library="jumper" package="SJ" value="" x="33.65" y="35.1" rot="R270"/>
-<element name="U2" library="ADR423ARZ" package="R_8" value="ADR423ARZ" x="12.35" y="5.05" smashed="yes">
+<element name="U2" library="ADR423ARZ" package="R_8" value="ADR425ARZ" x="12.35" y="5.05" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="ADR423ARZ" x="12.35" y="5.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="11.4298" y="0.965" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="9.0734" y="4.415" size="1.27" layer="27" ratio="6" rot="SR0"/>
