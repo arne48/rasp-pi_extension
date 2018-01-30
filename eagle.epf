@@ -355,6 +355,7 @@ UsedLibrary="/home/user/workspaces/eagle/rgb2hdmi/lib/HDMI.lbr"
 UsedLibrary="Controller Sensor Connector Board/RPi_Extension_contr_sens_conn_board.lbr"
 UsedLibrary="/home/user/workspaces/eagle/libraries/con-molex-2.lbr"
 UsedLibrary="/home/user/workspaces/eagle/libraries/B4B-PH-K-S(LF)(SN).lbr"
+UsedLibrary="/home/user/workspaces/eagle/libraries/1MS1T1B1M2QES-5.lbr"
 
 [Win_1]
 Type="Control Panel"

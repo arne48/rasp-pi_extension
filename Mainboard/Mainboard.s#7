@@ -18148,14 +18148,21 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7347066"&gt; Datashee
 </net>
 <net name="PSU_ENABLE" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="335.28" y1="294.64" x2="322.58" y2="294.64" width="0.1524" layer="91"/>
-<label x="317.5" y="294.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PL1" gate="-16" pin="S"/>
 <wire x1="200.66" y1="248.92" x2="182.88" y2="248.92" width="0.1524" layer="91"/>
 <label x="182.88" y="248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="335.28" y1="292.1" x2="327.66" y2="292.1" width="0.1524" layer="91"/>
+<label x="317.5" y="292.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="POWER_GOOD" class="0">
+<segment>
+<pinref part="PL1" gate="-8" pin="S"/>
+<wire x1="200.66" y1="289.56" x2="182.88" y2="289.56" width="0.1524" layer="91"/>
+<label x="182.88" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
