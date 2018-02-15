@@ -20459,7 +20459,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="X1" gate="-1" x="116.84" y="264.16"/>
 <instance part="X1" gate="-2" x="116.84" y="261.62"/>
 <instance part="X1" gate="-3" x="116.84" y="259.08"/>
-<instance part="GND150" gate="1" x="104.14" y="269.24" rot="R180"/>
+<instance part="GND150" gate="1" x="104.14" y="254"/>
 </instances>
 <busses>
 </busses>
@@ -21526,9 +21526,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="GND136" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
-<wire x1="114.3" y1="264.16" x2="104.14" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="264.16" x2="104.14" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="114.3" y1="259.08" x2="104.14" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="259.08" x2="104.14" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="GND150" gate="1" pin="GND"/>
 </segment>
 </net>
