@@ -1910,7 +1910,13 @@ Dimensional Drawing</description>
 <contactref element="SV3" pad="5"/>
 <contactref element="SV3" pad="7"/>
 <contactref element="SV3" pad="8"/>
+<wire x1="3.28" y1="18.82" x2="5.82" y2="18.82" width="1.27" layer="16"/>
+<wire x1="3.25" y1="21.36" x2="3.28" y2="21.36" width="1.27" layer="16"/>
+<wire x1="3.28" y1="21.36" x2="3.28" y2="18.82" width="1.27" layer="16"/>
+<wire x1="3.28" y1="21.36" x2="5.82" y2="21.36" width="1.27" layer="16"/>
+<wire x1="5.84" y1="18.78" x2="5.84" y2="21.32" width="1.27" layer="16"/>
 <contactref element="J2" pad="2"/>
+<wire x1="27.86" y1="21.36" x2="5.82" y2="21.36" width="1.27" layer="1"/>
 <wire x1="30.66" y1="26.45" x2="30.66" y2="24.16" width="1.27" layer="1"/>
 <wire x1="30.66" y1="24.16" x2="27.86" y2="21.36" width="1.27" layer="1"/>
 <contactref element="PL1" pad="10"/>
@@ -1919,13 +1925,9 @@ Dimensional Drawing</description>
 <wire x1="50.45" y1="7.55" x2="49.4" y2="6.5" width="1.27" layer="16"/>
 <wire x1="49.4" y1="6.5" x2="11.05" y2="6.5" width="1.27" layer="16"/>
 <wire x1="9.75" y1="15.6" x2="9.75" y2="7.8" width="1.27" layer="16"/>
-<wire x1="27.86" y1="21.36" x2="5.82" y2="21.36" width="1.27" layer="1"/>
-<wire x1="5.82" y1="21.36" x2="3.28" y2="21.36" width="1.27" layer="16"/>
-<wire x1="3.28" y1="21.36" x2="3.28" y2="18.82" width="1.27" layer="16"/>
-<wire x1="3.28" y1="18.82" x2="5.82" y2="18.82" width="1.27" layer="16"/>
 <wire x1="5.82" y1="18.82" x2="6.53" y2="18.82" width="1.27" layer="16"/>
 <wire x1="6.53" y1="18.82" x2="9.75" y2="15.6" width="1.27" layer="16"/>
-<wire x1="5.82" y1="18.82" x2="5.82" y2="21.36" width="1.27" layer="16"/>
+<wire x1="5.82" y1="21.36" x2="5.84" y2="21.32" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VSS">
 <contactref element="SV3" pad="10"/>

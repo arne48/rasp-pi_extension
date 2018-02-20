@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -67,8 +67,6 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -159,9 +157,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="68.05" y2="0" width="0" layer="20"/>
-<wire x1="68.05" y1="0" x2="68.05" y2="49.95" width="0" layer="20"/>
-<wire x1="68.05" y1="49.95" x2="0.05" y2="49.9" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="63.05" y2="0" width="0" layer="20"/>
+<wire x1="63.05" y1="0" x2="63.05" y2="49.95" width="0" layer="20"/>
+<wire x1="63.05" y1="49.95" x2="0.05" y2="49.9" width="0" layer="20"/>
 <wire x1="0.05" y1="49.9" x2="0" y2="0" width="0" layer="20"/>
 <text x="13" y="4.55" size="1.27" layer="26" rot="MR0">Hitzmann 2017</text>
 </plain>
@@ -1441,6 +1439,102 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ATX24_RIGHT_ANGLE" urn="urn:adsk.eagle:footprint:37597/1" library_version="1">
+<description>&lt;h3&gt;Molex Mini-Fit Jr. - 24 pin, Right Angle&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:24&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Connectors/ATX-RA.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;ATX24&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-25.9" y1="3.4" x2="-25.9" y2="-9.14" width="0.254" layer="21"/>
+<wire x1="-25.9" y1="-9.14" x2="25.9" y2="-9.14" width="0.254" layer="21"/>
+<wire x1="25.9" y1="-9.14" x2="25.9" y2="3.4" width="0.254" layer="21"/>
+<wire x1="25.9" y1="3.4" x2="-25.9" y2="3.4" width="0.2032" layer="51"/>
+<wire x1="-25" y1="4" x2="-25" y2="12" width="0.127" layer="51"/>
+<wire x1="-25" y1="12" x2="25" y2="12" width="0.127" layer="51"/>
+<wire x1="25" y1="12" x2="25" y2="4" width="0.127" layer="51"/>
+<wire x1="25.9" y1="3.4" x2="24" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-25.9" y1="3.4" x2="-24" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-20" y1="3.4" x2="-22" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-15.8" y1="3.4" x2="-17.8" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-11.5" y1="3.4" x2="-13.5" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-7.4" y1="3.4" x2="-9.4" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-3.2" y1="3.4" x2="-5.2" y2="3.4" width="0.254" layer="21"/>
+<wire x1="1" y1="3.4" x2="-1" y2="3.4" width="0.254" layer="21"/>
+<wire x1="5.2" y1="3.4" x2="3.2" y2="3.4" width="0.254" layer="21"/>
+<wire x1="9.4" y1="3.4" x2="7.4" y2="3.4" width="0.254" layer="21"/>
+<wire x1="13.6" y1="3.4" x2="11.6" y2="3.4" width="0.254" layer="21"/>
+<wire x1="17.8" y1="3.4" x2="15.8" y2="3.4" width="0.254" layer="21"/>
+<wire x1="22" y1="3.4" x2="20" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-1.7" y1="-9" x2="-1.7" y2="-6" width="0.254" layer="21"/>
+<wire x1="-1.7" y1="-6" x2="1.7" y2="-6" width="0.254" layer="21"/>
+<wire x1="1.7" y1="-6" x2="1.7" y2="-9" width="0.254" layer="21"/>
+<pad name="1" x="23.1" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="2" x="18.9" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="3" x="14.7" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="4" x="10.5" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="5" x="6.3" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="6" x="2.1" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="7" x="-2.1" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="8" x="-6.3" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="9" x="-10.5" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="10" x="-14.7" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="11" x="-18.9" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="12" x="-23.1" y="4.76" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="13" x="23.1" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="14" x="18.9" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="15" x="14.7" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="16" x="10.5" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="17" x="6.3" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="18" x="2.1" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="19" x="-2.1" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="20" x="-6.3" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="21" x="-10.5" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="22" x="-14.7" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="23" x="-18.9" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<pad name="24" x="-23.1" y="10.26" drill="1.8" diameter="2.9" rot="R180"/>
+<hole x="-23.1" y="-2.54" drill="3"/>
+<hole x="23.1" y="-2.54" drill="3"/>
+<polygon width="0.254" layer="21">
+<vertex x="-1.7" y="-7"/>
+<vertex x="1.7" y="-7"/>
+<vertex x="1.7" y="-6"/>
+<vertex x="-1.7" y="-6"/>
+</polygon>
+<text x="-1.27" y="-1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="ATX24_RIGHT_ANGLE" urn="urn:adsk.eagle:package:37994/1" type="box" library_version="1">
+<description>Molex Mini-Fit Jr. - 24 pin, Right Angle
+Specifications:
+Pin count:24
+
+Datasheet referenced for footprint
+Example device(s):
+ATX24
+</description>
+</package3d>
+</packages3d>
+</library>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -1508,100 +1602,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
-<library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
-<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
-In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SWITCH_SPDT_PTH_11.6X4.0MM" urn="urn:adsk.eagle:footprint:40121/1" library_version="1">
-<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
-&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
-<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SWITCH_SPDT_PTH_11.6X4.0MM" urn="urn:adsk.eagle:package:40177/1" type="box" library_version="1">
-<description>SPDT PTH Slide Switch
-Single-pole, double-throw (SPDT) switch.
-Dimensional Drawing</description>
-</package3d>
-</packages3d>
-</library>
-<library name="con-molex-2">
-<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="5566-24">
-<description>&lt;b&gt;Mini FIT connector 24 pol&lt;/b&gt;</description>
-<wire x1="-25.7" y1="4.5" x2="25.7" y2="4.5" width="0.254" layer="21"/>
-<wire x1="25.7" y1="4.5" x2="25.7" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="25.7" y1="-3.3" x2="25.7" y2="-4.9" width="0.254" layer="21"/>
-<wire x1="25.7" y1="-4.9" x2="-25.7" y2="-4.9" width="0.254" layer="21"/>
-<wire x1="-25.7" y1="-4.9" x2="-25.7" y2="4.5" width="0.254" layer="21"/>
-<wire x1="-29.2" y1="3.2" x2="-26.4" y2="3.2" width="0.254" layer="21" curve="-114.529547" cap="flat"/>
-<wire x1="-29.2" y1="1.4" x2="-26.4" y2="1.4" width="0.254" layer="21" curve="114.529547" cap="flat"/>
-<wire x1="-29.2" y1="3.2" x2="-29.2" y2="1.4" width="0.254" layer="21"/>
-<wire x1="-26.5" y1="3.3" x2="-25.8" y2="3.3" width="0.254" layer="21"/>
-<wire x1="-26.5" y1="1.3" x2="-25.8" y2="1.3" width="0.254" layer="21"/>
-<wire x1="26.4" y1="1.4" x2="29.2" y2="1.4" width="0.254" layer="21" curve="114.529547" cap="flat"/>
-<wire x1="26.4" y1="3.2" x2="29.2" y2="3.2" width="0.254" layer="21" curve="-114.529547" cap="flat"/>
-<wire x1="29.2" y1="1.4" x2="29.2" y2="3.2" width="0.254" layer="21"/>
-<wire x1="26.5" y1="1.3" x2="25.8" y2="1.3" width="0.254" layer="21"/>
-<wire x1="26.5" y1="3.3" x2="25.8" y2="3.3" width="0.254" layer="21"/>
-<wire x1="25.7" y1="-2.2" x2="25.7" y2="-3.3" width="0.254" layer="21" curve="-180"/>
-<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
-<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
-<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
-<pad name="1" x="23.1" y="-2.75" drill="1.4" shape="square"/>
-<pad name="2" x="18.9" y="-2.75" drill="1.4" shape="square"/>
-<pad name="3" x="14.7" y="-2.75" drill="1.4" shape="square"/>
-<pad name="4" x="10.5" y="-2.75" drill="1.4" shape="square"/>
-<pad name="5" x="6.3" y="-2.75" drill="1.4" shape="square"/>
-<pad name="6" x="2.1" y="-2.75" drill="1.4" shape="square"/>
-<pad name="7" x="-2.1" y="-2.75" drill="1.4" shape="square"/>
-<pad name="8" x="-6.3" y="-2.75" drill="1.4" shape="square"/>
-<pad name="9" x="-10.5" y="-2.75" drill="1.4" shape="square"/>
-<pad name="10" x="-14.7" y="-2.75" drill="1.4" shape="square"/>
-<pad name="11" x="-18.9" y="-2.75" drill="1.4" shape="square"/>
-<pad name="13" x="23.1" y="2.75" drill="1.4" shape="square"/>
-<pad name="14" x="18.9" y="2.75" drill="1.4" shape="square"/>
-<pad name="15" x="14.7" y="2.75" drill="1.4" shape="square"/>
-<pad name="16" x="10.5" y="2.75" drill="1.4" shape="square"/>
-<pad name="17" x="6.3" y="2.75" drill="1.4" shape="square"/>
-<pad name="18" x="2.1" y="2.75" drill="1.4" shape="square"/>
-<pad name="19" x="-2.1" y="2.75" drill="1.4" shape="square"/>
-<pad name="20" x="-6.3" y="2.75" drill="1.4" shape="square"/>
-<pad name="21" x="-10.5" y="2.75" drill="1.4" shape="square"/>
-<pad name="22" x="-14.7" y="2.75" drill="1.4" shape="square"/>
-<pad name="12" x="-23.1" y="-2.75" drill="1.4" shape="square"/>
-<pad name="23" x="-18.9" y="2.75" drill="1.4" shape="square"/>
-<pad name="24" x="-23.1" y="2.75" drill="1.4" shape="square"/>
-<text x="20.32" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
-<text x="-24.765" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="27.8" y="2.29" drill="3"/>
-<hole x="-27.8" y="2.29" drill="3"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1611,40 +1611,42 @@ Dimensional Drawing</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="dirt_cheap_dirty_boards.v1.1">
-<description language="de">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;Min width/Spacing: 6/6mil
-&lt;br&gt;Min diameter of finished hole 12mil</description>
-<description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;Min width/Spacing: 6/6mil
-&lt;br&gt;Min diameter of finished hole 12mil</description>
-<description language="zh">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;Min width/Spacing: 6/6mil
-&lt;br&gt;Min diameter of finished hole 12mil</description>
+<designrules name="pban_5mil-l2">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="0mil"/>
-<param name="mdSmdVia" value="0mil"/>
-<param name="mdSmdSmd" value="0mil"/>
-<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.53mm 1.5mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="0.229mm"/>
+<param name="mdWireVia" value="0.229mm"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="0.229mm"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
+<param name="mdViaViaSameLayer" value="5mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="0.5mm"/>
+<param name="mdDrill" value="0.5mm"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="12mil"/>
-<param name="msMicroVia" value="12mil"/>
-<param name="msBlindViaRatio" value="0.5"/>
+<param name="msWidth" value="5mil"/>
+<param name="msDrill" value="0.3mm"/>
+<param name="msMicroVia" value="0.1mm"/>
+<param name="msBlindViaRatio" value="0.76"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
 <param name="rvPadBottom" value="0.25"/>
@@ -1652,32 +1654,32 @@ Dimensional Drawing</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="6mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="6mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rlMinPadTop" value="0.15mm"/>
+<param name="rlMaxPadTop" value="0.5mm"/>
+<param name="rlMinPadInner" value="0.2mm"/>
+<param name="rlMaxPadInner" value="0.5mm"/>
+<param name="rlMinPadBottom" value="0.15mm"/>
+<param name="rlMaxPadBottom" value="0.5mm"/>
+<param name="rlMinViaOuter" value="0.15mm"/>
+<param name="rlMaxViaOuter" value="0.5mm"/>
+<param name="rlMinViaInner" value="0.2mm"/>
+<param name="rlMaxViaInner" value="0.5mm"/>
+<param name="rlMinMicroViaOuter" value="0.1mm"/>
+<param name="rlMaxMicroViaOuter" value="0.5mm"/>
+<param name="rlMinMicroViaInner" value="0.1mm"/>
+<param name="rlMaxMicroViaInner" value="0.5mm"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="0"/>
+<param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2mil"/>
-<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="25mil"/>
+<param name="mlViaStopLimit" value="0.35mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1685,11 +1687,10 @@ Dimensional Drawing</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="0"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
+<param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1816,24 +1817,23 @@ Dimensional Drawing</description>
 <attribute name="NAME" x="31.785" y="48.085" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="29.245" y="47.435" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="6410-05" value="J2" x="33.2" y="26.45" rot="R180">
-<attribute name="MF" value="" x="33.2" y="26.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="33.2" y="26.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="33.2" y="26.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="33.2" y="26.45" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="ATX24_RIGHT_ANGLE" package3d_urn="urn:adsk.eagle:package:37994/1" value="ATX24RH" x="34.45" y="4.55">
+<attribute name="PROD_ID" value="CONN-09674" x="34.45" y="4.55" size="1.778" layer="27" display="off"/>
+<attribute name="SF_ID" value="PRT-09498" x="34.45" y="4.55" size="1.778" layer="27" display="off"/>
 </element>
-<element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="SWITCH_SPDT_PTH_11.6X4.0MM" package3d_urn="urn:adsk.eagle:package:40177/1" value="" x="58.5" y="33.15">
-<attribute name="PROD_ID" value="SWCH-08261" x="58.5" y="33.15" size="1.778" layer="27" display="off"/>
-<attribute name="SF_SKU" value="COM-00102" x="58.5" y="33.15" size="1.778" layer="27" display="off"/>
+<element name="J2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="6410-05" value="J2" x="33.15" y="26">
+<attribute name="MF" value="" x="33.15" y="26" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="33.15" y="26" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="33.15" y="26" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="33.15" y="26" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PL1" library="con-molex-2" package="5566-24" value="" x="35.75" y="6.5" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
 <polygon width="0.254" layer="1">
 <vertex x="-0.65" y="-0.65"/>
-<vertex x="68.7" y="-0.65"/>
-<vertex x="68.7" y="50.7"/>
+<vertex x="63.7" y="-0.65"/>
+<vertex x="63.7" y="50.7"/>
 <vertex x="-0.65" y="50.7"/>
 </polygon>
 <contactref element="SV3" pad="16"/>
@@ -1843,8 +1843,8 @@ Dimensional Drawing</description>
 <polygon width="0.254" layer="16">
 <vertex x="0" y="0"/>
 <vertex x="0" y="50.05"/>
-<vertex x="68.05" y="50.05"/>
-<vertex x="68.05" y="0"/>
+<vertex x="63.05" y="50.05"/>
+<vertex x="63.05" y="0"/>
 </polygon>
 <contactref element="SV5" pad="25"/>
 <contactref element="SV5" pad="9"/>
@@ -1858,15 +1858,21 @@ Dimensional Drawing</description>
 <contactref element="SV5" pad="34"/>
 <contactref element="SV5" pad="39"/>
 <contactref element="J2" pad="3"/>
-<contactref element="S1" pad="1"/>
-<contactref element="PL1" pad="24"/>
-<contactref element="PL1" pad="19"/>
-<contactref element="PL1" pad="18"/>
-<contactref element="PL1" pad="17"/>
-<contactref element="PL1" pad="15"/>
-<contactref element="PL1" pad="7"/>
-<contactref element="PL1" pad="5"/>
-<contactref element="PL1" pad="3"/>
+<wire x1="45.11" y1="42.87" x2="52.73" y2="40.33" width="0" layer="19" extent="1-1"/>
+<wire x1="40.03" y1="42.87" x2="45.11" y2="42.87" width="0" layer="19" extent="1-1"/>
+<wire x1="34.95" y1="40.33" x2="40.03" y2="42.87" width="0" layer="19" extent="1-1"/>
+<wire x1="27.33" y1="42.87" x2="34.95" y2="40.33" width="0" layer="19" extent="1-1"/>
+<wire x1="28.6" y1="47.65" x2="27.33" y2="42.87" width="0" layer="19" extent="1-1"/>
+<wire x1="31.15" y1="47.65" x2="28.6" y2="47.65" width="0" layer="19" extent="1-1"/>
+<wire x1="26.05" y1="47.65" x2="28.6" y2="47.65" width="0" layer="19" extent="1-1"/>
+<wire x1="19.71" y1="42.87" x2="27.33" y2="42.87" width="0" layer="19" extent="1-1"/>
+<wire x1="14.63" y1="40.33" x2="19.71" y2="42.87" width="0" layer="19" extent="1-1"/>
+<wire x1="9.55" y1="42.87" x2="14.63" y2="40.33" width="0" layer="19" extent="1-1"/>
+<wire x1="33.15" y1="26" x2="34.95" y2="40.33" width="0" layer="19" extent="1-1"/>
+<wire x1="5.82" y1="11.2" x2="14.63" y2="40.33" width="0" layer="19" extent="1-1"/>
+<wire x1="3.28" y1="11.2" x2="5.82" y2="11.2" width="0" layer="19" extent="1-1"/>
+<wire x1="5.82" y1="8.66" x2="5.82" y2="11.2" width="0" layer="19" extent="1-1"/>
+<wire x1="3.28" y1="8.66" x2="3.28" y2="11.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DVCC">
 <contactref element="SV3" pad="1"/>
@@ -1878,18 +1884,11 @@ Dimensional Drawing</description>
 <wire x1="5.82" y1="23.9" x2="3.28" y2="23.9" width="1.27" layer="16"/>
 <wire x1="5.82" y1="26.44" x2="3.25" y2="26.44" width="1.27" layer="16"/>
 <wire x1="3.25" y1="26.44" x2="3.25" y2="24.05" width="1.27" layer="16"/>
-<wire x1="5.82" y1="26.44" x2="5.83" y2="26.45" width="0.6096" layer="1"/>
+<wire x1="5.83" y1="26.45" x2="5.82" y2="26.44" width="0.6096" layer="1"/>
 <wire x1="3.25" y1="26.47" x2="3.28" y2="26.44" width="0.6096" layer="1"/>
 <wire x1="5.85" y1="26.47" x2="5.82" y2="26.44" width="0.6096" layer="1"/>
 <contactref element="J2" pad="1"/>
-<wire x1="28.12" y1="26.45" x2="5.83" y2="26.45" width="1.27" layer="1"/>
-<wire x1="5.83" y1="26.45" x2="5.82" y2="26.44" width="1.27" layer="1"/>
-<wire x1="5.82" y1="23.9" x2="7.95" y2="23.9" width="1.27" layer="16"/>
-<wire x1="7.95" y1="23.9" x2="9.1" y2="22.75" width="1.27" layer="16"/>
-<wire x1="9.1" y1="19.5" x2="9.1" y2="22.75" width="1.27" layer="16"/>
-<wire x1="9.1" y1="19.5" x2="12.65" y2="15.95" width="1.27" layer="16"/>
-<contactref element="PL1" pad="1"/>
-<wire x1="12.65" y1="15.95" x2="12.65" y2="9.25" width="1.27" layer="16"/>
+<wire x1="5.85" y1="26.47" x2="38.23" y2="26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="SV5" pad="21"/>
@@ -1910,22 +1909,14 @@ Dimensional Drawing</description>
 <contactref element="SV3" pad="5"/>
 <contactref element="SV3" pad="7"/>
 <contactref element="SV3" pad="8"/>
-<contactref element="J2" pad="2"/>
-<wire x1="30.66" y1="26.45" x2="30.66" y2="24.16" width="1.27" layer="1"/>
-<wire x1="30.66" y1="24.16" x2="27.86" y2="21.36" width="1.27" layer="1"/>
-<contactref element="PL1" pad="10"/>
-<wire x1="11.05" y1="6.5" x2="9.75" y2="7.8" width="1.27" layer="16"/>
-<wire x1="50.45" y1="9.25" x2="50.45" y2="7.55" width="1.27" layer="16"/>
-<wire x1="50.45" y1="7.55" x2="49.4" y2="6.5" width="1.27" layer="16"/>
-<wire x1="49.4" y1="6.5" x2="11.05" y2="6.5" width="1.27" layer="16"/>
-<wire x1="9.75" y1="15.6" x2="9.75" y2="7.8" width="1.27" layer="16"/>
-<wire x1="27.86" y1="21.36" x2="5.82" y2="21.36" width="1.27" layer="1"/>
-<wire x1="5.82" y1="21.36" x2="3.28" y2="21.36" width="1.27" layer="16"/>
+<wire x1="5.82" y1="18.82" x2="3.28" y2="18.82" width="1.27" layer="16"/>
+<wire x1="3.25" y1="21.36" x2="3.28" y2="21.36" width="1.27" layer="16"/>
 <wire x1="3.28" y1="21.36" x2="3.28" y2="18.82" width="1.27" layer="16"/>
-<wire x1="3.28" y1="18.82" x2="5.82" y2="18.82" width="1.27" layer="16"/>
-<wire x1="5.82" y1="18.82" x2="6.53" y2="18.82" width="1.27" layer="16"/>
-<wire x1="6.53" y1="18.82" x2="9.75" y2="15.6" width="1.27" layer="16"/>
-<wire x1="5.82" y1="18.82" x2="5.82" y2="21.36" width="1.27" layer="16"/>
+<wire x1="3.28" y1="21.36" x2="5.82" y2="21.36" width="1.27" layer="16"/>
+<wire x1="5.84" y1="18.78" x2="5.84" y2="21.32" width="1.27" layer="16"/>
+<contactref element="J2" pad="2"/>
+<wire x1="5.84" y1="21.32" x2="35.69" y2="26" width="0" layer="19" extent="16-16"/>
+<wire x1="5.82" y1="21.36" x2="5.84" y2="21.32" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VSS">
 <contactref element="SV3" pad="10"/>
@@ -1940,19 +1931,7 @@ Dimensional Drawing</description>
 <wire x1="5.82" y1="16.3" x2="5.82" y2="16.28" width="0.4064" layer="1"/>
 <wire x1="5.82" y1="13.65" x2="5.82" y2="13.74" width="0.4064" layer="16"/>
 <contactref element="J2" pad="4"/>
-<wire x1="5.82" y1="16.28" x2="8.48" y2="16.28" width="1.27" layer="1"/>
-<wire x1="8.48" y1="16.28" x2="10.4" y2="18.2" width="1.27" layer="1"/>
-<wire x1="10.4" y1="18.2" x2="31.2" y2="18.2" width="1.27" layer="1"/>
-<wire x1="35.74" y1="22.74" x2="31.2" y2="18.2" width="1.27" layer="1"/>
-<wire x1="35.74" y1="26.45" x2="35.74" y2="22.74" width="1.27" layer="1"/>
-<wire x1="5.82" y1="13.74" x2="7.06" y2="13.74" width="1.27" layer="1"/>
-<contactref element="PL1" pad="14"/>
-<wire x1="7.06" y1="13.74" x2="9.75" y2="11.05" width="1.27" layer="1"/>
-<wire x1="9.75" y1="11.05" x2="9.75" y2="7.15" width="1.27" layer="1"/>
-<wire x1="10.4" y1="6.5" x2="9.75" y2="7.15" width="1.27" layer="1"/>
-<wire x1="16.85" y1="3.75" x2="16.85" y2="5.9" width="1.27" layer="1"/>
-<wire x1="16.85" y1="5.9" x2="16.25" y2="6.5" width="1.27" layer="1"/>
-<wire x1="16.25" y1="6.5" x2="10.4" y2="6.5" width="1.27" layer="1"/>
+<wire x1="5.85" y1="16.28" x2="30.61" y2="26" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MOSI">
 <contactref element="SV5" pad="19"/>
@@ -1964,31 +1943,8 @@ Dimensional Drawing</description>
 <contactref element="SV5" pad="2"/>
 <contactref element="SV5" pad="4"/>
 <contactref element="J2" pad="5"/>
-<wire x1="4.47" y1="42.87" x2="2.57" y2="42.87" width="1.27" layer="1"/>
-<wire x1="2.57" y1="42.87" x2="1.95" y2="42.25" width="1.27" layer="1"/>
-<wire x1="1.95" y1="42.25" x2="1.95" y2="39" width="1.27" layer="1"/>
-<wire x1="3.25" y1="37.7" x2="30.55" y2="37.7" width="1.27" layer="1"/>
-<wire x1="37.375" y1="30.875" x2="30.55" y2="37.7" width="1.27" layer="1"/>
-<wire x1="37.375" y1="30.875" x2="37.7" y2="30.55" width="1.27" layer="1"/>
-<wire x1="1.95" y1="39" x2="3.25" y2="37.7" width="1.27" layer="1"/>
-<wire x1="38.28" y1="29.97" x2="38.28" y2="26.45" width="1.27" layer="1"/>
-<wire x1="38.28" y1="29.97" x2="37.375" y2="30.875" width="1.27" layer="1"/>
-<wire x1="7.01" y1="42.87" x2="4.47" y2="42.87" width="1.27" layer="1"/>
-<wire x1="38.28" y1="26.45" x2="38.28" y2="20.08" width="1.27" layer="1"/>
-<wire x1="38.28" y1="20.08" x2="33.65" y2="15.45" width="1.27" layer="1"/>
-<contactref element="PL1" pad="6"/>
-<wire x1="33.65" y1="15.45" x2="33.65" y2="9.25" width="1.27" layer="1"/>
-</signal>
-<signal name="N$2">
-<contactref element="S1" pad="2"/>
-<wire x1="54.6" y1="33.15" x2="52.65" y2="31.2" width="0.508" layer="1"/>
-<wire x1="54.6" y1="33.15" x2="58.5" y2="33.15" width="0.508" layer="1"/>
-<contactref element="PL1" pad="16"/>
-<wire x1="52.65" y1="8.45" x2="50.7" y2="6.5" width="0.508" layer="1"/>
-<wire x1="50.7" y1="6.5" x2="26" y2="6.5" width="0.508" layer="1"/>
-<wire x1="25.25" y1="5.75" x2="25.25" y2="3.75" width="0.508" layer="1"/>
-<wire x1="52.65" y1="31.2" x2="52.65" y2="8.45" width="0.508" layer="1"/>
-<wire x1="26" y1="6.5" x2="25.25" y2="5.75" width="0.508" layer="1"/>
+<wire x1="7.01" y1="42.87" x2="28.07" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="4.47" y1="42.87" x2="7.01" y2="42.87" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
