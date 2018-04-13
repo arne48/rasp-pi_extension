@@ -5769,11 +5769,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="VALUE" x="259.345" y="119.765" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C13" library="rcl" package="C0603" value="100nF" x="250.25" y="121.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="250.915" y="118.015" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="250.915" y="116.715" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="252.155" y="121.265" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C14" library="rcl" package="C0603" value="100nF" x="253.15" y="121.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="253.815" y="118.015" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="253.815" y="116.715" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="255.055" y="121.265" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="rcl" package="C0603" value="100nF" x="246.45" y="131.6" smashed="yes" rot="R90">
@@ -5855,7 +5855,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </element>
 <element name="Y7" library="kc2520b_c1" package="KC2520B-C1" value="KC2520B-C1" x="193.7" y="43.25" smashed="yes"/>
 <element name="C52" library="rcl" package="C0603" value="100nF" x="194.55" y="45.35" smashed="yes" rot="R180">
-<attribute name="NAME" x="193.235" y="46.015" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="192.585" y="46.015" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="195.185" y="47.255" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C53" library="rcl" package="C0603" value="100nF" x="261.25" y="42.4" smashed="yes" rot="MR90">
@@ -5863,11 +5863,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="VALUE" x="259.345" y="41.765" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C54" library="rcl" package="C0603" value="100nF" x="250.25" y="43.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="250.915" y="40.015" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="250.915" y="38.715" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="252.155" y="43.265" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C55" library="rcl" package="C0603" value="100nF" x="253.15" y="43.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="253.815" y="40.015" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="253.815" y="38.715" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="255.055" y="43.265" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C56" library="rcl" package="C0603" value="100nF" x="246.45" y="53.6" smashed="yes" rot="R90">

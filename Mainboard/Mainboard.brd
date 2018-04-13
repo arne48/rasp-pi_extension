@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.2">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7292,13 +7292,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <via x="22.1" y="31.2" extent="1-16" drill="0.7"/>
 <contactref element="S3" pad="3"/>
 <contactref element="S3" pad="4"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="-13" y="-1.95"/>
 <vertex x="-13" y="153"/>
 <vertex x="300.95" y="153"/>
 <vertex x="300.95" y="-1.95"/>
 </polygon>
-<polygon width="0.1524" layer="16">
+<polygon width="0.1524" layer="16" isolate="0.254">
 <vertex x="-15.6" y="-3.25"/>
 <vertex x="-15.6" y="155"/>
 <vertex x="302.9" y="155"/>
@@ -8086,9 +8086,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="237.4694" y1="104.325003125" x2="236.5932" y2="104.325003125" width="0.254" layer="16"/>
 <wire x1="236.5932" y1="104.325003125" x2="235.293196875" y2="103.025" width="0.254" layer="16"/>
 <wire x1="235.293196875" y1="103.025" x2="231.8306" y2="103.025" width="0.254" layer="16"/>
-<wire x1="226.4194" y1="104.325003125" x2="224.575003125" y2="104.325003125" width="0.254" layer="16"/>
-<wire x1="220.7806" y1="103.025" x2="223.275" y2="103.025" width="0.254" layer="16"/>
-<wire x1="223.275" y1="103.025" x2="224.575003125" y2="104.325003125" width="0.254" layer="16"/>
 <via x="257.4" y="103.675003125" extent="1-16" drill="0.7"/>
 <wire x1="257.4" y1="103.675003125" x2="258.375003125" y2="103.675003125" width="0.254" layer="1"/>
 <wire x1="237.4694" y1="115.375" x2="238.875" y2="115.375" width="0.254" layer="1"/>
@@ -8156,9 +8153,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="237.4694" y1="26.325003125" x2="236.5932" y2="26.325003125" width="0.254" layer="16"/>
 <wire x1="236.5932" y1="26.325003125" x2="235.293196875" y2="25.025" width="0.254" layer="16"/>
 <wire x1="235.293196875" y1="25.025" x2="231.8306" y2="25.025" width="0.254" layer="16"/>
-<wire x1="226.4194" y1="26.325003125" x2="224.575003125" y2="26.325003125" width="0.254" layer="16"/>
-<wire x1="220.7806" y1="25.025" x2="223.275" y2="25.025" width="0.254" layer="16"/>
-<wire x1="223.275" y1="25.025" x2="224.575003125" y2="26.325003125" width="0.254" layer="16"/>
+<wire x1="220.7806" y1="25.025" x2="222.95" y2="25.025" width="0.254" layer="16"/>
+<wire x1="222.95" y1="25.025" x2="223.275" y2="25.025" width="0.254" layer="16"/>
 <via x="257.4" y="25.675003125" extent="1-16" drill="0.7"/>
 <wire x1="257.4" y1="25.675003125" x2="258.375003125" y2="25.675003125" width="0.254" layer="1"/>
 <wire x1="237.4694" y1="37.375" x2="238.875" y2="37.375" width="0.254" layer="1"/>
@@ -8375,6 +8371,12 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="297.7" y1="88.4" x2="297.7" y2="135.85" width="1.27" layer="1"/>
 <wire x1="297.7" y1="135.85" x2="291.85" y2="141.7" width="1.27" layer="1"/>
 <wire x1="291.85" y1="141.7" x2="160.55" y2="141.7" width="1.27" layer="1"/>
+<wire x1="223.925" y1="103.025" x2="220.7806" y2="103.025" width="0.254" layer="16"/>
+<wire x1="226.4194" y1="104.325003125" x2="225.225003125" y2="104.325003125" width="0.254" layer="16"/>
+<wire x1="225.225003125" y1="104.325003125" x2="223.925" y2="103.025" width="0.254" layer="16"/>
+<wire x1="223.925" y1="25.025" x2="222.95" y2="25.025" width="0.254" layer="16"/>
+<wire x1="226.4194" y1="26.325003125" x2="225.225003125" y2="26.325003125" width="0.254" layer="16"/>
+<wire x1="225.225003125" y1="26.325003125" x2="223.925" y2="25.025" width="0.254" layer="16"/>
 </signal>
 <signal name="DVCC">
 <contactref element="U15" pad="50"/>

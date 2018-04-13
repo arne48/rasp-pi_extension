@@ -123,6 +123,8 @@
 <text x="119.6" y="79.3" size="1.778" layer="25">17</text>
 <text x="-8.45" y="129.35" size="1.778" layer="25">Heartbeat</text>
 <hole x="89.05" y="45.8" drill="5"/>
+<text x="17.55" y="20.15" size="1.778" layer="26" rot="MR0">Robot Controller Board</text>
+<text x="17.55" y="16.25" size="1.778" layer="26" rot="MR0">Hitzmann 2018 rev. 1.0</text>
 </plain>
 <libraries>
 <library name="rcl">
