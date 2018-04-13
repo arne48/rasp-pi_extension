@@ -20380,7 +20380,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND148" gate="1" x="45.72" y="279.4" rot="R180"/>
 <instance part="GND149" gate="1" x="-25.4" y="238.76"/>
 <instance part="S1" gate="G$1" x="403.86" y="259.08"/>
-<instance part="GND135" gate="1" x="439.42" y="254"/>
+<instance part="GND135" gate="1" x="431.8" y="254"/>
 <instance part="LED3" gate="G$1" x="312.42" y="251.46"/>
 <instance part="LED2" gate="G$1" x="325.12" y="251.46"/>
 <instance part="LED1" gate="G$1" x="335.28" y="251.46"/>
@@ -21434,9 +21434,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="3"/>
-<wire x1="424.18" y1="259.08" x2="439.42" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="259.08" x2="431.8" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="GND135" gate="1" pin="GND"/>
-<wire x1="439.42" y1="259.08" x2="439.42" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="259.08" x2="431.8" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>

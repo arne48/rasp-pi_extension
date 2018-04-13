@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.2">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21442,7 +21442,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="GND149" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND107" library="supply1" deviceset="GND" device=""/>
 <part name="GND108" library="supply1" deviceset="GND" device=""/>
-<part name="S1" library="1MS1T1B1M2QES-5" deviceset="1MS1T1B1M2QES-5" device=""/>
+<part name="S1" library="1MS1T1B1M2QES-5" deviceset="1MS1T1B1M2QES-5" device="" value=""/>
 <part name="GND135" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="TLLG4400" device="" package3d_urn="urn:adsk.eagle:package:15797/1" value=""/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="TLLG4400" device="" package3d_urn="urn:adsk.eagle:package:15797/1" value=""/>
